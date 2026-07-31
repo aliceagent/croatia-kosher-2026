@@ -23,6 +23,11 @@ export default function Home() {
 
   return (
     <>
+      {/* The page is search-first, so the heading is for screen readers and
+          document structure rather than for sighted users. */}
+      <h1 className="sr-only">
+        Search the 2026 kosher products list of Croatia
+      </h1>
       <SearchBar
         hero
         autoFocus

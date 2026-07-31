@@ -23819,7 +23819,7 @@
    "en": "Blackberry wine"
   },
   "aliases": null,
-  "hebrew": "יין אוכמניות כש ר",
+  "hebrew": "יין אוכמניות",
   "sizes": null,
   "kashrut": {
    "status": "conditional",
@@ -23842,7 +23842,7 @@
    "en": "Amaretto"
   },
   "aliases": null,
-  "hebrew": "אמרטו כש ר",
+  "hebrew": "אמרטו",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -23865,7 +23865,7 @@
    "en": "Amarula Cream"
   },
   "aliases": null,
-  "hebrew": "ליקר אמרולה כשר חלב י",
+  "hebrew": "ליקר אמרולה",
   "sizes": null,
   "kashrut": {
    "status": "dairy",
@@ -23890,7 +23890,7 @@
   "aliases": [
    "Bols"
   ],
-  "hebrew": "בולס אפרסק לא כש ר",
+  "hebrew": "בולס אפרסק",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -23916,7 +23916,7 @@
    "Arak",
    "Pastis"
   ],
-  "hebrew": "ערק כש ר",
+  "hebrew": "ערק",
   "sizes": null,
   "kashrut": {
    "status": "conditional",
@@ -23939,7 +23939,7 @@
    "en": "Bacardi"
   },
   "aliases": null,
-  "hebrew": "בקארדי כש ר",
+  "hebrew": "בקארדי",
   "sizes": null,
   "kashrut": {
    "status": "conditional",
@@ -23993,7 +23993,7 @@
   "aliases": [
    "Bénédictine"
   ],
-  "hebrew": "ליקר בנדיקטין לא כש ר",
+  "hebrew": "ליקר בנדיקטין",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24016,7 +24016,7 @@
    "en": "Campari"
   },
   "aliases": null,
-  "hebrew": "קאמפרי לא כש ר",
+  "hebrew": "קאמפרי",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24041,7 +24041,7 @@
   "aliases": [
    "Šampanjac"
   ],
-  "hebrew": "שמפניי ה לא כש ר",
+  "hebrew": "שמפניי ה",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24064,7 +24064,7 @@
    "en": "Cherry Brandy"
   },
   "aliases": null,
-  "hebrew": "ברנדי דובדבני ם כש ר",
+  "hebrew": "ברנדי דובדבני ם",
   "sizes": null,
   "kashrut": {
    "status": "conditional",
@@ -24090,7 +24090,7 @@
    "Grand Marnier",
    "Cognac"
   ],
-  "hebrew": "קוניאק גרנד מרינייר לא כש ר",
+  "hebrew": "קוניאק גרנד מרינייר",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24113,7 +24113,7 @@
    "en": "Cointreau"
   },
   "aliases": null,
-  "hebrew": "קואנטרו כש ר",
+  "hebrew": "קואנטרו",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24138,7 +24138,7 @@
   "aliases": [
    "Courvoisier"
   ],
-  "hebrew": "קורוואזיה לא כש ר",
+  "hebrew": "קורוואזיה",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24161,7 +24161,7 @@
    "en": "Drambuie"
   },
   "aliases": null,
-  "hebrew": "ליקר דרמבוי כש ר",
+  "hebrew": "ליקר דרמבוי",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24186,7 +24186,7 @@
   "aliases": [
    "Advocaat"
   ],
-  "hebrew": "ליקר ביצים לא כש ר",
+  "hebrew": "ליקר ביצים",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24209,7 +24209,7 @@
    "en": "Gin"
   },
   "aliases": null,
-  "hebrew": "ג'ין כש ר",
+  "hebrew": "ג'ין",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24234,7 +24234,7 @@
   "aliases": [
    "Sok od grožđa"
   ],
-  "hebrew": "מיץ ענבים לא כש ר",
+  "hebrew": "מיץ ענבים",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24259,7 +24259,7 @@
   "aliases": [
    "Jagermeister"
   ],
-  "hebrew": "יגרמייסטר כש ר",
+  "hebrew": "יגרמייסטר",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24284,7 +24284,7 @@
   "aliases": [
    "Kahlúa"
   ],
-  "hebrew": "קלואה כש ר",
+  "hebrew": "קלואה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24309,7 +24309,7 @@
   "aliases": [
    "Kirsch"
   ],
-  "hebrew": "קירשווסר כש ר",
+  "hebrew": "קירשווסר",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24332,7 +24332,7 @@
    "en": "Lochen-Ohra"
   },
   "aliases": null,
-  "hebrew": "לושן אורה כש ר",
+  "hebrew": "לושן אורה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24355,7 +24355,7 @@
    "en": "Maraschino"
   },
   "aliases": null,
-  "hebrew": "מרצ'ינו כש ר",
+  "hebrew": "מרצ'ינו",
   "sizes": null,
   "kashrut": {
    "status": "conditional",
@@ -24378,7 +24378,7 @@
    "en": "Margarita"
   },
   "aliases": null,
-  "hebrew": "מרגריטה כש ר",
+  "hebrew": "מרגריטה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24401,7 +24401,7 @@
    "en": "Martini"
   },
   "aliases": null,
-  "hebrew": "מרטיני לא כש ר",
+  "hebrew": "מרטיני",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24424,7 +24424,7 @@
    "en": "Mozart Liqueur"
   },
   "aliases": null,
-  "hebrew": "ליקר מוצר ט כשר חלב י",
+  "hebrew": "ליקר מוצר ט",
   "sizes": null,
   "kashrut": {
    "status": "dairy",
@@ -24447,7 +24447,7 @@
    "en": "Ouzo"
   },
   "aliases": null,
-  "hebrew": "אוזו לא כש ר",
+  "hebrew": "אוזו",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24470,7 +24470,7 @@
    "en": "Pernod"
   },
   "aliases": null,
-  "hebrew": "פרנ ו לא כש ר",
+  "hebrew": "פרנ ו",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24493,7 +24493,7 @@
    "en": "Cherry Heering"
   },
   "aliases": null,
-  "hebrew": "שרי הרינ ג כש ר",
+  "hebrew": "שרי הרינ ג",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24521,7 +24521,7 @@
    "Wine",
    "Vino"
   ],
-  "hebrew": "לא כש ר",
+  "hebrew": null,
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24544,7 +24544,7 @@
    "en": "Rum"
   },
   "aliases": null,
-  "hebrew": "רום כש ר",
+  "hebrew": "רום",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24569,7 +24569,7 @@
   "aliases": [
    "Sambuca"
   ],
-  "hebrew": "סאמבוקה כשר חלב י",
+  "hebrew": "סאמבוקה",
   "sizes": null,
   "kashrut": {
    "status": "dairy",
@@ -24619,7 +24619,7 @@
   "aliases": [
    "Šljivovica"
   ],
-  "hebrew": "'סליבוביץ כש ר",
+  "hebrew": "'סליבוביץ",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24644,7 +24644,7 @@
   "aliases": [
    "Tequila"
   ],
-  "hebrew": "טקילה כש ר",
+  "hebrew": "טקילה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24667,7 +24667,7 @@
    "en": "Tia Maria"
   },
   "aliases": null,
-  "hebrew": "טיה מריה כש ר",
+  "hebrew": "טיה מריה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24693,7 +24693,7 @@
    "Cuica",
    "Țuică"
   ],
-  "hebrew": "צויקה כש ר",
+  "hebrew": "צויקה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24718,7 +24718,7 @@
   "aliases": [
    "Vermut"
   ],
-  "hebrew": "ורמוט לא כש ר",
+  "hebrew": "ורמוט",
   "sizes": null,
   "kashrut": {
    "status": "not-kosher",
@@ -24744,7 +24744,7 @@
    "Whiskey",
    "Scotch"
   ],
-  "hebrew": "וויסקי כש ר",
+  "hebrew": "וויסקי",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24769,7 +24769,7 @@
   "aliases": [
    "Johnnie Walker"
   ],
-  "hebrew": "וויסקי ג'וני ווקר כש ר",
+  "hebrew": "וויסקי ג'וני ווקר",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24794,7 +24794,7 @@
   "aliases": [
    "Jack Daniels"
   ],
-  "hebrew": "וויסקי ג'ק דניאלס כש ר",
+  "hebrew": "וויסקי ג'ק דניאלס",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24819,7 +24819,7 @@
   "aliases": [
    "Glenfiddich"
   ],
-  "hebrew": "וויסקי גלנפידיך 21 שנה כש ר",
+  "hebrew": "וויסקי גלנפידיך 21 שנה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -24844,7 +24844,7 @@
   "aliases": [
    "Chivas Regal"
   ],
-  "hebrew": "שיבאס ריגל 21 שנ ה כש ר",
+  "hebrew": "שיבאס ריגל 21 שנ ה",
   "sizes": null,
   "kashrut": {
    "status": "pareve",

@@ -59,53 +59,78 @@ export function useFilters() {
     state.cats.length + state.status.length + state.brands.length +
     state.tags.length + state.origin.length;
 
-  const results = useMemo(() => {
+  const base = useMemo(() => {
     // Search ranks by relevance; browsing sorts alphabetically with the rows
     // that need a second look (dairy, needs-a-symbol, not kosher) after the
     // straightforwardly pareve ones.
-    let base: Product[];
-    if (state.q.trim()) {
-      base = search(state.q);
-    } else {
-      base = [...products].sort((a, b) => {
-        const s = statusOrder(a) - statusOrder(b);
-        if (s !== 0) return s;
-        return fold(displayName(a)).localeCompare(fold(displayName(b)));
-      });
-    }
-
-    const statusMatchers = STATUS_FILTERS.filter((f) => state.status.includes(f.id));
-
-    return base.filter((p) => {
-      if (state.cats.length && !state.cats.includes(p.category)) return false;
-      if (statusMatchers.length && !statusMatchers.some((f) => f.match(p))) return false;
-      if (state.brands.length && (!p.brand || !state.brands.includes(p.brand))) return false;
-      if (state.tags.length && !state.tags.some((t) => p.tags?.includes(t))) return false;
-      if (state.origin.length) {
-        const o = p.brand ? brandByName.get(p.brand)?.origin : null;
-        if (!o || !state.origin.includes(o)) return false;
-      }
-      return true;
+    if (state.q.trim()) return search(state.q);
+    return [...products].sort((a, b) => {
+      const s = statusOrder(a) - statusOrder(b);
+      if (s !== 0) return s;
+      return fold(displayName(a)).localeCompare(fold(displayName(b)));
     });
+  }, [state.q]);
+
+  const predicates = useMemo(() => {
+    const statusMatchers = STATUS_FILTERS.filter((f) => state.status.includes(f.id));
+    return {
+      cats: (p: Product) => !state.cats.length || state.cats.includes(p.category),
+      status: (p: Product) => !statusMatchers.length || statusMatchers.some((f) => f.match(p)),
+      brands: (p: Product) =>
+        !state.brands.length || (!!p.brand && state.brands.includes(p.brand)),
+      tags: (p: Product) =>
+        !state.tags.length || state.tags.some((t) => p.tags?.includes(t)),
+      origin: (p: Product) => {
+        if (!state.origin.length) return true;
+        const o = p.brand ? brandByName.get(p.brand)?.origin : null;
+        return !!o && state.origin.includes(o);
+      },
+    };
   }, [state]);
 
-  /** Counts for the facet chips, computed against the other active filters. */
+  const results = useMemo(
+    () => base.filter((p) => Object.values(predicates).every((fn) => fn(p))),
+    [base, predicates],
+  );
+
+  /**
+   * Facet counts exclude that facet's own selection, so a chip shows how many
+   * results picking it *would* give. Counting against the fully filtered set
+   * instead would show 0 on every unselected category the moment one category
+   * is chosen, which reads as "nothing there" rather than "not selected".
+   */
   const facets = useMemo(() => {
-    const cat: Record<string, number> = {};
-    const status: Record<string, number> = {};
-    const tag: Record<string, number> = {};
-    const origin: Record<string, number> = {};
-    for (const p of results) {
-      cat[p.category] = (cat[p.category] || 0) + 1;
-      for (const f of STATUS_FILTERS) {
-        if (f.match(p)) status[f.id] = (status[f.id] || 0) + 1;
+    const countBy = <T,>(
+      exclude: keyof typeof predicates,
+      keysOf: (p: Product) => T[],
+    ) => {
+      const out = new Map<T, number>();
+      for (const p of base) {
+        let passes = true;
+        for (const [key, fn] of Object.entries(predicates)) {
+          if (key !== exclude && !fn(p)) {
+            passes = false;
+            break;
+          }
+        }
+        if (!passes) continue;
+        for (const k of keysOf(p)) out.set(k, (out.get(k) ?? 0) + 1);
       }
-      for (const t of p.tags || []) tag[t] = (tag[t] || 0) + 1;
-      const o = p.brand ? brandByName.get(p.brand)?.origin : null;
-      if (o) origin[o] = (origin[o] || 0) + 1;
-    }
-    return { cat, status, tag, origin };
-  }, [results]);
+      return Object.fromEntries(out) as Record<string, number>;
+    };
+
+    return {
+      cat: countBy("cats", (p) => [p.category]),
+      status: countBy("status", (p) =>
+        STATUS_FILTERS.filter((f) => f.match(p)).map((f) => f.id),
+      ),
+      tag: countBy("tags", (p) => p.tags ?? []),
+      origin: countBy("origin", (p) => {
+        const o = p.brand ? brandByName.get(p.brand)?.origin : null;
+        return o ? [o] : [];
+      }),
+    };
+  }, [base, predicates]);
 
   const availableTags = useMemo(() => {
     const seen = new Set<string>();

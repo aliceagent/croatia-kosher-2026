@@ -15,6 +15,9 @@ export default function Browse() {
     clearAll, activeCount,
   } = useFilters();
   const [limit, setLimit] = useState(PAGE);
+  // On a phone the full facet panel is ~30 chips tall and pushes every result
+  // below the fold, so it starts collapsed there and is always open on desktop.
+  const [filtersOpen, setFiltersOpen] = useState(false);
   const [brandQuery, setBrandQuery] = useState("");
   const [showBrands, setShowBrands] = useState(false);
 
@@ -29,7 +32,20 @@ export default function Browse() {
         <SearchBar value={state.q} onChange={(v) => { setQuery(v); setLimit(PAGE); }} />
       </div>
 
-      <div className="filters" style={{ margin: "16px 0 20px" }}>
+      <button
+        className="btn filters-toggle"
+        onClick={() => setFiltersOpen((o) => !o)}
+        aria-expanded={filtersOpen}
+        style={{ margin: "14px 0 0", width: "100%" }}
+      >
+        {filtersOpen ? "Hide filters" : "Filters"}
+        {activeCount > 0 && ` · ${activeCount} active`}
+      </button>
+
+      <div
+        className={`filters ${filtersOpen ? "open" : ""}`}
+        style={{ margin: "16px 0 20px" }}
+      >
         <div>
           <div className="fgroup-label">Kashrut status</div>
           <div className="chips">

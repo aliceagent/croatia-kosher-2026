@@ -506,6 +506,23 @@ def main() -> None:
             print("   ", w)
 
 
+# The alcohol table's Hebrew column repeats the kashrut status next to the
+# drink name ("לא כשר קאמפרי"). Only the name belongs in the product record --
+# the status is already a structured field, and leaving it in would render as
+# "Campari not kosher" wherever the Hebrew name is shown.
+_STATUS_HEBREW = ["כשר חלבי", "לא כשר", "כשר"]
+
+
+def strip_status_hebrew(raw: str) -> str:
+    out = raw
+    for phrase in _STATUS_HEBREW:
+        visual = phrase[::-1]
+        # The PDF letter-spaces its Hebrew, so allow gaps between characters.
+        pattern = r"\s*".join(re.escape(c) for c in visual if not c.isspace())
+        out = re.sub(pattern, " ", out)
+    return out
+
+
 def build_alcohol(lines: list[str]) -> list[dict]:
     """Emit the hand-transcribed alcohol table, attaching Hebrew and page
     numbers by locating each entry's row in the raw text."""
@@ -520,7 +537,7 @@ def build_alcohol(lines: list[str]) -> list[dict]:
             continue
         latin = strip_hebrew(raw)
         if latin and re.match(r"(not\s+)?kosher|generally\s+kosher", norm(latin)):
-            located[norm(latin)] = (page, hebrew_of(raw))
+            located[norm(latin)] = (page, hebrew_of(strip_status_hebrew(raw)))
 
     out = []
     for name, status, certifier, note, req, aliases in ALCOHOL_TABLE:

@@ -20,7 +20,10 @@ export function SearchBar({
         el instanceof HTMLInputElement || el instanceof HTMLTextAreaElement;
       if (e.key === "/" && !typing) {
         e.preventDefault();
-        ref.current?.focus();
+        // Focus on the next tick: preventDefault only suppresses the keystroke
+        // for the element that had focus, so focusing synchronously would let
+        // the "/" land in the search box as text.
+        setTimeout(() => ref.current?.focus(), 0);
       }
       if (e.key === "Escape" && el === ref.current) {
         onChange("");
