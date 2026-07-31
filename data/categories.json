@@ -1,0 +1,218 @@
+[
+ {
+  "id": "bread",
+  "label": "Bread & Pastries",
+  "defaultStatus": null,
+  "icon": "bread",
+  "aisle": "Bakery",
+  "count": 23
+ },
+ {
+  "id": "basics",
+  "label": "Basic Products",
+  "defaultStatus": "pareve",
+  "icon": "basics",
+  "aisle": "Pantry",
+  "count": 29
+ },
+ {
+  "id": "dairy",
+  "label": "Milk & Dairy",
+  "defaultStatus": "dairy",
+  "icon": "dairy",
+  "aisle": "Dairy",
+  "count": 12
+ },
+ {
+  "id": "cereals",
+  "label": "Breakfast Cereals",
+  "defaultStatus": "pareve",
+  "icon": "cereal",
+  "aisle": "Breakfast",
+  "count": 75
+ },
+ {
+  "id": "pasta",
+  "label": "Pasta",
+  "defaultStatus": "pareve",
+  "icon": "pasta",
+  "aisle": "Pantry",
+  "count": 17
+ },
+ {
+  "id": "rice",
+  "label": "Rice",
+  "defaultStatus": "pareve",
+  "icon": "rice",
+  "aisle": "Pantry",
+  "count": 13
+ },
+ {
+  "id": "soups",
+  "label": "Soups",
+  "defaultStatus": "pareve",
+  "icon": "soup",
+  "aisle": "Pantry",
+  "count": 2
+ },
+ {
+  "id": "frozen-veg",
+  "label": "Frozen Vegetables",
+  "defaultStatus": "pareve",
+  "icon": "frozen",
+  "aisle": "Frozen",
+  "count": 4
+ },
+ {
+  "id": "canned-veg",
+  "label": "Canned Vegetables",
+  "defaultStatus": "pareve",
+  "icon": "can",
+  "aisle": "Canned",
+  "count": 55
+ },
+ {
+  "id": "fish",
+  "label": "Fish",
+  "defaultStatus": "kosher-species",
+  "icon": "fish",
+  "aisle": "Fish",
+  "count": 62
+ },
+ {
+  "id": "canned-fish",
+  "label": "Canned Fish",
+  "defaultStatus": "pareve",
+  "icon": "can",
+  "aisle": "Canned",
+  "count": 4
+ },
+ {
+  "id": "spreads",
+  "label": "Spreads & Pâtés",
+  "defaultStatus": "pareve",
+  "icon": "spread",
+  "aisle": "Pantry",
+  "count": 63
+ },
+ {
+  "id": "sauces",
+  "label": "Sauces",
+  "defaultStatus": "pareve",
+  "icon": "sauce",
+  "aisle": "Pantry",
+  "count": 29
+ },
+ {
+  "id": "dried-fruit",
+  "label": "Dried Fruit & Legumes",
+  "defaultStatus": "pareve",
+  "icon": "nuts",
+  "aisle": "Pantry",
+  "count": 43
+ },
+ {
+  "id": "soy",
+  "label": "Soy & Meat Substitutes",
+  "defaultStatus": "pareve",
+  "icon": "soy",
+  "aisle": "Chilled",
+  "count": 88
+ },
+ {
+  "id": "salted-snacks",
+  "label": "Salted Snacks",
+  "defaultStatus": "pareve",
+  "icon": "snack",
+  "aisle": "Snacks",
+  "count": 13
+ },
+ {
+  "id": "cookies",
+  "label": "Cookies",
+  "defaultStatus": "pareve",
+  "icon": "cookie",
+  "aisle": "Snacks",
+  "count": 4
+ },
+ {
+  "id": "marmalade",
+  "label": "Marmalades & Jams",
+  "defaultStatus": "pareve",
+  "icon": "jam",
+  "aisle": "Pantry",
+  "count": 29
+ },
+ {
+  "id": "chocolate",
+  "label": "Chocolate & Candy",
+  "defaultStatus": "pareve",
+  "icon": "chocolate",
+  "aisle": "Snacks",
+  "count": 67
+ },
+ {
+  "id": "coffee",
+  "label": "Coffee",
+  "defaultStatus": "pareve",
+  "icon": "coffee",
+  "aisle": "Drinks",
+  "count": 42
+ },
+ {
+  "id": "tea",
+  "label": "Tea",
+  "defaultStatus": "pareve",
+  "icon": "tea",
+  "aisle": "Drinks",
+  "count": 21
+ },
+ {
+  "id": "drinks",
+  "label": "Water & Soft Drinks",
+  "defaultStatus": "pareve",
+  "icon": "drink",
+  "aisle": "Drinks",
+  "count": 33
+ },
+ {
+  "id": "alcohol",
+  "label": "Wine & Alcohol",
+  "defaultStatus": null,
+  "icon": "wine",
+  "aisle": "Drinks",
+  "count": 43
+ },
+ {
+  "id": "cake-additives",
+  "label": "Cake Mixes & Additives",
+  "defaultStatus": "pareve",
+  "icon": "cake",
+  "aisle": "Baking",
+  "count": 62
+ },
+ {
+  "id": "vitamins",
+  "label": "Vitamins",
+  "defaultStatus": "pareve",
+  "icon": "vitamin",
+  "aisle": "Health",
+  "count": 4
+ },
+ {
+  "id": "toothpaste",
+  "label": "Toothpaste",
+  "defaultStatus": "pareve",
+  "icon": "toothpaste",
+  "aisle": "Health",
+  "count": 12
+ },
+ {
+  "id": "koestlin",
+  "label": "Koestlin Snacks",
+  "defaultStatus": null,
+  "icon": "cookie",
+  "aisle": "Snacks",
+  "count": 231
+ }
+]

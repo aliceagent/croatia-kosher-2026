@@ -1,0 +1,663 @@
+[
+ {
+  "id": "alpro",
+  "name": "ALPRO",
+  "categories": [
+   "soy"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "anamarija",
+  "name": "ANAMARIJA",
+  "categories": [
+   "coffee"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "aronal",
+  "name": "ARONAL",
+  "categories": [
+   "toothpaste"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "bad-schwartauer",
+  "name": "BAD SCHWARTAUER",
+  "categories": [
+   "marmalade"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "barilla",
+  "name": "BARILLA",
+  "categories": [
+   "pasta"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "bonduelle",
+  "name": "BONDUELLE",
+  "categories": [
+   "canned-veg",
+   "frozen-veg"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "bozjakovina",
+  "name": "BOŽJAKOVINA",
+  "categories": [
+   "cereals"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "buitoni",
+  "name": "BUITONI",
+  "categories": [
+   "pasta"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "coca-cola",
+  "name": "COCA COLA",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "colgate",
+  "name": "COLGATE",
+  "categories": [
+   "toothpaste"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "corny",
+  "name": "CORNY",
+  "categories": [
+   "chocolate"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "cromaris",
+  "name": "CROMARIS",
+  "categories": [
+   "fish"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "demeter",
+  "name": "DEMETER",
+  "categories": [
+   "soy"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "dr-oetker",
+  "name": "DR. OETKER",
+  "categories": [
+   "cake-additives",
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "elmex",
+  "name": "ELMEX",
+  "categories": [
+   "toothpaste"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "eurocompany-99",
+  "name": "EUROCOMPANY 99",
+  "categories": [
+   "dried-fruit"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "ferrero",
+  "name": "FERRERO",
+  "categories": [
+   "chocolate",
+   "spreads"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "franck",
+  "name": "Franck",
+  "categories": [
+   "coffee",
+   "tea"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "granini",
+  "name": "GRANINI",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "granovita",
+  "name": "GranoVita",
+  "categories": [
+   "cereals",
+   "dried-fruit",
+   "pasta",
+   "salted-snacks",
+   "soy",
+   "spreads"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "heinz",
+  "name": "HEINZ",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "hellmans",
+  "name": "HELLMANS",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "illy",
+  "name": "ILLY",
+  "categories": [
+   "coffee"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "jamnica",
+  "name": "Jamnica",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "juicy",
+  "name": "Juicy",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "kalnicke-vode",
+  "name": "KALNIČKE VODE",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "kandit",
+  "name": "KANDIT",
+  "categories": [
+   "chocolate"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "kellogs",
+  "name": "KELLOGS",
+  "categories": [
+   "cereals"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "kikkoman",
+  "name": "KIKKOMAN",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "knorr",
+  "name": "KNORR",
+  "categories": [
+   "soups"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "koelln",
+  "name": "KOELLN",
+  "categories": [
+   "cereals"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "koestlin",
+  "name": "KOESTLIN",
+  "categories": [
+   "koestlin"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "kraft",
+  "name": "Kraft",
+  "categories": [
+   "chocolate"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "kruger",
+  "name": "KRUGER",
+  "categories": [
+   "vitamins"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "lavazza",
+  "name": "LAVAZZA",
+  "categories": [
+   "coffee"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "lindt",
+  "name": "LINDT",
+  "categories": [
+   "chocolate"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "lion",
+  "name": "Lion",
+  "categories": [
+   "cereals"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "lipton",
+  "name": "LIPTON",
+  "categories": [
+   "tea"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "loacker",
+  "name": "LOACKER",
+  "categories": [
+   "cookies"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "lorenz",
+  "name": "LORENZ",
+  "categories": [
+   "salted-snacks"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "louisiana",
+  "name": "LOUISIANA",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "marinada-doora",
+  "name": "MARINADA DoOra",
+  "categories": [
+   "canned-veg",
+   "sauces"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "marko-obrt-za-dimljenje",
+  "name": "MARKO OBRT ZA DIMLJENJE",
+  "categories": [
+   "fish"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "masterfoods",
+  "name": "MASTERFOODS",
+  "categories": [
+   "chocolate"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "me-mer",
+  "name": "MEßMER",
+  "categories": [
+   "tea"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "milford",
+  "name": "MILFORD",
+  "categories": [
+   "tea"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "milupa",
+  "name": "MILUPA",
+  "categories": [
+   "tea"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "mlinar",
+  "name": "MLINAR",
+  "categories": [
+   "bread"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "muller-s-rice-oryza-reis-fit",
+  "name": "MULLER'S, RICE ORYZA, REIS-FIT",
+  "categories": [
+   "rice"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "mutti",
+  "name": "Mutti",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "naturala",
+  "name": "NATURALA",
+  "categories": [
+   "marmalade"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "nase-klasje",
+  "name": "NAŠE KLASJE",
+  "categories": [
+   "pasta"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "nestle",
+  "name": "NESTLE",
+  "categories": [
+   "cereals",
+   "chocolate",
+   "coffee"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "new-bakery",
+  "name": "NEW BAKERY",
+  "categories": [
+   "cookies"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "pelagos",
+  "name": "PELAGOS",
+  "categories": [
+   "fish"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "pepsi-cola",
+  "name": "PEPSI COLA",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "pindur",
+  "name": "Pinđur",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "podravka",
+  "name": "PODRAVKA",
+  "categories": [
+   "cake-additives",
+   "canned-veg",
+   "marmalade",
+   "sauces"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "provamel",
+  "name": "PROVAMEL",
+  "categories": [
+   "soy"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "rauch",
+  "name": "Rauch",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "rio-mare",
+  "name": "RIO MARE",
+  "categories": [
+   "canned-fish"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "risbelli",
+  "name": "RISBELLI",
+  "categories": [
+   "rice"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "ritter",
+  "name": "RITTER",
+  "categories": [
+   "chocolate"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "ruf",
+  "name": "RUF",
+  "categories": [
+   "cake-additives",
+   "rice"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "sana",
+  "name": "SANA",
+  "categories": [
+   "spreads"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "sardina-postira",
+  "name": "SARDINA POSTIRA",
+  "categories": [
+   "canned-fish"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "schneekoppe",
+  "name": "SCHNEEKOPPE",
+  "categories": [
+   "cereals",
+   "chocolate",
+   "marmalade",
+   "soy",
+   "spreads"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "schweppes",
+  "name": "SCHWEPPES",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "seeberger",
+  "name": "SEEBERGER",
+  "categories": [
+   "dried-fruit"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "sir-winston-tea",
+  "name": "SIR WINSTON TEA",
+  "categories": [
+   "tea"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "sprite",
+  "name": "SPRITE",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "tartex",
+  "name": "TARTEX",
+  "categories": [
+   "spreads"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "teehaus",
+  "name": "TEEHAUS",
+  "categories": [
+   "tea"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "teekane",
+  "name": "TEEKANE",
+  "categories": [
+   "tea"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "theramed",
+  "name": "THERAMED",
+  "categories": [
+   "toothpaste"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "thomy",
+  "name": "THOMY",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "tomadini",
+  "name": "TOMADINI",
+  "categories": [
+   "pasta"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "vindija",
+  "name": "Vindija",
+  "categories": [
+   "drinks"
+  ],
+  "origin": "croatian"
+ },
+ {
+  "id": "vitaquell",
+  "name": "VITAquell",
+  "categories": [
+   "soy",
+   "spreads"
+  ],
+  "origin": "imported"
+ },
+ {
+  "id": "zvijezda",
+  "name": "ZVIJEZDA",
+  "categories": [
+   "sauces"
+  ],
+  "origin": "croatian"
+ }
+]
