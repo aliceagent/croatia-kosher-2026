@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Notice } from "../components/ui";
+import { Disclaimer, Notice } from "../components/ui";
 import { products } from "../lib/data";
 
 const count = (fn: (p: (typeof products)[number]) => boolean) =>
@@ -12,6 +12,10 @@ export default function Guide() {
       <p className="muted">
         What each badge on this site means, and what it does not mean.
       </p>
+
+      <div style={{ margin: "18px 0" }}>
+        <Disclaimer />
+      </div>
 
       <div style={{ margin: "18px 0" }}>
         <Notice kind="danger">

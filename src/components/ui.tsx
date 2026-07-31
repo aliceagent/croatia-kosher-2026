@@ -185,6 +185,46 @@ export function Notice({
   return <div className={`notice notice-${kind}`}>{children}</div>;
 }
 
+export const SOURCE_PDF =
+  "https://www.bet-israel.com/wp/wp-content/uploads/2026/01/THE-2026-KOSHER-LIST-OF-CROATIA.pdf";
+
+/**
+ * The site-wide disclaimer. This is the most important text on the site, so it
+ * is never dismissible and never abbreviated away: the data here was
+ * transcribed by a machine and checked by nobody.
+ */
+export function Disclaimer({ compact }: { compact?: boolean }) {
+  if (compact) {
+    return (
+      <p className="tiny" style={{ margin: 0 }}>
+        <strong>Not independently verified.</strong> Built by Jonathan Caras
+        (@madcapslaugh) and Claude Code from the{" "}
+        <a href={SOURCE_PDF} target="_blank" rel="noreferrer">original PDF</a>.
+        A G-d fearing Jew will contact Chabad and confirm the accuracy of this
+        list before making any purchases.
+      </p>
+    );
+  }
+  return (
+    <Notice kind="danger">
+      <div>
+        <strong>None of the information on this site has been independently
+        verified.</strong>{" "}
+        It was transcribed automatically from the{" "}
+        <a href={SOURCE_PDF} target="_blank" rel="noreferrer">
+          original 2026 PDF published by Bet Israel
+        </a>{" "}
+        and built by Jonathan Caras (
+        <a href="https://x.com/madcapslaugh" target="_blank" rel="noreferrer">
+          @madcapslaugh
+        </a>
+        ) and Claude Code. A G-d fearing Jew will contact Chabad and confirm the
+        accuracy of this list before making any purchases.
+      </div>
+    </Notice>
+  );
+}
+
 export function CategoryCard({ id }: { id: string }) {
   const c = categoryById.get(id);
   if (!c) return null;

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Notice } from "../components/ui";
+import { Disclaimer, Notice, SOURCE_PDF } from "../components/ui";
 import { brands, categories, products } from "../lib/data";
 import storesRaw from "../../data/stores.json";
 
@@ -14,6 +14,23 @@ export default function About() {
         Products List of Croatia), a 48-page document published by the Jewish
         community <em>Bet Israel</em> in Zagreb and authorised by Chief Rabbi
         Dr. Kotel Da-Don.
+      </p>
+
+      <div style={{ margin: "16px 0" }}>
+        <Disclaimer />
+      </div>
+
+      <h2 className="section-title">Who made this</h2>
+      <p>
+        Built by <strong>Jonathan Caras</strong> (
+        <a href="https://x.com/madcapslaugh" target="_blank" rel="noreferrer">@madcapslaugh</a>
+        ) and <strong>Claude Code</strong>, by transcribing the{" "}
+        <a href={SOURCE_PDF} target="_blank" rel="noreferrer">
+          original 2026 PDF
+        </a>{" "}
+        published by Bet Israel. It is not affiliated with, endorsed by, or
+        reviewed by Bet Israel, Chabad, or any rabbinic authority. The
+        transcription was done by software and checked by no one.
       </p>
 
       <div style={{ margin: "16px 0" }}>

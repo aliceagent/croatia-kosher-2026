@@ -420,9 +420,15 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
 
 /* ------------------------------------------------------------ filters */
 .filters { display: flex; flex-direction: column; gap: 14px; }
-.filters-toggle { display: none; }
+/*
+ * The toggle is mobile-only: on desktop the panel is always open, so the
+ * button would be a control that changes nothing. `.btn` also sets `display`,
+ * and matching it on both classes keeps this winning regardless of the order
+ * the two rules appear in.
+ */
+.btn.filters-toggle { display: none; }
 @media (max-width: 560px) {
-  .filters-toggle { display: inline-flex; }
+  .btn.filters-toggle { display: inline-flex; }
   .filters { display: none; }
   .filters.open { display: flex; }
 }

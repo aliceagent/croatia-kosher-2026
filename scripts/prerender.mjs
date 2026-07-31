@@ -83,7 +83,7 @@ for (const p of products) {
   const image = hasCard(`product-${p.id}`) ? `/og/product-${p.id}.png` : "/og/default.png";
   emit(`product/${p.id}`, {
     title: `${name}${p.brand ? ` (${p.brand})` : ""} — ${statusLabel(p)} | Kosher Croatia 2026`,
-    description: `${statusLabel(p)}. From the 2026 kosher products list of Croatia, page ${p.sourcePage}, authorised by Chief Rabbi Dr. Kotel Da-Don.`,
+    description: `${statusLabel(p)}. From the 2026 kosher list of Croatia, page ${p.sourcePage}. Unofficial and not independently verified \u2014 confirm with Chabad before buying.`,
     image,
   });
   n++;
@@ -92,7 +92,7 @@ for (const p of products) {
 for (const c of categories) {
   emit(`category/${c.id}`, {
     title: `${c.label} — ${c.count} kosher products in Croatia | 2026 list`,
-    description: `${c.count} approved ${c.label.toLowerCase()} entries from the 2026 kosher products list of Croatia, published by Bet Israel, Zagreb.`,
+    description: `${c.count} ${c.label.toLowerCase()} entries from the 2026 kosher list of Croatia. Unofficial and not independently verified \u2014 confirm with Chabad before buying.`,
     image: hasCard(`category-${c.id}`) ? `/og/category-${c.id}.png` : "/og/default.png",
   });
   n++;

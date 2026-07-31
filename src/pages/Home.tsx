@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { SearchBar } from "../components/SearchBar";
-import { CategoryCard, Empty, Notice, ProductList } from "../components/ui";
+import { CategoryCard, Disclaimer, Empty, Notice, ProductList } from "../components/ui";
 import { categories, productById, products, search } from "../lib/data";
 import { useStore } from "../lib/store";
 
@@ -28,6 +28,9 @@ export default function Home() {
       <h1 className="sr-only">
         Search the 2026 kosher products list of Croatia
       </h1>
+      <div style={{ paddingTop: 16 }}>
+        <Disclaimer />
+      </div>
       <SearchBar
         hero
         autoFocus

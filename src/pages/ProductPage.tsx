@@ -1,7 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import {
-  AddButton, Badge, BrandTag, Empty, Icon, Notice, ProductList, StarButton,
+  AddButton, Badge, BrandTag, Disclaimer, Empty, Icon, Notice, ProductList,
+  StarButton,
 } from "../components/ui";
 import {
   badgeFor, categoryById, CATEGORY_EMOJI, displayName, products, TAG_LABELS,
@@ -108,6 +109,10 @@ export default function ProductPage() {
           ingredients if it matters for your meal.
         </p>
       )}
+
+      <div style={{ marginTop: 14 }}>
+        <Disclaimer />
+      </div>
 
       <h2 className="section-title">Details</h2>
       <dl className="card" style={{ padding: 16, margin: 0, display: "grid", gap: 12 }}>

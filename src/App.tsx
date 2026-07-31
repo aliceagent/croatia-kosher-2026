@@ -1,6 +1,6 @@
 import { Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { Suspense, lazy, useEffect } from "react";
-import { Icon, Logo } from "./components/ui";
+import { Disclaimer, Icon, Logo } from "./components/ui";
 import { useStore } from "./lib/store";
 // The store finder carries 1,032 branch records that no other page needs, so
 // it is split out of the main bundle.
@@ -117,6 +117,9 @@ export default function App() {
 
       <footer className="site no-print">
         <div className="shell">
+          <div style={{ marginBottom: 16 }}>
+            <Disclaimer compact />
+          </div>
           <p>
             Data from <strong>KOŠER PROIZVODI U HRVATSKOJ 2026</strong>, authorised by
             Chief Rabbi Dr. Kotel Da-Don and published by the Jewish community{" "}
