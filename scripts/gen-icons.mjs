@@ -28,27 +28,38 @@ const SAND = "#E4C391";
 
 /* The mark: a map pin carrying a Star of David over the logo's red wave. */
 const PIN_PATH =
-  "M16 1.6C9.1 1.6 3.5 7.2 3.5 14.1c0 8.9 12.5 16.3 12.5 16.3s12.5-7.4 12.5-16.3C28.5 7.2 22.9 1.6 16 1.6z";
-const STAR_PATH = "M16 6.4l4.5 7.8h-9zM16 18.9l-4.5-7.8h9z";
-const WAVE_PATH = "M1 21.4c5-2.6 9.5-2.6 15 0s10 2.6 15 0V32H1z";
-const WAVE_LINE = "M1 24.3c5-2.4 9.5-2.4 15 0s10 2.4 15 0";
+  "M16 1.4C9 1.4 3.3 7.1 3.3 14.1c0 9 12.7 16.5 12.7 16.5s12.7-7.5 12.7-16.5C28.7 7.1 23 1.4 16 1.4z";
+const STAR_PATH = "M16 6.6l3.64 6.3h-7.28zM16 15.6l-3.64-6.3h7.28z";
+const WAVE_PATH = "M1 21.6c5-2.7 9.6-2.7 15 0s10 2.7 15 0V32H1z";
+const WAVE_LINE = "M1.5 24.6c5-2.4 9.6-2.4 15 0s10 2.4 15 0";
 
-/** The pin mark, drawn into a 32x32 box. */
-function markGroup(fill = "#fff") {
+/**
+ * The pin mark in a 32x32 box. `detail: "simple"` drops the menorah and fork,
+ * which collapse into noise below roughly 24px and leave only the star legible.
+ */
+function markGroup(fill = "#fff", detail = "full") {
+  const ink = fill === "#fff" ? NAVY : "#fff";
+  const extras = detail === "full" ? `
+    <g stroke="${ink}" fill="none" stroke-width="0.85" stroke-linecap="round">
+      <path d="M6.4 12.4v1.9M7.6 11.6v2.7M8.8 11.1v3.2M10 11.6v2.7M11.2 12.4v1.9"/>
+      <path d="M8.8 14.3v2.1M7.3 16.6h3" stroke-width="0.95"/>
+      <path d="M21 11.2v2.1M22.4 11.2v2.1M23.8 11.2v2.1"/>
+      <path d="M21 13.3h2.8M22.4 13.3v3.3" stroke-width="0.95"/>
+    </g>` : "";
   return `<defs><clipPath id="pc"><path d="${PIN_PATH}"/></clipPath></defs>
     <path d="${PIN_PATH}" fill="${fill}"/>
     <g clip-path="url(#pc)">
       <path d="${WAVE_PATH}" fill="${RED}"/>
-      <path d="${WAVE_LINE}" stroke="${fill === "#fff" ? NAVY : "#fff"}" stroke-width="1.1" fill="none"/>
+      <path d="${WAVE_LINE}" stroke="${ink}" stroke-width="1" fill="none"/>
     </g>
-    <path d="${STAR_PATH}" fill="${fill === "#fff" ? NAVY : "#fff"}"/>`;
+    <path d="${STAR_PATH}" fill="${ink}"/>${extras}`;
 }
 
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
-function iconSvg({ size = 512, maskable = false }) {
+function iconSvg({ size = 512, maskable = false, detail = "full" }) {
   const pad = maskable ? 0.60 : 0.76; // maskable icons need a safe zone
   const scale = (size * pad) / 32;
   const off = (size - 32 * scale) / 2;
@@ -58,12 +69,13 @@ function iconSvg({ size = 512, maskable = false }) {
     <stop offset="0" stop-color="${NAVY}"/><stop offset="1" stop-color="${NAVY_MID}"/>
   </linearGradient></defs>
   <rect width="${size}" height="${size}" rx="${radius}" fill="url(#g)"/>
-  <g transform="translate(${off} ${off}) scale(${scale})">${markGroup("#fff")}</g>
+  <g transform="translate(${off} ${off}) scale(${scale})">${markGroup("#fff", detail)}</g>
 </svg>`;
 }
 
 /* Favicon: an SVG favicon stays crisp at every size and in both themes. */
-writeFileSync(join(pub, "favicon.svg"), iconSvg({ size: 32 }));
+/* The favicon renders at 16-32px, where the menorah and fork turn to mush. */
+writeFileSync(join(pub, "favicon.svg"), iconSvg({ size: 32, detail: "simple" }));
 
 const png = (svg, width) =>
   new Resvg(svg, { fitTo: { mode: "width", value: width } }).render().asPng();

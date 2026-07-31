@@ -43,7 +43,7 @@ export default function App() {
       <header className="header no-print">
         <div className="header-inner">
           <Link className="brand" to="/">
-            <Logo size={30} tone="light" />
+            <Logo size={32} tone="light" />
             <span>
               Kosher Croatia
               <br />
@@ -84,7 +84,50 @@ export default function App() {
               {t.label}
             </NavLink>
           ))}
+          {/* Favourites and the shopping list also live behind the header
+              icons, but an unlabelled icon in a corner is not somewhere people
+              look. They are named here, where the rest of the site is. */}
+          <span className="tab-sep" aria-hidden="true" />
+          <NavLink
+            to="/favorites"
+            className={({ isActive }) => `tab tab-mine ${isActive ? "active" : ""}`}
+          >
+            {Icon.star(favorites.length > 0)}
+            Favourites
+            {favorites.length > 0 && <span className="tab-n">{favorites.length}</span>}
+          </NavLink>
+          <NavLink
+            to="/list"
+            className={({ isActive }) => `tab tab-mine ${isActive ? "active" : ""}`}
+          >
+            {Icon.cart}
+            My list
+            {listCount > 0 && <span className="tab-n">{listCount}</span>}
+          </NavLink>
         </div>
+      </nav>
+
+      <nav className="bottomnav no-print" aria-label="Main, mobile">
+        {[
+          { to: "/", label: "Search", icon: Icon.search, end: true },
+          { to: "/browse", label: "Browse", icon: Icon.grid },
+          { to: "/stores", label: "Shops", icon: Icon.pin },
+          { to: "/favorites", label: "Saved", icon: Icon.star(favorites.length > 0), n: favorites.length },
+          { to: "/list", label: "My list", icon: Icon.cart, n: listCount },
+        ].map((t) => (
+          <NavLink
+            key={t.to}
+            to={t.to}
+            end={t.end}
+            className={({ isActive }) => `bnav ${isActive ? "active" : ""}`}
+          >
+            <span className="bnav-icon">
+              {t.icon}
+              {!!t.n && <span className="bnav-n">{t.n}</span>}
+            </span>
+            {t.label}
+          </NavLink>
+        ))}
       </nav>
 
       <ScrollToTop />

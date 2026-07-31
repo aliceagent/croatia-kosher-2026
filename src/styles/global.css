@@ -258,6 +258,31 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
 .tab:hover { color: var(--text); text-decoration: none; }
 .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
 
+/* The two personal views, set apart from the browsing tabs. */
+.tab-sep {
+  width: 1px;
+  align-self: center;
+  height: 20px;
+  background: var(--border);
+  margin: 0 8px;
+  flex: none;
+}
+.tab-mine { display: inline-flex; align-items: center; gap: 6px; }
+.tab-mine svg { width: 15px; height: 15px; }
+.tab-mine:not(.active) svg { color: var(--text-faint); }
+.tab-n {
+  background: var(--blue-600);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  min-width: 17px;
+  height: 17px;
+  border-radius: 9px;
+  display: inline-grid;
+  place-items: center;
+  padding: 0 5px;
+}
+
 /* ------------------------------------------------------------- badges */
 .badge {
   display: inline-flex;
@@ -366,6 +391,8 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
 .prow-name {
   font-weight: 640;
   font-size: 15px;
+  /* Grows the tap area of the row's main link to a comfortable height. */
+  padding: 3px 0;
   color: var(--text);
   display: block;
   overflow-wrap: anywhere;
@@ -386,7 +413,9 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
   background: none;
   border: none;
   cursor: pointer;
-  padding: 6px;
+  padding: 8px;
+  min-width: 36px;
+  min-height: 36px;
   color: var(--text-faint);
   display: grid;
   place-items: center;
@@ -401,7 +430,9 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
   border: 1px solid var(--border);
   border-radius: 8px;
   cursor: pointer;
-  padding: 6px;
+  padding: 8px;
+  min-width: 36px;
+  min-height: 36px;
   color: var(--text-dim);
   display: grid;
   place-items: center;
@@ -417,11 +448,109 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
  */
 @media (max-width: 560px) {
   .prow { flex-wrap: wrap; row-gap: 9px; padding: 12px; gap: 8px; }
+  /* A long conditional badge ("Kosher · Maraska, Badel 1862") pushed the row
+     past the viewport. Kashrut labels are never truncated -- they wrap. */
+  .badge { white-space: normal; text-align: left; }
+  .prow-side { flex-wrap: wrap; row-gap: 8px; }
+  /* Links in the product detail list are standalone targets, not prose, so
+     they get a comfortable height rather than text height. */
+  a.tag { padding: 6px 10px; }
+  dd a { display: inline-block; padding: 4px 0; }
   .prow-main { flex: 1 1 calc(100% - 46px); }
   .prow-side { flex: 1 1 100%; justify-content: space-between; }
   .prow-meta { gap: 3px 7px; }
   .hero-search .searchbar input { font-size: 16px; padding: 14px 42px 14px 42px; }
-  /* ------------------------------------------------------------- banners */
+  .pactions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 18px;
+}
+.pactions .btn.on {
+  background: var(--blue-50);
+  border-color: var(--blue-400);
+  color: var(--accent);
+}
+.pactions .btn.on svg { color: var(--gold-500); }
+.pactions .btn:nth-child(2).on svg { color: var(--green-600); }
+@media (max-width: 460px) {
+  .pactions .btn { flex: 1 1 100%; justify-content: flex-start; }
+}
+
+/* ------------------------------------------------- mobile bottom nav --- */
+.bottomnav { display: none; }
+
+@media (max-width: 700px) {
+  /* The top tab strip scrolls sideways, so anything past "Kashrut guide" was
+     invisible -- including Favourites and the shopping list. On phones the
+     primary destinations move to a fixed bar in thumb reach instead. */
+  .bottomnav {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 45;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+    box-shadow: 0 -2px 14px rgba(0, 17, 46, 0.1);
+  }
+  .bnav {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 8px 1px 7px;
+    min-height: 52px;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 650;
+    color: var(--text-dim);
+    text-decoration: none;
+  }
+  .bnav:hover { text-decoration: none; }
+  .bnav.active { color: var(--accent); }
+  .bnav-icon { position: relative; display: grid; place-items: center; }
+  .bnav-n {
+    position: absolute;
+    top: -6px;
+    right: -9px;
+    background: var(--red-500);
+    color: #fff;
+    font-size: 9.5px;
+    font-weight: 800;
+    min-width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    padding: 0 4px;
+  }
+  /* Clear the bar so nothing sits underneath it. */
+  body { padding-bottom: 60px; }
+  .tabs { display: none; }
+}
+
+/* Below ~380px the brand block plus three header buttons overflow the
+   viewport and the whole page scrolls sideways. */
+@media (max-width: 400px) {
+  .brand-sub { display: none; }
+  /* The list page's action row is one button too wide for a 360px phone. */
+  .btn-sm { padding: 7px 9px; }
+  .btn { max-width: 100%; }
+  .brand { font-size: 15px; gap: 7px; }
+  .header-inner { gap: 8px; padding: 0 12px; }
+  .icon-btn { width: 34px; height: 34px; }
+  .shell { padding: 0 12px; }
+}
+
+/* ------------------------------------------------------------- banners */
 .banner {
   position: relative;
   width: 100%;
@@ -593,6 +722,96 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
 }
 .btn-primary:hover { background: var(--blue-700); }
 .btn-sm { padding: 7px 12px; font-size: 13px; }
+
+.pactions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 0 0 18px;
+}
+.pactions .btn.on {
+  background: var(--blue-50);
+  border-color: var(--blue-400);
+  color: var(--accent);
+}
+.pactions .btn.on svg { color: var(--gold-500); }
+.pactions .btn:nth-child(2).on svg { color: var(--green-600); }
+@media (max-width: 460px) {
+  .pactions .btn { flex: 1 1 100%; justify-content: flex-start; }
+}
+
+/* ------------------------------------------------- mobile bottom nav --- */
+.bottomnav { display: none; }
+
+@media (max-width: 700px) {
+  /* The top tab strip scrolls sideways, so anything past "Kashrut guide" was
+     invisible -- including Favourites and the shopping list. On phones the
+     primary destinations move to a fixed bar in thumb reach instead. */
+  .bottomnav {
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 45;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    padding-bottom: env(safe-area-inset-bottom, 0);
+    box-shadow: 0 -2px 14px rgba(0, 17, 46, 0.1);
+  }
+  .bnav {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    padding: 8px 1px 7px;
+    min-height: 52px;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 650;
+    color: var(--text-dim);
+    text-decoration: none;
+  }
+  .bnav:hover { text-decoration: none; }
+  .bnav.active { color: var(--accent); }
+  .bnav-icon { position: relative; display: grid; place-items: center; }
+  .bnav-n {
+    position: absolute;
+    top: -6px;
+    right: -9px;
+    background: var(--red-500);
+    color: #fff;
+    font-size: 9.5px;
+    font-weight: 800;
+    min-width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    padding: 0 4px;
+  }
+  /* Clear the bar so nothing sits underneath it. */
+  body { padding-bottom: 60px; }
+  .tabs { display: none; }
+}
+
+/* Below ~380px the brand block plus three header buttons overflow the
+   viewport and the whole page scrolls sideways. */
+@media (max-width: 400px) {
+  .brand-sub { display: none; }
+  /* The list page's action row is one button too wide for a 360px phone. */
+  .btn-sm { padding: 7px 9px; }
+  .btn { max-width: 100%; }
+  .brand { font-size: 15px; gap: 7px; }
+  .header-inner { gap: 8px; padding: 0 12px; }
+  .icon-btn { width: 34px; height: 34px; }
+  .shell { padding: 0 12px; }
+}
 
 /* ------------------------------------------------------------- banners */
 .banner {

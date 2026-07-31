@@ -1,8 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import { useEffect } from "react";
 import {
-  AddButton, Badge, BrandTag, Disclaimer, Empty, Icon, Notice, ProductList,
-  StarButton,
+  Badge, BrandTag, Disclaimer, Empty, Icon, Notice, ProductActions,
+  ProductList,
 } from "../components/ui";
 import {
   badgeFor, categoryById, CATEGORY_EMOJI, displayName, products, TAG_LABELS,
@@ -62,17 +62,7 @@ export default function ProductPage() {
         </div>
       </header>
 
-      <div className="no-print" style={{ display: "flex", gap: 8, marginBottom: 18 }}>
-        <span className="btn" style={{ padding: 0, border: "none", background: "none" }}>
-          <StarButton id={p.id} />
-        </span>
-        <span className="btn" style={{ padding: 0, border: "none", background: "none" }}>
-          <AddButton id={p.id} />
-        </span>
-        <span className="tiny muted" style={{ alignSelf: "center" }}>
-          Star it, or add it to your shopping list
-        </span>
-      </div>
+      <ProductActions id={p.id} />
 
       {/* The single most important sentence on the page. */}
       <Notice

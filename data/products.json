@@ -287,7 +287,7 @@
   "subheading": "Fresh baked products - Svježi proizvodi",
   "names": {
    "hr": "SOMUN",
-   "en": "Somun (Bosnian pita bread) ) ("
+   "en": "Somun (Bosnian pita bread)"
   },
   "hebrew": "סומון (פיתה בוסנית",
   "sizes": [
@@ -383,7 +383,7 @@
   "subheading": "Fresh baked products - Svježi proizvodi",
   "names": {
    "hr": "KUKURUZNI PRUTIĆ",
-   "en": "Corn stick (puff pastry) ) ("
+   "en": "Corn stick (puff pastry)"
   },
   "hebrew": "מקל תירס (בצק עלים",
   "sizes": [
@@ -947,7 +947,7 @@
   "subheading": null,
   "names": {
    "hr": "Vegeta mix za salatu",
-   "en": "salad * no msg added *"
+   "en": "salad * no msg added"
   },
   "hebrew": "סלט ללא מונוסודיום גלוטמ ט",
   "sizes": null,
@@ -1885,8 +1885,8 @@
   "brand": "KELLOGS",
   "subheading": null,
   "names": {
-   "hr": "Toppas Traube ) (",
-   "en": "Toppas Traube ) ("
+   "hr": "Toppas Traube",
+   "en": "Toppas Traube"
   },
   "hebrew": "קלוגס טופפס כריות",
   "sizes": null,
@@ -2042,7 +2042,7 @@
   "subheading": null,
   "names": {
    "hr": "Frema Leinsamen Gold",
-   "en": "Frema Linseed (flax)Gold"
+   "en": "Frema Linseed (flax) Gold"
   },
   "hebrew": "זרעי פשת ן",
   "sizes": null,
@@ -2086,7 +2086,7 @@
   "subheading": null,
   "names": {
    "hr": "Mungobohne",
-   "en": "Mung bean ) ("
+   "en": "Mung bean"
   },
   "hebrew": "אפונה סינית (שעועית מונג",
   "sizes": null,
@@ -2270,7 +2270,7 @@
   "subheading": null,
   "names": {
    "hr": "NESTLE ŽITARICE",
-   "en": "Cereals: :) ) NESTLE"
+   "en": "Cereals: : NESTLE"
   },
   "hebrew": ")דגני נסטל ה",
   "sizes": null,
@@ -3353,13 +3353,13 @@
   "sourcePage": 10
  },
  {
-  "id": "pasta-tomadini-all-varieties",
+  "id": "pasta-tomadini-all-kinds",
   "category": "pasta",
   "brand": "TOMADINI",
   "subheading": null,
   "names": {
    "hr": "Sve vrste",
-   "en": "All varieties"
+   "en": "All kinds !"
   },
   "hebrew": "כל הסוגים",
   "sizes": null,
@@ -4133,8 +4133,8 @@
   "brand": "PODRAVKA",
   "subheading": null,
   "names": {
-   "hr": "Peppers – mild –",
-   "en": "Peppers – mild –"
+   "hr": "Peppers – mild",
+   "en": "Peppers – mild"
   },
   "hebrew": "פלפלים מעט חרי ף",
   "sizes": null,
@@ -4155,8 +4155,8 @@
   "brand": "PODRAVKA",
   "subheading": null,
   "names": {
-   "hr": "Peppers – hot –",
-   "en": "Peppers – hot –"
+   "hr": "Peppers – hot",
+   "en": "Peppers – hot"
   },
   "hebrew": "פלפלים חרי ף",
   "sizes": null,
@@ -4530,7 +4530,7 @@
   "subheading": null,
   "names": {
    "hr": "Krastavac delikates pasterizirani",
-   "en": "Pasteurized delicatesse cucumber(Pickled)"
+   "en": "Pasteurized delicatesse cucumber (Pickled)"
   },
   "hebrew": "מלפפונים חמוצי ם",
   "sizes": null,
@@ -4640,7 +4640,7 @@
   "subheading": null,
   "names": {
    "hr": "Paprika cijela pasterizirana",
-   "en": "Whole Pasteurized Paprika )("
+   "en": "Whole Pasteurized Paprika"
   },
   "hebrew": "פפריקה גמבה שלמה",
   "sizes": null,
@@ -4662,7 +4662,7 @@
   "subheading": null,
   "names": {
    "hr": "Paprika rezana pasterizirana",
-   "en": "Cut Pasteurized Paprika )("
+   "en": "Cut Pasteurized Paprika"
   },
   "hebrew": "פפריקה גמבה חתוכה",
   "sizes": null,
@@ -4684,7 +4684,7 @@
   "subheading": null,
   "names": {
    "hr": "Paprika s kupusom pasterizirana",
-   "en": "Pasteurized Paprika with cabbage )("
+   "en": "Pasteurized Paprika with cabbage"
   },
   "hebrew": "פפריקה(גמבה) עם כרוב",
   "sizes": null,
@@ -5170,7 +5170,7 @@
   "subheading": null,
   "names": {
    "hr": "Paprikaschoten",
-   "en": "Bell pepper ) ("
+   "en": "Bell pepper"
   },
   "hebrew": "פפריקה גמבה",
   "sizes": null,
@@ -5305,7 +5305,7 @@
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Brancin",
-   "en": "European bass ) ("
+   "en": "European bass"
   },
   "hebrew": "לברק חלק בס",
   "sizes": null,
@@ -5371,7 +5371,7 @@
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Deverika",
-   "en": "Common bream )("
+   "en": "Common bream"
   },
   "hebrew": "ברמה זהבון",
   "sizes": null,
@@ -5459,7 +5459,7 @@
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Inčuni",
-   "en": "Anchovi ) ("
+   "en": "Anchovi"
   },
   "hebrew": "עפיין אירופי אנשובי",
   "sizes": null,
@@ -5679,7 +5679,7 @@
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Poletuše",
-   "en": "Atlantic herring ) ("
+   "en": "Atlantic herring"
   },
   "hebrew": "מליח אטלנטי (דג מלוח",
   "sizes": null,
@@ -5987,7 +5987,7 @@
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Tilapija",
-   "en": "Tilapia ) ("
+   "en": "Tilapia"
   },
   "hebrew": "אמנון מושט",
   "sizes": null,
@@ -6009,7 +6009,7 @@
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Bodečnjak (jauk)",
-   "en": "Rosefish)",
+   "en": "Rosefish",
    "alt": [
     "Sebastes (Redfish"
    ]
@@ -6078,7 +6078,7 @@
   "subheading": null,
   "names": {
    "hr": "Brancin",
-   "en": "European seabass - fresh, frozen, smoked, marinated , – )("
+   "en": "European seabass - fresh, frozen, smoked, marinated"
   },
   "hebrew": "לברק חלק בס טרי מעושן קפוא",
   "sizes": null,
@@ -6430,7 +6430,7 @@
   "subheading": null,
   "names": {
    "hr": "Brancin dimljeni, filetirani",
-   "en": "Seabass smoked filleted )("
+   "en": "Seabass smoked filleted"
   },
   "hebrew": "לברק בס מעושן",
   "sizes": null,
@@ -6718,7 +6718,7 @@
   "subheading": null,
   "names": {
    "hr": "Namaz hummus zelena paprika",
-   "en": "Hummus with paprika 250 )("
+   "en": "Hummus with paprika 250"
   },
   "hebrew": "חומוס עם פפריקה (מסבחה) 052 גר ם",
   "sizes": [
@@ -6862,7 +6862,7 @@
   "subheading": null,
   "names": {
    "hr": "Tahini Classic sezamovom",
-   "en": "Tahini Classic Sesame 350 )("
+   "en": "Tahini Classic Sesame 350"
   },
   "hebrew": "טחינה (גולמית) קלאסי 053 גרם",
   "sizes": [
@@ -6886,7 +6886,7 @@
   "subheading": null,
   "names": {
    "hr": "Tahini Mediteran",
-   "en": "Tahini Mediterranean )("
+   "en": "Tahini Mediterranean"
   },
   "hebrew": "טחינה (גולמית) מתובל ת",
   "sizes": [
@@ -6910,7 +6910,7 @@
   "subheading": null,
   "names": {
    "hr": "Tahini Čili",
-   "en": "Tahini Chile 350 )("
+   "en": "Tahini Chile 350"
   },
   "hebrew": "טחינה (גולמית) עם חריף 053 גר ם",
   "sizes": [
@@ -7308,7 +7308,7 @@
   "subheading": null,
   "names": {
    "hr": "Sandwich-Pastete Curry-Sesam",
-   "en": "Curry Sesame paté –"
+   "en": "Curry Sesame paté"
   },
   "hebrew": "פטה קארי סומסו ם",
   "sizes": null,
@@ -7440,7 +7440,7 @@
   "subheading": null,
   "names": {
    "hr": "Sandwich-Pastete Kichererbse",
-   "en": "Chickpea paté )("
+   "en": "Chickpea paté"
   },
   "hebrew": "פטה ממרח חומוס",
   "sizes": null,
@@ -7704,7 +7704,7 @@
   "subheading": null,
   "names": {
    "hr": "Sanddorn-Aufstrich",
-   "en": "Buckthorn(Hippophae) spread"
+   "en": "Buckthorn (Hippophae) spread"
   },
   "hebrew": "ממרח היפופיאה",
   "sizes": null,
@@ -8388,7 +8388,7 @@
   "subheading": null,
   "names": {
    "hr": "Umak od soje",
-   "en": "Soy sauce(Green)"
+   "en": "Soy sauce (Green)"
   },
   "hebrew": "רוטב סויה",
   "sizes": null,
@@ -8412,7 +8412,7 @@
   "subheading": null,
   "names": {
    "hr": "Umak od soje",
-   "en": "Soy sauce(Gold)"
+   "en": "Soy sauce (Gold)"
   },
   "hebrew": "רוטב סויה",
   "sizes": null,
@@ -8459,8 +8459,8 @@
   "brand": "THOMY",
   "subheading": null,
   "names": {
-   "hr": "Remoulade sauce (Aioli) ) (",
-   "en": "Remoulade sauce (Aioli) ) ("
+   "hr": "Remoulade sauce (Aioli)",
+   "en": "Remoulade sauce (Aioli)"
   },
   "hebrew": "רוטב רמולד( איולי",
   "sizes": null,
@@ -9185,8 +9185,8 @@
   "brand": "EUROCOMPANY 99",
   "subheading": null,
   "names": {
-   "hr": "KANDIRANO I SUHO EGZOTIČNO VOĆE VOĆE - CANDIED AND ) (",
-   "en": "KANDIRANO I SUHO EGZOTIČNO VOĆE VOĆE - CANDIED AND ) ("
+   "hr": "KANDIRANO I SUHO EGZOTIČNO VOĆE VOĆE - CANDIED AND",
+   "en": "KANDIRANO I SUHO EGZOTIČNO VOĆE VOĆE - CANDIED AND"
   },
   "hebrew": "פירות יבשים מסוכרים טרופי",
   "sizes": null,
@@ -9318,31 +9318,9 @@
   "subheading": null,
   "names": {
    "hr": "TROPIC MIX (ANANAS, PAPAJA, MANGO)",
-   "en": "TROPIC MIX"
+   "en": "TROPIC MIX (PINEAPPLE, PAPAYA, MANGO)"
   },
   "hebrew": "מיקס פרות מיובשים",
-  "sizes": null,
-  "kashrut": {
-   "status": "pareve",
-   "explicit": false,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": null
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 22
- },
- {
-  "id": "dried-fruit-eurocompany-99-pineapple-papaya-mango",
-  "category": "dried-fruit",
-  "brand": "EUROCOMPANY 99",
-  "subheading": null,
-  "names": {
-   "hr": "(PINEAPPLE, PAPAYA, MANGO)",
-   "en": "(PINEAPPLE, PAPAYA, MANGO)"
-  },
-  "hebrew": null,
   "sizes": null,
   "kashrut": {
    "status": "pareve",
@@ -9494,7 +9472,7 @@
   "subheading": null,
   "names": {
    "hr": "LEĆA",
-   "en": "LENTILS ) ("
+   "en": "LENTILS"
   },
   "hebrew": "עדשים (מבחר צבעים",
   "sizes": null,
@@ -9537,8 +9515,8 @@
   "brand": "EUROCOMPANY 99",
   "subheading": null,
   "names": {
-   "hr": "GRAH (ŠARENI, BIJELI, ŽUTO-ZELENI)",
-   "en": "BEANS (CRANBERRY, ) 3("
+   "hr": "GRAH ŠARENI, BIJELI, ŽUTO-ZELENI",
+   "en": "BEANS CRANBERRY, 3"
   },
   "hebrew": "שעועית (3 סוגי שועית בשקית אחת",
   "sizes": null,
@@ -9559,8 +9537,8 @@
   "brand": "EUROCOMPANY 99",
   "subheading": null,
   "names": {
-   "hr": "ALUBIA, CANARY)",
-   "en": "ALUBIA, CANARY)"
+   "hr": "ALUBIA, CANARY",
+   "en": "ALUBIA, CANARY"
   },
   "hebrew": null,
   "sizes": null,
@@ -9696,7 +9674,7 @@
   "subheading": null,
   "names": {
    "hr": "KIKIRIKI SUHO PRŽENI NESLANI",
-   "en": "PEANUT ROASTED UNSALTED )"
+   "en": "PEANUT ROASTED UNSALTED"
   },
   "hebrew": "בוטנים קלויים ללא מלח",
   "sizes": null,
@@ -10256,7 +10234,7 @@
   "subheading": null,
   "names": {
    "hr": "Vegetarische Bratwurst ohne Ei",
-   "en": "Vegetarian bratwurst )("
+   "en": "Vegetarian bratwurst (Sausage) without egg"
   },
   "hebrew": "בראטוורסט (נקניק) צמחוני ללא ביצים",
   "sizes": null,
@@ -10274,35 +10252,13 @@
   "sourcePage": 24
  },
  {
-  "id": "soy-granovita-sausage-without-egg",
-  "category": "soy",
-  "brand": "GranoVita",
-  "subheading": null,
-  "names": {
-   "hr": "(Sausage)without egg",
-   "en": "(Sausage)without egg"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "pareve",
-   "explicit": false,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": null
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 24
- },
- {
   "id": "soy-granovita-vegetarian-hunting",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
   "names": {
    "hr": "Vegetarische Jagdwurst mit Paprika",
-   "en": "Vegetarian \"hunting )( sausage\" with paprika"
+   "en": "Vegetarian \"hunting"
   },
   "hebrew": "יגטוורסט נקניק",
   "sizes": null,
@@ -10320,13 +10276,35 @@
   "sourcePage": 24
  },
  {
+  "id": "soy-granovita-sausage-with-paprika",
+  "category": "soy",
+  "brand": "GranoVita",
+  "subheading": null,
+  "names": {
+   "hr": "sausage\" with paprika",
+   "en": "sausage\" with paprika"
+  },
+  "hebrew": null,
+  "sizes": null,
+  "kashrut": {
+   "status": "pareve",
+   "explicit": false,
+   "requiresHechsher": false,
+   "certifier": null,
+   "note": null
+  },
+  "scope": "item",
+  "tags": null,
+  "sourcePage": 24
+ },
+ {
   "id": "soy-granovita-vegetarian-mortadella",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
   "names": {
    "hr": "Vegetarische Mortadella mit Knoblauch",
-   "en": "Vegetarian mortadella )( with garlic"
+   "en": "Vegetarian mortadella with garlic"
   },
   "hebrew": "מורטדלה נקניק",
   "sizes": null,
@@ -10397,8 +10375,8 @@
   "brand": "ALPRO",
   "subheading": null,
   "names": {
-   "hr": "Drink Bio Natur(Soy)",
-   "en": "Drink Bio Natur(Soy)"
+   "hr": "Drink Bio Natur (Soy)",
+   "en": "Drink Bio Natur (Soy)"
   },
   "hebrew": "משקה סויה טבעי אורגני",
   "sizes": null,
@@ -11574,7 +11552,7 @@
   "subheading": null,
   "names": {
    "hr": "Tofu Aufschnittrolle \"Shiitake\"",
-   "en": "Tofu sliced roll with Japanese shiitake mushrooms."
+   "en": "Tofu sliced roll with Japanese shiitake mushrooms"
   },
   "hebrew": "נקיק טופו עגול מפטריות שיטאקי",
   "sizes": null,
@@ -12156,8 +12134,8 @@
   "brand": "NEW BAKERY",
   "subheading": null,
   "names": {
-   "hr": "Aladdin – baklava –",
-   "en": "Aladdin – baklava –"
+   "hr": "Aladdin – baklava",
+   "en": "Aladdin – baklava"
   },
   "hebrew": "בקלווה אלדיין",
   "sizes": null,
@@ -12178,8 +12156,8 @@
   "brand": "NEW BAKERY",
   "subheading": null,
   "names": {
-   "hr": "Nubake – baklava –",
-   "en": "Nubake – baklava –"
+   "hr": "Nubake – baklava",
+   "en": "Nubake – baklava"
   },
   "hebrew": "בקלווה נובקה",
   "sizes": null,
@@ -12200,8 +12178,8 @@
   "brand": "NEW BAKERY",
   "subheading": null,
   "names": {
-   "hr": "Layla – HANDCRAFTED baklava –",
-   "en": "Layla – HANDCRAFTED baklava –"
+   "hr": "Layla – HANDCRAFTED baklava",
+   "en": "Layla – HANDCRAFTED baklava"
   },
   "hebrew": "בקלווה לילה",
   "sizes": null,
@@ -12377,7 +12355,7 @@
   "subheading": null,
   "names": {
    "hr": "Marmelade- sve",
-   "en": "marmalades various types –"
+   "en": "marmalades various types"
   },
   "hebrew": "מרמלדה מבחר סוגי ם",
   "sizes": null,
@@ -12399,7 +12377,7 @@
   "subheading": null,
   "names": {
    "hr": "Džemovi- sve",
-   "en": "Jams various types –"
+   "en": "Jams various types"
   },
   "hebrew": "ריבה מבחר סוגי ם",
   "sizes": null,
@@ -12421,7 +12399,7 @@
   "subheading": null,
   "names": {
    "hr": "Pekmez- sve",
-   "en": "Jams various types –"
+   "en": "Jams various types"
   },
   "hebrew": "ריבה מבחר סוגי ם",
   "sizes": null,
@@ -12443,7 +12421,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fruchtaufstrich –Hagebutte",
-   "en": "Diet Fruit Spread- Rose hip –"
+   "en": "Diet Fruit Spread- Rose hip"
   },
   "hebrew": "ממרח פירות דיאט רוז הי פ",
   "sizes": null,
@@ -12467,7 +12445,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich- Aprikose",
-   "en": "Diet Fruit Spread –Apricot –"
+   "en": "Diet Fruit Spread –Apricot"
   },
   "hebrew": "ממרח פירות דיאט משמ ש",
   "sizes": null,
@@ -12491,7 +12469,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich- Erdbeere",
-   "en": "Diet Fruit Spread – Strawberry –"
+   "en": "Diet Fruit Spread – Strawberry"
   },
   "hebrew": "ממרח פירות דיאט תות שד ה",
   "sizes": null,
@@ -12515,7 +12493,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich- Exotic",
-   "en": "Diet Fruit Spread - Exotic –"
+   "en": "Diet Fruit Spread - Exotic"
   },
   "hebrew": "ממרח פירות דיאט ריבה אקזוטי ת",
   "sizes": null,
@@ -12539,7 +12517,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich – Hagebutte&Sanddorn",
-   "en": "Diet Fruit Spread – – Elderberry & cherry Elderberry & Cherry Buckthorn & Rose hip"
+   "en": "Diet Fruit Spread Elderberry & cherry Elderberry & Cherry Buckthorn & Rose hip"
   },
   "hebrew": "ממרח פירות דיאט רוז היפ ואשח ר",
   "sizes": null,
@@ -12563,7 +12541,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich – Holunder & Kirsche",
-   "en": "Diet Fruit Spread - & – Elderberry & Cherry"
+   "en": "Diet Fruit Spread - & Elderberry & Cherry"
   },
   "hebrew": "ממרח פירות דיאט סמבוק דובדבן",
   "sizes": null,
@@ -12587,7 +12565,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich –Quitte",
-   "en": "Diet Fruit Spread – Quince –"
+   "en": "Diet Fruit Spread – Quince"
   },
   "hebrew": "ממרח פירות דיאט חבוש",
   "sizes": null,
@@ -12611,7 +12589,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich- Sauerkirsche",
-   "en": "Diet Fruit Spread - sour cherry –"
+   "en": "Diet Fruit Spread - sour cherry"
   },
   "hebrew": "ממרח פירות דיאט דובדבן חמוץ",
   "sizes": null,
@@ -12635,7 +12613,7 @@
   "subheading": null,
   "names": {
    "hr": "Diät Fuchtaufstrich -Schwarze Johannisbeere",
-   "en": "Diet Fruit Spread –"
+   "en": "Diet Fruit Spread"
   },
   "hebrew": "ממרח פירות דיאט דומדמניות שחורו ת",
   "sizes": null,
@@ -12991,7 +12969,7 @@
   "subheading": null,
   "names": {
    "hr": "Duplo",
-   "en": "Ferrero Duplo -Chocolate and Hazelnut –"
+   "en": "Ferrero Duplo -Chocolate and Hazelnut"
   },
   "hebrew": "פררו דופל ו שקולדת ואגוזי ם",
   "sizes": null,
@@ -13360,8 +13338,8 @@
   "brand": "FERRERO",
   "subheading": null,
   "names": {
-   "hr": "Kinder pingui )(",
-   "en": "Kinder pingui )("
+   "hr": "Kinder pingui",
+   "en": "Kinder pingui"
   },
   "hebrew": "קינדר פינגוין בקירור",
   "sizes": null,
@@ -13454,8 +13432,8 @@
   "brand": "NESTLE",
   "subheading": null,
   "names": {
-   "hr": "After Eight – sve vrste –",
-   "en": "After Eight – sve vrste –"
+   "hr": "After Eight – sve vrste",
+   "en": "After Eight – sve vrste"
   },
   "hebrew": "אפטר אייט מבחר סוגי ם",
   "sizes": null,
@@ -13895,7 +13873,7 @@
   "subheading": null,
   "names": {
    "hr": "Milka - Alpenmilch",
-   "en": "ALPINE MILK CHOCOLATE –"
+   "en": "ALPINE MILK CHOCOLATE"
   },
   "hebrew": "שוקולד מילקה אלפי ם",
   "sizes": null,
@@ -13916,8 +13894,8 @@
   "brand": "RITTER",
   "subheading": null,
   "names": {
-   "hr": "Ritter Sport Dark Chocolate (tamna čokolada) –",
-   "en": "Ritter Sport Dark Chocolate (tamna čokolada) –"
+   "hr": "Ritter Sport Dark Chocolate (tamna čokolada)",
+   "en": "Ritter Sport Dark Chocolate (tamna čokolada)"
   },
   "hebrew": "ריטר ספורט שוקולד כה ה",
   "sizes": null,
@@ -13938,8 +13916,8 @@
   "brand": "RITTER",
   "subheading": null,
   "names": {
-   "hr": "Ritter Sport Mini –",
-   "en": "Ritter Sport Mini –"
+   "hr": "Ritter Sport Mini",
+   "en": "Ritter Sport Mini"
   },
   "hebrew": "ריטר ספורט שוקולד מינ י",
   "sizes": null,
@@ -13961,7 +13939,7 @@
   "subheading": null,
   "names": {
    "hr": "Ritter Sport - s cijelim lješnjacima",
-   "en": "Whole Hazelnuts –"
+   "en": "Whole Hazelnuts"
   },
   "hebrew": "ריטר ספורט שוקולד עם אגוזים",
   "sizes": null,
@@ -13983,7 +13961,7 @@
   "subheading": null,
   "names": {
    "hr": "Ritter Sport - s cijelim bademima",
-   "en": "Whole Almonds –"
+   "en": "Whole Almonds"
   },
   "hebrew": "ריטר ספורט שוקולד שקדי ם",
   "sizes": null,
@@ -14005,7 +13983,7 @@
   "subheading": null,
   "names": {
    "hr": "Ritter Sport - Marzipan",
-   "en": "Marzipan –"
+   "en": "Marzipan"
   },
   "hebrew": "ריטר ספורט מרציפ ן",
   "sizes": null,
@@ -14027,7 +14005,7 @@
   "subheading": null,
   "names": {
    "hr": "Ritter Sport - bijela s cijelim bademima i rižom",
-   "en": "White Chocolate . –"
+   "en": "White Chocolate"
   },
   "hebrew": "ריטר ספורט שוקולד לבן עם שקדים ופצפוצי אורז",
   "sizes": null,
@@ -14114,8 +14092,8 @@
   "brand": "LINDT",
   "subheading": null,
   "names": {
-   "hr": "Chocolate thin dark (ONLY those manufactured in Switzerland) ) (",
-   "en": "Chocolate thin dark (ONLY those manufactured in Switzerland) ) ("
+   "hr": "Chocolate thin dark (ONLY those manufactured in Switzerland)",
+   "en": "Chocolate thin dark (ONLY those manufactured in Switzerland)"
   },
   "hebrew": "שקולד כהה (רק מה שיוצר בשוויץ",
   "sizes": null,
@@ -14272,8 +14250,8 @@
   "brand": "KANDIT",
   "subheading": null,
   "names": {
-   "hr": "Kakao, smanjene masti (16-18%) Cocoa, Reduced Fat (16-18%) (16-18%)",
-   "en": "Kakao, smanjene masti (16-18%) Cocoa, Reduced Fat (16-18%) (16-18%)"
+   "hr": "Kakao, smanjene masti (16-18%) Cocoa, Reduced Fat (16-18% 16-18%)",
+   "en": "Kakao, smanjene masti (16-18%) Cocoa, Reduced Fat (16-18% 16-18%)"
   },
   "hebrew": "קקאו מופחת שומן",
   "sizes": null,
@@ -14295,7 +14273,7 @@
   "subheading": null,
   "names": {
    "hr": "Kandit dessert chef - čokolada u prahu",
-   "en": "chocolate powder –"
+   "en": "chocolate powder"
   },
   "hebrew": "קינוח השף אבקת שוקול ד",
   "sizes": null,
@@ -14339,7 +14317,7 @@
   "subheading": null,
   "names": {
    "hr": "Kandit dessert chef - čokolada za kuhanje",
-   "en": "chocolate for cooking –"
+   "en": "chocolate for cooking"
   },
   "hebrew": "קינוח השף שוקולד לבישו ל",
   "sizes": null,
@@ -14955,7 +14933,7 @@
   "subheading": null,
   "names": {
    "hr": "Nescafe -Typ Espresso",
-   "en": "Sticks –"
+   "en": "Sticks"
   },
   "hebrew": "נס קפה אספרס ו",
   "sizes": null,
@@ -15020,8 +14998,8 @@
   "brand": "ANAMARIJA",
   "subheading": null,
   "names": {
-   "hr": "(Classic, Gold, Gold bez kofeina",
-   "en": "decaffeinated) ) ,,("
+   "hr": "Classic, Gold, Gold bez kofeina",
+   "en": "decaffeinated ,"
   },
   "hebrew": "קלסיק גולד גולד נטול קפאין",
   "sizes": null,
@@ -15064,8 +15042,8 @@
   "brand": "ANAMARIJA",
   "subheading": null,
   "names": {
-   "hr": "*Anamaria: Minas, Espresso d'oro, Espresso verde, Filter kava, , ,, : *",
-   "en": "*Anamaria: Minas, Espresso d'oro, Espresso verde, Filter kava, , ,, : *"
+   "hr": "Anamaria: Minas, Espresso d'oro, Espresso verde, Filter kava",
+   "en": "Anamaria: Minas, Espresso d'oro, Espresso verde, Filter kava"
   },
   "hebrew": "קפה אנה מרייה אספרסו פילטר נטול קפאין",
   "sizes": null,
@@ -15240,8 +15218,8 @@
   "brand": "Franck",
   "subheading": null,
   "names": {
-   "hr": "Franck crema mljevena ) (",
-   "en": "Franck crema mljevena ) ("
+   "hr": "Franck crema mljevena",
+   "en": "Franck crema mljevena"
   },
   "hebrew": "קפה שחור( עם הקרמה",
   "sizes": null,
@@ -15373,7 +15351,7 @@
   "subheading": null,
   "names": {
    "hr": "Pfefferminze",
-   "en": "Peppermint ) ("
+   "en": "Peppermint"
   },
   "hebrew": "מנטה נענע",
   "sizes": null,
@@ -15416,8 +15394,8 @@
   "brand": "LIPTON",
   "subheading": null,
   "names": {
-   "hr": "Yellow Label –",
-   "en": "Yellow Label –"
+   "hr": "Yellow Label",
+   "en": "Yellow Label"
   },
   "hebrew": "ליפטון קלאסי צהוב",
   "sizes": null,
@@ -15438,8 +15416,8 @@
   "brand": "LIPTON",
   "subheading": null,
   "names": {
-   "hr": "Green Label –",
-   "en": "Green Label –"
+   "hr": "Green Label",
+   "en": "Green Label"
   },
   "hebrew": "ליפטון קלאסי ירו ק",
   "sizes": null,
@@ -15643,7 +15621,7 @@
   "subheading": null,
   "names": {
    "hr": "Malven Tee Instant",
-   "en": "Mallow Instant Tea )("
+   "en": "Mallow Instant Tea"
   },
   "hebrew": "אבקת תה חלמית חובייזה",
   "sizes": null,
@@ -15906,8 +15884,8 @@
   "brand": "Rauch",
   "subheading": null,
   "names": {
-   "hr": "Happy Day -100% natural juice, Orange and Apple %100 ) ( Happy Days",
-   "en": "Happy Day -100% natural juice, Orange and Apple %100 ) ( Happy Days"
+   "hr": "Happy Day -100% natural juice, Orange and Apple %100 Happy Days",
+   "en": "Happy Day -100% natural juice, Orange and Apple %100 Happy Days"
   },
   "hebrew": "(הפי דייס) 001% מיץ טבעי",
   "sizes": null,
@@ -16215,7 +16193,7 @@
   "subheading": null,
   "names": {
    "hr": "ISO-SPORT - ŠUMSKA JAGODA",
-   "en": "wild strawberries –"
+   "en": "wild strawberries"
   },
   "hebrew": "משקה ספורט תות שד ה",
   "sizes": null,
@@ -16237,7 +16215,7 @@
   "subheading": null,
   "names": {
    "hr": "ISO-SPORT- LIMUN-TREŠNJA",
-   "en": "LEMON CHERRY –"
+   "en": "LEMON CHERRY"
   },
   "hebrew": "משקה ספורט לימון דובדבנים",
   "sizes": null,
@@ -16633,7 +16611,7 @@
   "subheading": null,
   "names": {
    "hr": "Bourbon Vanille (Zucker)",
-   "en": "bourbon vanilla (with sugar) ) ("
+   "en": "bourbon vanilla (with sugar)"
   },
   "hebrew": "אבקת וניל טהורה (עם סוכר",
   "sizes": null,
@@ -19884,7 +19862,7 @@
   "subheading": "Snacks, sweet and salty – ,",
   "names": {
    "hr": "SALTAS FLIPS S",
-   "en": "Salty snaks (bamba) peanuts )("
+   "en": "Salty snaks (bamba) peanuts"
   },
   "hebrew": "חטיף בוטנים במבה",
   "sizes": [
@@ -19909,7 +19887,7 @@
   "subheading": "Snacks, sweet and salty – ,",
   "names": {
    "hr": "FLIPS S KIKIRIKIJEM CLEVER",
-   "en": "Flips (bamba) with peanuts )("
+   "en": "Flips (bamba) with peanuts"
   },
   "hebrew": "חטיף בוטנים במבה",
   "sizes": [
@@ -20369,7 +20347,7 @@
   "id": "koestlin-petit-beurre-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIKNIK",
    "en": "Petit Beurre biscuits"
@@ -20394,7 +20372,7 @@
   "id": "koestlin-party-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PARTY KEKS",
    "en": "Party Biscuits"
@@ -20418,7 +20396,7 @@
   "id": "koestlin-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "HRUSTLJAVI KEKSI",
    "en": "Biscuits"
@@ -20442,7 +20420,7 @@
   "id": "koestlin-ultra-plus-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "KEKS ULTRA PLUS",
    "en": "Ultra Plus Biscuits"
@@ -20466,7 +20444,7 @@
   "id": "koestlin-petit-beurre-biscuits-2",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIKNIK FINEST BAKERY",
    "en": "Petit Beurre biscuits"
@@ -20490,7 +20468,7 @@
   "id": "koestlin-natural-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "KEKSI NAVADNI",
    "en": "Natural Biscuits"
@@ -20514,7 +20492,7 @@
   "id": "koestlin-piknik-family-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIKNIK FAMILY",
    "en": "Piknik Family Biscuits"
@@ -20539,7 +20517,7 @@
   "id": "koestlin-petit-beurre-biscuits-3",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE HERBATNIKI",
    "en": "Petit Beurre Biscuits"
@@ -20563,7 +20541,7 @@
   "id": "koestlin-integral-piknik-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIKNIK INTEGRALNI",
    "en": "Integral Piknik Petit Beurre"
@@ -20589,7 +20567,7 @@
   "id": "koestlin-piknik-petit-beurre-without-sugar",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIKNIK BEZ ŠEĆERA",
    "en": "Piknik Petit Beurre without sugar"
@@ -20615,7 +20593,7 @@
   "id": "koestlin-piknik-family-petit-beurre-without-sugar",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIKNIK BEZ ŠEĆERA",
    "en": "Piknik Family Petit Beurre without sugar"
@@ -20641,7 +20619,7 @@
   "id": "koestlin-240g-petit-beurre-without-sugar",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BISCOTTI PETIT SENZA ZUCCHERO",
    "en": "Petit Beurre without sugar"
@@ -20667,7 +20645,7 @@
   "id": "koestlin-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE",
    "en": "Petit Beurre"
@@ -20692,7 +20670,7 @@
   "id": "koestlin-k-plus-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE K PLUS",
    "en": "K Plus Petit Beurre"
@@ -20716,7 +20694,7 @@
   "id": "koestlin-clever-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE CLEVER",
    "en": "Clever Petit Beurre"
@@ -20740,7 +20718,7 @@
   "id": "koestlin-billa-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BILLA PETIT BEURRE",
    "en": "Billa Petit Beurre"
@@ -20764,7 +20742,7 @@
   "id": "koestlin-ultra-plus-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE ULTRA PLUS",
    "en": "Ultra Plus Petit Beurre"
@@ -20788,7 +20766,7 @@
   "id": "koestlin-petit-beurre-2",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "MASLENI KEKSI",
    "en": "Petit Beurre"
@@ -20813,7 +20791,7 @@
   "id": "koestlin-rial-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE RIAL",
    "en": "Rial Petit Beurre"
@@ -20837,7 +20815,7 @@
   "id": "koestlin-ntl-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE NTL",
    "en": "NTL Petit Beurre"
@@ -20861,7 +20839,7 @@
   "id": "koestlin-petit-beurre-3",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BONITKI",
    "en": "Petit Beurre"
@@ -20885,7 +20863,7 @@
   "id": "koestlin-petit-beurre-4",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "HERBATNIKI MASLANE",
    "en": "Petit Beurre"
@@ -20909,7 +20887,7 @@
   "id": "koestlin-tesco-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "HERBATNIKI MASLANE TESCO",
    "en": "Tesco Petit Beurre"
@@ -20933,7 +20911,7 @@
   "id": "koestlin-premium-petit-beurre-270g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PREMIUM PETIT BEURRE",
    "en": "PREMIUM PETIT BEURRE"
@@ -20957,7 +20935,7 @@
   "id": "koestlin-petit-beurre-5",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "AUCHAN OMLÓS KEKSZ 12% VAJJAL",
    "en": "Petit Beurre"
@@ -20981,7 +20959,7 @@
   "id": "koestlin-integral-petit-beurre",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BONITKI PELNOZIARNISTE",
    "en": "Integral Petit Beurre"
@@ -21007,7 +20985,7 @@
   "id": "koestlin-petit-beurre-integral",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "HERBATNIKI MASLANE PELNOZIARNISTE",
    "en": "Petit Beurre Integral"
@@ -21033,7 +21011,7 @@
   "id": "koestlin-herbatniki-maslane-pelnoziarniste-tesco-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "HERBATNIKI MASLANE PELNOZIARNISTE TESCO",
    "en": "HERBATNIKI MASLANE PELNOZIARNISTE TESCO"
@@ -21059,7 +21037,7 @@
   "id": "koestlin-tesco-petit-beurre-integral",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Tesco Petit Beurre Integral",
    "en": "Tesco Petit Beurre Integral"
@@ -21083,7 +21061,7 @@
   "id": "koestlin-premium-petit-beurre-wholemeal-270g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PREMIUM PETIT BEURRE WHOLEMEAL",
    "en": "PREMIUM PETIT BEURRE WHOLEMEAL"
@@ -21109,7 +21087,7 @@
   "id": "koestlin-integral-petit-beurre-2",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BISCOTTI PETIT INTEGRALI",
    "en": "Integral Petit Beurre"
@@ -21135,7 +21113,7 @@
   "id": "koestlin-petit-without-butter",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BISCOTTI PETIT INTEGRALI SENZA BURRO",
    "en": "Petit without butter"
@@ -21161,7 +21139,7 @@
   "id": "koestlin-petit-beurre-6",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "AUCHAN OMLOS KEKSZ 12% VAJJAL T.K",
    "en": "Petit Beurre"
@@ -21185,7 +21163,7 @@
   "id": "koestlin-k-plus-petit-with-chocolate",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČOKO PETIT K PLUS",
    "en": "K Plus Petit with chocolate"
@@ -21209,7 +21187,7 @@
   "id": "koestlin-biscuit-cocoa",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BONITKI KAKAOWE Z DODATKIEM CZEKOLADY",
    "en": "Biscuit cocoa"
@@ -21233,7 +21211,7 @@
   "id": "koestlin-biscuit-cocoa-2",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "HERBATNIKI KAKAOWO CZEKOLADOWE",
    "en": "Biscuit cocoa"
@@ -21257,7 +21235,7 @@
   "id": "koestlin-petit-biscuit-with-chocolate-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Petit biscuit with chocolate",
    "en": "Petit biscuit with chocolate"
@@ -21281,7 +21259,7 @@
   "id": "koestlin-petit-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BISCOTTI PETIT",
    "en": "Petit Biscuits"
@@ -21305,7 +21283,7 @@
   "id": "koestlin-petit-biscuits-with-butter",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BISCOTTI PETIT AL BURO",
    "en": "Petit Biscuits with butter"
@@ -21329,7 +21307,7 @@
   "id": "koestlin-petit-biscuits-with-cocoa",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BISCOTTI PETIT AL COCCO",
    "en": "Petit Biscuits with cocoa"
@@ -21353,7 +21331,7 @@
   "id": "koestlin-koexi-choco-cookies-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "KOEXI CHOCO COOKIES",
    "en": "KOEXI CHOCO COOKIES"
@@ -21377,7 +21355,7 @@
   "id": "koestlin-choco-cookies-original-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES ORIGINAL",
    "en": "CHOCO COOKIES ORIGINAL"
@@ -21401,7 +21379,7 @@
   "id": "koestlin-choco-cookies-rial-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES RIAL",
    "en": "CHOCO COOKIES RIAL"
@@ -21425,7 +21403,7 @@
   "id": "koestlin-choco-cookies-ultra-plus-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES ULTRA PLUS",
    "en": "CHOCO COOKIES ULTRA PLUS"
@@ -21449,7 +21427,7 @@
   "id": "koestlin-choco-cookies-k-plus-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES K PLUS",
    "en": "CHOCO COOKIES K PLUS"
@@ -21473,7 +21451,7 @@
   "id": "koestlin-choco-cookies-smijesak-200g-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES SMIJEŠAK",
    "en": "CHOCO COOKIES SMIJEŠAK"
@@ -21498,7 +21476,7 @@
   "id": "koestlin-cajno-pecivo-s-komadicima-cokolade-bondi-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČAJNO PECIVO S KOMADIĆIMA ČOKOLADE BONDI",
    "en": "ČAJNO PECIVO S KOMADIĆIMA ČOKOLADE BONDI"
@@ -21522,7 +21500,7 @@
   "id": "koestlin-bondi-tea-biscuits-with-pieces-of-chocolate",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Bondi Tea Biscuits with pieces of chocolate",
    "en": "Bondi Tea Biscuits with pieces of chocolate"
@@ -21544,7 +21522,7 @@
   "id": "koestlin-choco-cookies-maxx-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES MAXX",
    "en": "CHOCO COOKIES MAXX"
@@ -21568,7 +21546,7 @@
   "id": "koestlin-koestlina-tea-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "KOESTLINA ČAJNO PECIVO",
    "en": "Koestlina Tea Biscuits"
@@ -21592,7 +21570,7 @@
   "id": "koestlin-ultra-plus-tea-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČAJNO PECIVO ULTRA PLUS",
    "en": "Ultra Plus Tea Biscuits"
@@ -21616,7 +21594,7 @@
   "id": "koestlin-k-plus-tea-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČAJNO PECIVO K PLUS",
    "en": "K Plus Tea Biscuits"
@@ -21640,7 +21618,7 @@
   "id": "koestlin-rial-tea-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČAJNO PECIVO RIAL",
    "en": "Rial Tea Biscuits"
@@ -21664,7 +21642,7 @@
   "id": "koestlin-mercator-tea-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČAJNO PECIVO MERCATOR",
    "en": "Mercator Tea Biscuits"
@@ -21688,7 +21666,7 @@
   "id": "koestlin-paris-original-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PARIS ORIGINAL",
    "en": "Paris Original Biscuits"
@@ -21712,7 +21690,7 @@
   "id": "koestlin-paris-retro-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PARIS RETRO",
    "en": "Paris Retro Biscuits"
@@ -21736,7 +21714,7 @@
   "id": "koestlin-mini-paris-original-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "MINI PARIS ORIGINAL",
    "en": "Mini Paris Original Biscuits"
@@ -21761,7 +21739,7 @@
   "id": "koestlin-paris-cocoa-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PARIS COCOA",
    "en": "Paris Cocoa Biscuits"
@@ -21785,7 +21763,7 @@
   "id": "koestlin-mini-paris-cocoa-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "MINI PARIS COCOA",
    "en": "Mini Paris Cocoa Biscuits"
@@ -21810,7 +21788,7 @@
   "id": "koestlin-cocoa-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "MARKIZY KAKAOWE",
    "en": "Cocoa Biscuits"
@@ -21834,7 +21812,7 @@
   "id": "koestlin-paris-chocolate-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PARIS CHOCOLATE",
    "en": "Paris Chocolate Biscuits"
@@ -21858,7 +21836,7 @@
   "id": "koestlin-paris-lemon-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PARIS LEMON",
    "en": "Paris Lemon Biscuits"
@@ -21882,7 +21860,7 @@
   "id": "koestlin-biscuits-dunaj-with-cocoa-cream",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "DUNAJ S KAKAO KREMOM",
    "en": "Biscuits Dunaj with cocoa cream"
@@ -21906,7 +21884,7 @@
   "id": "koestlin-biscuits-with-milk-cream",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "DUNAJ S MLIJEČNOM KREMOM",
    "en": "Biscuits with Milk Cream"
@@ -21930,7 +21908,7 @@
   "id": "koestlin-biscuits-2",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "MARKIZY ORZECHOWE",
    "en": "Biscuits"
@@ -21954,7 +21932,7 @@
   "id": "koestlin-princeza-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PRINCEZA",
    "en": "Princeza Biscuits"
@@ -21978,7 +21956,7 @@
   "id": "koestlin-spar-domestic-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "DOMAĆI KEKSI SPAR",
    "en": "Spar Domestic Biscuits"
@@ -22002,7 +21980,7 @@
   "id": "koestlin-ultra-plus-domestic-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "DOMAĆI KEKS ULTRA PLUS",
    "en": "Ultra Plus Domestic Biscuits"
@@ -22026,7 +22004,7 @@
   "id": "koestlin-smijesak-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "DOMAĆI KEKS SMIJEŠAK",
    "en": "Smiješak Biscuits"
@@ -22051,7 +22029,7 @@
   "id": "koestlin-opsesija-domestic-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "DOMAĆI KEKS OPSESIJA",
    "en": "Opsesija Domestic Biscuits"
@@ -22075,7 +22053,7 @@
   "id": "koestlin-domaci-keks-s-kakao-preljevom-bondi-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "DOMAĆI KEKS S KAKAO PRELJEVOM BONDI",
    "en": "DOMAĆI KEKS S KAKAO PRELJEVOM BONDI"
@@ -22099,7 +22077,7 @@
   "id": "koestlin-bondi-biscuits-with-cocoa-cream",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Bondi Biscuits with cocoa cream",
    "en": "Bondi Biscuits with cocoa cream"
@@ -22121,7 +22099,7 @@
   "id": "koestlin-tea-biscuits-with-cocoa",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČAJNO PECIVO S KAKAOVIM OBLIVOM",
    "en": "Tea Biscuits with cocoa"
@@ -22145,7 +22123,7 @@
   "id": "koestlin-wafers-3",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE",
    "en": "Wafers"
@@ -22169,7 +22147,7 @@
   "id": "koestlin-classic-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE CLASSIC",
    "en": "Classic Wafers"
@@ -22194,7 +22172,7 @@
   "id": "koestlin-ultra-plus-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE ULTRA PLUS",
    "en": "Ultra Plus Wafers"
@@ -22218,7 +22196,7 @@
   "id": "koestlin-smijesak-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE SMIJEŠAK",
    "en": "Smiješak Wafers"
@@ -22243,7 +22221,7 @@
   "id": "koestlin-clever-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE CLEVER",
    "en": "Clever Wafers"
@@ -22267,7 +22245,7 @@
   "id": "koestlin-cocoa-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE KAKAV",
    "en": "Cocoa Wafers"
@@ -22291,7 +22269,7 @@
   "id": "koestlin-choco-wafer-100g-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO WAFER",
    "en": "CHOCO WAFER"
@@ -22316,7 +22294,7 @@
   "id": "koestlin-choco-wafer-bello-artizano-100g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO WAFER BELLO ARTIZANO",
    "en": "CHOCO WAFER BELLO ARTIZANO"
@@ -22340,7 +22318,7 @@
   "id": "koestlin-choco-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE CHOCO",
    "en": "Choco Wafers"
@@ -22365,7 +22343,7 @@
   "id": "koestlin-chocolate-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE ČOKOLADA",
    "en": "Chocolate Wafers"
@@ -22391,7 +22369,7 @@
   "id": "koestlin-spar-chocolate-wafers",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "NAPOLITANKE ČOKOLADA ŠPAR",
    "en": "Špar Chocolate Wafers"
@@ -22415,7 +22393,7 @@
   "id": "koestlin-baby-biscuit-with-banana-180g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BABY BISCUIT WITH BANANA",
    "en": "BABY BISCUIT WITH BANANA"
@@ -22441,7 +22419,7 @@
   "id": "koestlin-baby-biscuit-with-apple-180g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BABY BISCUIT WITH APPLE",
    "en": "BABY BISCUIT WITH APPLE"
@@ -22467,7 +22445,7 @@
   "id": "koestlin-breakfast-biscuit-muesli-fruit-50g-160g-320g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT MUESLI & FRUIT",
    "en": "BREAKFAST BISCUIT MUESLI & FRUIT"
@@ -22493,7 +22471,7 @@
   "id": "koestlin-breakfast-biscuit-muesli-fruit-muller-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT MUESLI & FRUIT MÜLLER",
    "en": "BREAKFAST BISCUIT MUESLI & FRUIT MÜLLER"
@@ -22517,7 +22495,7 @@
   "id": "koestlin-tesco-breakfast-biscuits-muesli-and-fruit-50g-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "TESCO BREAKFAST BISCUITS MUESLI AND FRUIT",
    "en": "TESCO BREAKFAST BISCUITS MUESLI AND FRUIT"
@@ -22542,7 +22520,7 @@
   "id": "koestlin-auchan-biscuit-with-raisins-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "AUCHAN BISCUIT WITH RAISINS",
    "en": "AUCHAN BISCUIT WITH RAISINS"
@@ -22566,7 +22544,7 @@
   "id": "koestlin-piskoti-za-zajtrk-muesli-in-sadje-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIŠKOTI ZA ZAJTRK MUESLI IN SADJE",
    "en": "PIŠKOTI ZA ZAJTRK MUESLI IN SADJE"
@@ -22590,7 +22568,7 @@
   "id": "koestlin-biscuits-for-breakfast-cereal-and-fruit",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Biscuits for breakfast, cereal and fruit",
    "en": "Biscuits for breakfast, cereal and fruit"
@@ -22612,7 +22590,7 @@
   "id": "koestlin-active-biscuits-cereal-fruit",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ACTIVE KEKSI ŽITA IN SADJE",
    "en": "Active Biscuits, cereal & fruit"
@@ -22636,7 +22614,7 @@
   "id": "koestlin-active-cereal-and-fruit",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ACTIVE ŽITARICE I VOĆE",
    "en": "Active Cereal and fruit"
@@ -22660,7 +22638,7 @@
   "id": "koestlin-k-plus-tea",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "ČAJNO PECIVO SA ŽITARICAMA I VOĆEM K PLUS",
    "en": "K Plus tea"
@@ -22684,7 +22662,7 @@
   "id": "koestlin-biscuits-with-cereal-and-fruit",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "biscuits with cereal and fruit",
    "en": "biscuits with cereal and fruit"
@@ -22706,7 +22684,7 @@
   "id": "koestlin-spar-sunrise-cookies-sa-zitaricama-i-grozdicama-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "SPAR SUNRISE COOKIES SA ŽITARICAMA I GROŽĐICAMA",
    "en": "SPAR SUNRISE COOKIES SA ŽITARICAMA I GROŽĐICAMA"
@@ -22730,7 +22708,7 @@
   "id": "koestlin-spar-sunrise-cookies-with-cereal-and-raisins",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Spar Sunrise cookies with cereal and raisins",
    "en": "Spar Sunrise cookies with cereal and raisins"
@@ -22752,7 +22730,7 @@
   "id": "koestlin-breakfast-biscuit-con-muesli-frutta-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT CON MUESLI & FRUTTA",
    "en": "BREAKFAST BISCUIT CON MUESLI & FRUTTA"
@@ -22776,7 +22754,7 @@
   "id": "koestlin-breakfast-biscuits-muesli-e-frutta-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS MUESLI E FRUTTA",
    "en": "BREAKFAST BISCUITS MUESLI E FRUTTA"
@@ -22800,7 +22778,7 @@
   "id": "koestlin-breakfast-biscuit-cereals-cranberry-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT CEREALS & CRANBERRY",
    "en": "BREAKFAST BISCUIT CEREALS & CRANBERRY"
@@ -22824,7 +22802,7 @@
   "id": "koestlin-tesco-breakfast-biscuits-cereals-and-cranberry-50g-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "TESCO BREAKFAST BISCUITS CEREALS AND CRANBERRY",
    "en": "TESCO BREAKFAST BISCUITS CEREALS AND CRANBERRY"
@@ -22849,7 +22827,7 @@
   "id": "koestlin-auchan-biscuit-with-cranberries-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "AUCHAN BISCUIT WITH CRANBERRIES",
    "en": "AUCHAN BISCUIT WITH CRANBERRIES"
@@ -22873,7 +22851,7 @@
   "id": "koestlin-breakfast-biscuits-con-cereali-mirtillo-rosso-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS CON CEREALI & MIRTILLO ROSSO",
    "en": "BREAKFAST BISCUITS CON CEREALI & MIRTILLO ROSSO"
@@ -22897,7 +22875,7 @@
   "id": "koestlin-breakfast-biscuit-cereali-e-mirtillo-rosso-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT CEREALI E MIRTILLO ROSSO",
    "en": "BREAKFAST BISCUIT CEREALI E MIRTILLO ROSSO"
@@ -22921,7 +22899,7 @@
   "id": "koestlin-breakfast-biscuits",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIŠKOTI ZA ZAJTRK ŽITARICE IN BRUSNICA",
    "en": "Breakfast biscuits with cereals and cranberry"
@@ -22945,7 +22923,7 @@
   "id": "koestlin-breakfast-biscuit-cereals-choco-50g-160g-320g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT CEREALS & CHOCO",
    "en": "BREAKFAST BISCUIT CEREALS & CHOCO"
@@ -22971,7 +22949,7 @@
   "id": "koestlin-breakfast-biscuit-cereals-choco-muller-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT CEREALS & CHOCO MÜLLER",
    "en": "BREAKFAST BISCUIT CEREALS & CHOCO MÜLLER"
@@ -22995,7 +22973,7 @@
   "id": "koestlin-tesco-breakfast-biscuits-cereals-and-cocoa-50g-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "TESCO BREAKFAST BISCUITS CEREALS AND COCOA",
    "en": "TESCO BREAKFAST BISCUITS CEREALS AND COCOA"
@@ -23020,7 +22998,7 @@
   "id": "koestlin-breakfast-biscuits-cereali-e-cocco-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS CEREALI E COCCO",
    "en": "BREAKFAST BISCUITS CEREALI E COCCO"
@@ -23044,7 +23022,7 @@
   "id": "koestlin-auchan-biscuit-with-chocolate-chip-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "AUCHAN BISCUIT WITH CHOCOLATE CHIP '",
    "en": "AUCHAN BISCUIT WITH CHOCOLATE CHIP '"
@@ -23068,7 +23046,7 @@
   "id": "koestlin-breakfast-biscuits-con-cereali-cioccolato-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS CON CEREALI & CIOCCOLATO",
    "en": "BREAKFAST BISCUITS CON CEREALI & CIOCCOLATO"
@@ -23092,7 +23070,7 @@
   "id": "koestlin-breakfast-biscuits-cereali-e-cioccolato-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS CEREALI E CIOCCOLATO",
    "en": "BREAKFAST BISCUITS CEREALI E CIOCCOLATO"
@@ -23116,7 +23094,7 @@
   "id": "koestlin-breakfast-biscuits-cereali-cioccolato-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS CEREALI & CIOCCOLATO",
    "en": "BREAKFAST BISCUITS CEREALI & CIOCCOLATO"
@@ -23140,7 +23118,7 @@
   "id": "koestlin-breakfast-biscuits-7-cereali-e-cioccolato-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS 7 CEREALI E CIOCCOLATO",
    "en": "BREAKFAST BISCUITS 7 CEREALI E CIOCCOLATO"
@@ -23164,7 +23142,7 @@
   "id": "koestlin-breakfast",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PIŠKOTI ZA ZAJTRK ŽITARICE IN ČOKOLADA",
    "en": "Breakfast"
@@ -23188,7 +23166,7 @@
   "id": "koestlin-biscuits-with-cereals-and-chocolate",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Biscuits with cereals and chocolate",
    "en": "Biscuits with cereals and chocolate"
@@ -23210,7 +23188,7 @@
   "id": "koestlin-spar-sunrise-cookies-sa-zitaricama-i-cokoladom-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "SPAR SUNRISE COOKIES SA ŽITARICAMA I ČOKOLADOM",
    "en": "SPAR SUNRISE COOKIES SA ŽITARICAMA I ČOKOLADOM"
@@ -23234,7 +23212,7 @@
   "id": "koestlin-spar-sunrise-cookies-with-cereals-and-chocolate",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Spar Sunrise cookies with cereals and chocolate",
    "en": "Spar Sunrise cookies with cereals and chocolate"
@@ -23256,7 +23234,7 @@
   "id": "koestlin-tesco-breakfast-biscuits-cereals-and-milk-50g-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "TESCO BREAKFAST BISCUITS CEREALS AND MILK",
    "en": "TESCO BREAKFAST BISCUITS CEREALS AND MILK"
@@ -23281,7 +23259,7 @@
   "id": "koestlin-breakfast-biscuit-double-chocolate-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUIT DOUBLE CHOCOLATE",
    "en": "BREAKFAST BISCUIT DOUBLE CHOCOLATE"
@@ -23305,7 +23283,7 @@
   "id": "koestlin-choco-cookies-crispy-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES CRISPY '",
    "en": "CHOCO COOKIES CRISPY '"
@@ -23329,7 +23307,7 @@
   "id": "koestlin-choco-cookies-coconut-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "CHOCO COOKIES COCONUT",
    "en": "CHOCO COOKIES COCONUT"
@@ -23353,7 +23331,7 @@
   "id": "koestlin-breakfast-biscuits-cereals-milk-160g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BREAKFAST BISCUITS CEREALS & MILK",
    "en": "BREAKFAST BISCUITS CEREALS & MILK"
@@ -23377,7 +23355,7 @@
   "id": "koestlin-breakfast-biscuits-with-cereals-and-milk",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Breakfast biscuits with cereals and milk",
    "en": "Breakfast biscuits with cereals and milk"
@@ -23399,7 +23377,7 @@
   "id": "koestlin-paris-nero-yogurt-raspberry-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PARIS NERO YOGURT-RASPBERRY",
    "en": "PARIS NERO YOGURT-RASPBERRY"
@@ -23423,7 +23401,7 @@
   "id": "koestlin-biscotto-ripieno-di-crema-di-yogurt-e-lamponi-200g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "BISCOTTO RIPIENO DI CREMA DI YOGURT E LAMPONI",
    "en": "BISCOTTO RIPIENO DI CREMA DI YOGURT E LAMPONI"
@@ -23447,7 +23425,7 @@
   "id": "koestlin-butter-biscuits-with-orange-flavor-with-brown-sugar-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Butter biscuits with orange flavor with brown sugar",
    "en": "Butter biscuits with orange flavor with brown sugar"
@@ -23471,7 +23449,7 @@
   "id": "koestlin-butter-biscuits-with-caramel-and-cinnamon-250g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Butter biscuits with caramel and cinnamon",
    "en": "Butter biscuits with caramel and cinnamon"
@@ -23495,7 +23473,7 @@
   "id": "koestlin-petit-beurre-sondey-460g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "PETIT BEURRE SONDEY",
    "en": "PETIT BEURRE SONDEY"
@@ -23519,7 +23497,7 @@
   "id": "koestlin-saltas-snack-with-cheese-and",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "SALTAS SIR & PAPRIKA",
    "en": "Saltas Snack with Cheese and"
@@ -23544,7 +23522,7 @@
   "id": "koestlin-pepper",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Pepper",
    "en": "Pepper"
@@ -23566,7 +23544,7 @@
   "id": "koestlin-sticks-with",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "STICKS SALATI RIPIENI FORMAGGIO & PAPRIKA",
    "en": "Sticks with"
@@ -23590,7 +23568,7 @@
   "id": "koestlin-cheese-and-pepper",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Cheese and Pepper",
    "en": "Cheese and Pepper"
@@ -23612,7 +23590,7 @@
   "id": "koestlin-mini-biscotti-60g-300g",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "MINI BISCOTTI",
    "en": "MINI BISCOTTI"
@@ -23637,7 +23615,7 @@
   "id": "koestlin-zidovska-vjerska-zajednica-bet-israel-u-hrvatskoj",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Židovska vjerska zajednica “Bet Israel” u Hrvatskoj",
    "en": "Židovska vjerska zajednica “Bet Israel” u Hrvatskoj"
@@ -23659,7 +23637,7 @@
   "id": "koestlin-mazuranicev-trg-6",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "Mažuranićev trg 6",
    "en": "Mažuranićev trg 6"
@@ -23681,7 +23659,7 @@
   "id": "koestlin-10000-zagreb",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "10000 Zagreb",
    "en": "10000 Zagreb"
@@ -23703,7 +23681,7 @@
   "id": "koestlin-telefon-385-1-48-51-008",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "telefon: + 385 (1) 48 51 008",
    "en": "telefon: + 385 (1) 48 51 008"
@@ -23725,7 +23703,7 @@
   "id": "koestlin-telefaks-385-1-48-51-376",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "telefaks: +385 (1) 48 51 376",
    "en": "telefaks: +385 (1) 48 51 376"
@@ -23747,7 +23725,7 @@
   "id": "koestlin-e-mail-ured-bet-israel-com",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "e-mail: ured@bet-israel.com",
    "en": "e-mail: ured@bet-israel.com"
@@ -23769,7 +23747,7 @@
   "id": "koestlin-skype-bet-israel-zagreb-office",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "skype: bet.israel.zagreb_office",
    "en": "skype: bet.israel.zagreb_office"
@@ -23791,10 +23769,10 @@
   "id": "koestlin-where-to-buy",
   "category": "koestlin",
   "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – ( ,( ,",
+  "subheading": "Snacks, sweet and salty – , ,",
   "names": {
-   "hr": "Where to buy –",
-   "en": "Where to buy – bio&bio LIDL SPAR KONZUM PLODINE KAUFLAND"
+   "hr": "Where to buy",
+   "en": "Where to buy bio&bio LIDL SPAR KONZUM PLODINE KAUFLAND"
   },
   "hebrew": "איפה לקנות",
   "sizes": null,

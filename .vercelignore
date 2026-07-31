@@ -1,0 +1,16 @@
+# Vercel builds from source and serves dist/, so uploading a local dist (1,193
+# prerendered directories) just slows the deploy down and eventually aborts it.
+dist
+node_modules
+.git
+
+# Build inputs that the build does not read. extract.py and build-stores.py are
+# maintenance scripts run locally; the build only consumes data/*.json.
+data/raw
+assets
+
+# Local tooling
+scripts/qa.mjs
+scripts/extract.py
+scripts/build-stores.py
+scripts/build-images.py

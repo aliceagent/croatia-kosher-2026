@@ -110,7 +110,7 @@ export default function ListPage() {
 
       <div
         className="no-print"
-        style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "14px 0 18px" }}
+        style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "14px 0 18px", maxWidth: "100%" }}
       >
         <button
           className="btn btn-sm"
@@ -242,7 +242,7 @@ export default function ListPage() {
                         checked={item.done}
                         onChange={() => toggleDone(index)}
                         aria-label={`Mark ${p ? displayName(p) : item.custom} as bought`}
-                        style={{ width: 20, height: 20, flex: "none", cursor: "pointer" }}
+                        style={{ width: 26, height: 26, flex: "none", cursor: "pointer", margin: 3 }}
                       />
                       <div className="prow-main">
                         {p ? (

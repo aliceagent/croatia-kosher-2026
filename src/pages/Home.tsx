@@ -36,9 +36,6 @@ export default function Home() {
           </p>
         </Banner>
       </div>
-      <div style={{ paddingTop: 16 }}>
-        <Disclaimer />
-      </div>
       <SearchBar
         hero
         autoFocus
@@ -97,6 +94,10 @@ export default function Home() {
                 {t}
               </button>
             ))}
+          </div>
+
+          <div style={{ marginBottom: 12 }}>
+            <Disclaimer />
           </div>
 
           <Notice kind="info">

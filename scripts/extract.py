@@ -106,9 +106,21 @@ TAG_RULES = [
 
 
 def strip_hebrew(text: str) -> str:
-    """Remove Hebrew runs and the stray punctuation that brackets them."""
+    """
+    Remove Hebrew runs and the stray punctuation that brackets them.
+
+    Hebrew is right-to-left, so a parenthesised Hebrew phrase extracts as
+    ")text(" and deleting the letters leaves a reversed empty pair behind --
+    which is why a row read "Vegetarian bratwurst )(". Orphaned brackets are
+    cleared here rather than in every consumer.
+    """
     out = HEB_RE.sub("", text)
     out = re.sub(r"[‎‏]", "", out)
+    out = re.sub(r"\)\s*\(", " ", out)   # reversed empty pair
+    out = re.sub(r"\(\s*\)", " ", out)   # ordinary empty pair
+    # A bracket left with no partner is debris from the Hebrew column.
+    if out.count("(") != out.count(")"):
+        out = re.sub(r"(?<![A-Za-z0-9])[()](?![A-Za-z0-9])", " ", out)
     return re.sub(r"\s+", " ", out).strip()
 
 
@@ -223,6 +235,28 @@ def kashrut_from_text(text: str) -> tuple[str | None, str | None]:
     return None, None
 
 
+def clean_name(text: str) -> str:
+    """
+    Tidy the debris that Hebrew-stripping and line-wrapping leave behind.
+
+    Removing the Hebrew column strips its punctuation with it, so rows like the
+    Anamarija coffee list end as "... Kava santos , ,, : *", and a wrapped line
+    can rejoin as "Vegetarian bratwurst(Sausage)without egg".
+    """
+    t = re.sub(r"\s+", " ", text)
+    t = re.sub(r"\s*,(\s*,)+", ",", t)          # ", ,, ," -> ","
+    t = re.sub(r"\(\s*\)", "", t)                # empty brackets left by Hebrew
+    t = re.sub(r"\)(?=[A-Za-zÀ-ž])", ") ", t)    # ")without" -> ") without"
+    t = re.sub(r"(?<=[a-zà-ž])\(", " (", t)      # "bratwurst(" -> "bratwurst ("
+    t = re.sub(r"^[\s,:;*.\-–]+", "", t)
+    t = re.sub(r"[\s,:;*.\-–]+$", "", t)
+    # A bracket with no partner is leftover from the Hebrew column, not part
+    # of the product name.
+    if t.count("(") != t.count(")"):
+        t = t.replace("(", " ").replace(")", " ")
+    return re.sub(r"\s+", " ", t).strip()
+
+
 def parse_names(latin: str) -> dict:
     """
     Split "Croatian name / English name" into languages.
@@ -278,7 +312,13 @@ def main() -> None:
         if not names:
             return
         english = names.get("en") or names.get("hr") or ""
-        english = re.sub(r"\s*[!.]+$", "", english).strip()
+        english = clean_name(english)
+        hr_name = clean_name(names.get("hr") or "")
+        if english.startswith("(") and "(" in hr_name:
+            lead = hr_name.split("(", 1)[0].strip()
+            if lead:
+                english = f"{lead} {english}"
+                names = {**names, "en": english}
         if norm(english) in {"all kinds", "sve vrste", "all the kinds",
                              "all kinds of classica pastas"}:
             english = "All varieties"
@@ -286,7 +326,7 @@ def main() -> None:
         sizes = sorted({m.group(0).replace(" ", "") for m in SIZE_RE.finditer(latin)},
                        key=lambda s: (len(s), s))
         # Strip sizes out of the display names, keep them as structured data.
-        clean = {k: (SIZE_RE.sub("", v).replace("  ", " ").strip(" ,.-")
+        clean = {k: (clean_name(SIZE_RE.sub("", v))
                      if isinstance(v, str) else v)
                  for k, v in names.items()}
         explicit_status = ((extra or {}).get("status") or brand_status
@@ -459,7 +499,7 @@ def main() -> None:
         if products and is_continuation(latin, low, prev_latin):
             tgt = products[-1]
             if tgt["names"].get("en"):
-                tgt["names"]["en"] = f"{tgt['names']['en']} {latin}".strip()
+                tgt["names"]["en"] = clean_name(f"{tgt['names']['en']} {latin}")
             continue
 
         # --- ordinary product row -------------------------------------------
@@ -591,12 +631,15 @@ def is_continuation(latin: str, low: str, prev_latin: str) -> bool:
         return False
     if len(latin) > 60 or SIZE_RE.search(latin):
         return False
-    wrapped = len(prev_latin) >= 58 or bool(DANGLING_TAIL.search(prev_latin))
+    starts_bracket = latin.lstrip()[:1] == "("
+    wrapped = (len(prev_latin) >= (45 if starts_bracket else 58)
+               or bool(DANGLING_TAIL.search(prev_latin)))
     if not wrapped:
         return False
     first = latin.lstrip()[:1]
     return bool(first) and (
         first.islower()
+        or first == "("
         or low.startswith(("and ", "with ", "salted", "elderberry"))
     )
 

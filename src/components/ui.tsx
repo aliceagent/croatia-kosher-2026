@@ -60,6 +60,15 @@ export const Icon = {
       <path d="M14 6l-6 6 6 6" />
     </svg>
   ),
+  grid: (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <rect x="3" y="3" width="7" height="7" rx="1.5" />
+      <rect x="14" y="3" width="7" height="7" rx="1.5" />
+      <rect x="3" y="14" width="7" height="7" rx="1.5" />
+      <rect x="14" y="14" width="7" height="7" rx="1.5" />
+    </svg>
+  ),
   pin: (
     <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor"
       strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -70,29 +79,37 @@ export const Icon = {
 };
 
 /**
- * The Kosher Croatia mark: a map pin carrying a Star of David over the red
- * wave from the logo. Drawn as SVG rather than shipped as a raster so it stays
- * crisp at 16px in a browser tab and at 512px on a home screen, and so the
- * navy can follow the theme.
+ * The Kosher Croatia mark: a map pin holding a Star of David flanked by a
+ * menorah and a fork, over the red wave, following the logo artwork.
+ *
+ * Drawn as SVG rather than shipped as a raster so it stays crisp from a 16px
+ * browser tab to a 512px home-screen icon, and so it can invert for the navy
+ * header. `detail="simple"` drops the menorah and fork: below about 24px they
+ * collapse into noise and only the star still reads.
  */
 const PIN_PATH =
-  "M16 1.6C9.1 1.6 3.5 7.2 3.5 14.1c0 8.9 12.5 16.3 12.5 16.3s12.5-7.4 12.5-16.3C28.5 7.2 22.9 1.6 16 1.6z";
+  "M16 1.4C9 1.4 3.3 7.1 3.3 14.1c0 9 12.7 16.5 12.7 16.5s12.7-7.5 12.7-16.5C28.7 7.1 23 1.4 16 1.4z";
+const STAR_PATH =
+  "M16 6.6l3.64 6.3h-7.28zM16 15.6l-3.64-6.3h7.28z";
+const WAVE_PATH = "M1 21.6c5-2.7 9.6-2.7 15 0s10 2.7 15 0V32H1z";
+const WAVE_LINE = "M1.5 24.6c5-2.4 9.6-2.4 15 0s10 2.4 15 0";
 
 export function Logo({
-  size = 28, title, tone = "dark",
+  size = 28, title, tone = "dark", detail = "full",
 }: {
   size?: number;
   title?: string;
   /**
-   * "dark" draws a navy pin with a white star, for light backgrounds.
-   * "light" inverts it for dark backgrounds like the header — without this the
-   * star is white on a white pin and the mark reads as a featureless blob.
+   * "dark" is a navy pin with white contents, for light backgrounds.
+   * "light" inverts it for the navy header — without this the white contents
+   * sit on a white pin and the mark reads as a featureless blob.
    */
   tone?: "dark" | "light";
+  detail?: "full" | "simple";
 }) {
   const pin = tone === "light" ? "#fff" : "var(--blue-700, #002869)";
-  const inner = tone === "light" ? "#002869" : "#fff";
-  const uid = tone === "light" ? "pinClipL" : "pinClipD";
+  const ink = tone === "light" ? "#002869" : "#fff";
+  const uid = `pin-${tone}-${detail}`;
   return (
     <svg
       width={size}
@@ -108,14 +125,21 @@ export function Logo({
         </clipPath>
       </defs>
       <path d={PIN_PATH} fill={pin} />
-      {/* The red wave, clipped to the pin exactly as in the logo. */}
       <g clipPath={`url(#${uid})`}>
-        <path d="M1 21.4c5-2.6 9.5-2.6 15 0s10 2.6 15 0V32H1z" fill="#EA142B" />
-        <path d="M1 24.3c5-2.4 9.5-2.4 15 0s10 2.4 15 0" stroke={inner}
-          strokeWidth="1.1" fill="none" />
+        <path d={WAVE_PATH} fill="#EA142B" />
+        <path d={WAVE_LINE} stroke={ink} strokeWidth="1" fill="none" />
       </g>
-      {/* Star of David: two triangles, legible down to favicon size. */}
-      <path d="M16 6.4l4.5 7.8h-9zM16 18.9l-4.5-7.8h9z" fill={inner} />
+      <path d={STAR_PATH} fill={ink} />
+      {detail === "full" && (
+        <g stroke={ink} fill="none" strokeWidth="0.85" strokeLinecap="round">
+          {/* Menorah */}
+          <path d="M6.4 12.4v1.9M7.6 11.6v2.7M8.8 11.1v3.2M10 11.6v2.7M11.2 12.4v1.9" />
+          <path d="M8.8 14.3v2.1M7.3 16.6h3" strokeWidth="0.95" />
+          {/* Fork */}
+          <path d="M21 11.2v2.1M22.4 11.2v2.1M23.8 11.2v2.1" />
+          <path d="M21 13.3h2.8M22.4 13.3v3.3" strokeWidth="0.95" />
+        </g>
+      )}
     </svg>
   );
 }
@@ -168,8 +192,44 @@ export function AddButton({ id }: { id: string }) {
       aria-label={on ? "Add another to shopping list" : "Add to shopping list"}
       title={on ? "On your list — tap to add another" : "Add to shopping list"}
     >
-      {on ? Icon.check : Icon.plus}
+      {on ? Icon.cart : Icon.plus}
     </button>
+  );
+}
+
+/**
+ * The two actions on a product page, spelled out.
+ *
+ * As bare icons the star and the add button read as two states of one control
+ * — especially when the add button shows a tick, which looks like "selected"
+ * rather than "on your shopping list". They do different things, so they say
+ * which.
+ */
+export function ProductActions({ id }: { id: string }) {
+  const { isFav, toggleFav, addToList, activeList } = useStore();
+  const saved = isFav(id);
+  const onList = activeList.items.find((i) => i.productId === id);
+
+  return (
+    <div className="pactions no-print">
+      <button
+        className={`btn ${saved ? "on" : ""}`}
+        onClick={() => toggleFav(id)}
+        aria-pressed={saved}
+      >
+        {Icon.star(saved)}
+        {saved ? "Saved" : "Save to favourites"}
+      </button>
+      <button
+        className={`btn ${onList ? "on" : ""}`}
+        onClick={() => addToList(id)}
+      >
+        {Icon.cart}
+        {onList
+          ? `On your list${onList.qty > 1 ? ` (${onList.qty})` : ""} — add another`
+          : "Add to shopping list"}
+      </button>
+    </div>
   );
 }
 

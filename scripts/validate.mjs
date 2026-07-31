@@ -33,7 +33,7 @@ const VALID_STATUS = new Set([
 /* Update them deliberately, never to make a red build go green.            */
 /* ---------------------------------------------------------------------- */
 const EXPECTED = {
-  products: 1080,
+  products: 1079,
   brands: 80,
   // Every entry the PDF marks NOT kosher (alcohol table, pp. 37-38).
   notKosher: [
