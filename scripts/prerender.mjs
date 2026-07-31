@@ -17,12 +17,15 @@ const shell = readFileSync(join(dist, "index.html"), "utf8");
 
 const products = JSON.parse(readFileSync(join(root, "data/products.json"), "utf8"));
 const categories = JSON.parse(readFileSync(join(root, "data/categories.json"), "utf8"));
+const brands = JSON.parse(readFileSync(join(root, "data/brands.json"), "utf8"));
 
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
-const SITE = "https://kosher-croatia-2026.vercel.app";
+// Absolute URLs are required for og:image -- chat apps and crawlers do not
+// resolve relative paths. Override with SITE_URL when deploying elsewhere.
+const SITE = process.env.SITE_URL ?? "https://croatia-kosher-2026.vercel.app";
 
 function statusLabel(p) {
   if (p.kashrut.status === "not-kosher" && !p.kashrut.requiresHechsher) return "Not kosher";
@@ -73,6 +76,7 @@ function emit(route, { title, description, image }) {
 const hasCard = (name) => existsSync(join(dist, "og", `${name}.png`));
 
 let n = 0;
+let n2 = 0;
 
 for (const p of products) {
   const name = p.names.en || p.names.hr;
@@ -92,6 +96,18 @@ for (const c of categories) {
     image: hasCard(`category-${c.id}`) ? `/og/category-${c.id}.png` : "/og/default.png",
   });
   n++;
+}
+
+// Brand pages are reachable from every product, so a direct link or a refresh
+// has to resolve server-side too -- without this they 404.
+for (const b of brands) {
+  const n = products.filter((p) => p.brand === b.name).length;
+  emit(`brand/${b.id}`, {
+    title: `${b.name} — ${n} kosher ${n === 1 ? "entry" : "entries"} in Croatia | 2026 list`,
+    description: `Everything from ${b.name} on the 2026 kosher products list of Croatia (${b.origin === "croatian" ? "Croatian producer" : "imported"}).`,
+    image: "/og/default.png",
+  });
+  n2++;
 }
 
 const PAGES = {
@@ -119,6 +135,7 @@ const urls = [
   "", "browse", "guide", "stores", "about",
   ...categories.map((c) => `category/${c.id}`),
   ...products.map((p) => `product/${p.id}`),
+  ...brands.map((b) => `brand/${b.id}`),
 ];
 writeFileSync(
   join(dist, "sitemap.xml"),
@@ -131,4 +148,4 @@ writeFileSync(
   `User-agent: *\nAllow: /\nSitemap: ${SITE}/sitemap.xml\n`,
 );
 
-console.log(`✓ prerendered ${n} routes + sitemap (${urls.length} urls)`);
+console.log(`✓ prerendered ${n + n2} routes (${n2} brands) + sitemap (${urls.length} urls)`);
