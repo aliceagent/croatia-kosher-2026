@@ -1,7 +1,7 @@
 import { Suspense, lazy, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import storesData from "../../data/stores.json";
-import { Icon, Notice } from "../components/ui";
+import { Banner, Icon, Notice } from "../components/ui";
 import { brands, fold, products } from "../lib/data";
 import type { Store, StoreCity } from "../lib/types";
 
@@ -89,7 +89,13 @@ export default function Stores() {
 
   return (
     <div style={{ paddingTop: 18 }}>
-      <h1 style={{ fontSize: 25, marginBottom: 8 }}>Where to buy</h1>
+      <Banner name="stores" widths={[1400, 760]} ratio="1400 / 525">
+        <h1 style={{ fontSize: "clamp(19px, 3.4vw, 27px)" }}>Where to buy</h1>
+        <p>
+          {stores.length.toLocaleString()} branches of the six chains the 2026
+          list names, across {cities.length} towns.
+        </p>
+      </Banner>
 
       {/* The answer, before any list. Most of the list is not hard to find, and
           saying so is more useful than 1,032 rows of supermarket. */}

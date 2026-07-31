@@ -1,43 +1,47 @@
 /*
- * Design tokens taken from the printed 2026 list's cover: the blue gradient
- * behind the Star of David, and the warm gold of the pastry on the plate.
+ * Design tokens sampled from the Kosher Croatia logo and its illustration set:
+ * the pin's navy, the Croatian flag red of the wave, and the warm sand that
+ * runs through the artwork. Token names are kept from the earlier palette so
+ * every component rebrands from this one block.
  */
 :root {
-  --blue-900: #0b1b2e;
-  --blue-800: #103457;
-  --blue-700: #14508f;
-  --blue-600: #1668c9;
-  --blue-500: #2f83e0;
-  --blue-400: #4a9ae8;
-  --blue-100: #dbeafe;
-  --blue-50: #eff6ff;
+  --blue-900: #00112E;
+  --blue-800: #001C4C;
+  --blue-700: #002869; /* the logo navy */
+  --blue-600: #003A8C; /* primary actions */
+  --blue-500: #0A4FA8;
+  --blue-400: #2E6FC4;
+  --blue-100: #D8E3F2;
+  --blue-50: #EEF4FB;
 
-  --gold-600: #b7791f;
-  --gold-500: #e0a233;
-  --gold-100: #fdf3dd;
+  /* Warm sand from the artwork, used sparingly as the secondary accent. */
+  --gold-600: #9C6B2F;
+  --gold-500: #E4C391;
+  --gold-100: #FBEEDC;
 
-  --green-600: #15803d;
-  --green-500: #22a355;
-  --green-100: #dcfce7;
+  --green-600: #146C3A;
+  --green-500: #1E9950;
+  --green-100: #DCF3E5;
 
-  --amber-600: #b45309;
-  --amber-500: #ea9a15;
-  --amber-100: #fef3c7;
+  --amber-600: #9A5B08;
+  --amber-500: #E2951A;
+  --amber-100: #FBEBCC;
 
-  --red-600: #b91c1c;
-  --red-500: #dc2626;
-  --red-100: #fee2e2;
+  /* Croatian flag red, straight from the logo's wave. */
+  --red-600: #C00F24;
+  --red-500: #EA142B;
+  --red-100: #FBE0E3;
 
-  --bg: #f7fafd;
+  --bg: #F6F9FC;
   --surface: #ffffff;
-  --surface-2: #f1f5f9;
-  --border: #dbe4ee;
-  --text: #0f2439;
-  --text-dim: #56708a;
-  --text-faint: #8199b0;
+  --surface-2: #EEF3F9;
+  --border: #D7E1EC;
+  --text: #0B1F3D;
+  --text-dim: #4E6A8A;
+  --text-faint: #7B92AC;
   --accent: var(--blue-600);
-  --shadow: 0 1px 2px rgba(16, 52, 87, 0.06), 0 4px 16px rgba(16, 52, 87, 0.07);
-  --shadow-lg: 0 8px 40px rgba(16, 52, 87, 0.16);
+  --shadow: 0 1px 2px rgba(0, 40, 105, 0.06), 0 4px 16px rgba(0, 40, 105, 0.08);
+  --shadow-lg: 0 8px 40px rgba(0, 40, 105, 0.18);
   --radius: 14px;
   --radius-sm: 9px;
   --header-h: 60px;
@@ -46,48 +50,48 @@
 }
 
 :root[data-theme="dark"] {
-  --bg: #0a1524;
-  --surface: #10233b;
-  --surface-2: #16304f;
-  --border: #23405f;
-  --text: #e8f0f9;
-  --text-dim: #9db4cc;
-  --text-faint: #6d8aa6;
-  --blue-100: #16304f;
-  --blue-50: #12293f;
-  --green-100: #10331f;
-  --amber-100: #3a2a08;
-  --red-100: #3d1414;
-  --green-600: #4ade80;
-  --amber-600: #fbbf24;
-  --red-600: #f87171;
-  --gold-600: #e0a233;
-  --accent: var(--blue-400);
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+  --bg: #04102A;
+  --surface: #0A1D3F;
+  --surface-2: #0F2A55;
+  --border: #1C3866;
+  --text: #E6EEF9;
+  --text-dim: #9BB2CE;
+  --text-faint: #6B87A8;
+  --blue-100: #0F2A55;
+  --blue-50: #0B2247;
+  --green-100: #0C2E1B;
+  --amber-100: #362506;
+  --red-100: #3B1015;
+  --green-600: #4ADE80;
+  --amber-600: #FBBF24;
+  --red-600: #FF6B7A;
+  --gold-600: #E4C391;
+  --accent: #6FA3E0;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.45), 0 4px 16px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.55);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0a1524;
-    --surface: #10233b;
-    --surface-2: #16304f;
-    --border: #23405f;
-    --text: #e8f0f9;
-    --text-dim: #9db4cc;
-    --text-faint: #6d8aa6;
-    --blue-100: #16304f;
-    --blue-50: #12293f;
-    --green-100: #10331f;
-    --amber-100: #3a2a08;
-    --red-100: #3d1414;
-    --green-600: #4ade80;
-    --amber-600: #fbbf24;
-    --red-600: #f87171;
-    --gold-600: #e0a233;
-    --accent: var(--blue-400);
-    --shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 4px 16px rgba(0, 0, 0, 0.3);
-    --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
+    --bg: #04102A;
+    --surface: #0A1D3F;
+    --surface-2: #0F2A55;
+    --border: #1C3866;
+    --text: #E6EEF9;
+    --text-dim: #9BB2CE;
+    --text-faint: #6B87A8;
+    --blue-100: #0F2A55;
+    --blue-50: #0B2247;
+    --green-100: #0C2E1B;
+    --amber-100: #362506;
+    --red-100: #3B1015;
+    --green-600: #4ADE80;
+    --amber-600: #FBBF24;
+    --red-600: #FF6B7A;
+    --gold-600: #E4C391;
+    --accent: #6FA3E0;
+    --shadow: 0 1px 2px rgba(0, 0, 0, 0.45), 0 4px 16px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.55);
   }
 }
 
@@ -157,8 +161,10 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
   position: sticky;
   top: 0;
   z-index: 40;
-  background: linear-gradient(135deg, var(--blue-700), var(--blue-500));
+  background: linear-gradient(135deg, var(--blue-800), var(--blue-600));
   color: #fff;
+  /* The logo's red wave, carried across the whole header as a hairline. */
+  border-bottom: 3px solid var(--red-500);
   box-shadow: var(--shadow);
 }
 .header-inner {
@@ -415,7 +421,85 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
   .prow-side { flex: 1 1 100%; justify-content: space-between; }
   .prow-meta { gap: 3px 7px; }
   .hero-search .searchbar input { font-size: 16px; padding: 14px 42px 14px 42px; }
-  .grid-cats { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+  /* ------------------------------------------------------------- banners */
+.banner {
+  position: relative;
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--blue-800);
+  box-shadow: var(--shadow);
+  margin-bottom: 18px;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 22px 26px;
+  color: #fff;
+  /* The artwork keeps its right side quiet, so text sits left over a scrim
+     that only darkens the side it needs to. */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 17, 46, 0.88) 0%,
+    rgba(0, 17, 46, 0.72) 42%,
+    rgba(0, 17, 46, 0) 78%
+  );
+}
+.banner-overlay h1,
+.banner-overlay h2 { color: #fff; text-shadow: 0 1px 12px rgba(0,17,46,.5); }
+.banner-overlay p {
+  margin: 6px 0 0;
+  max-width: 34em;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14.5px;
+}
+@media (max-width: 560px) {
+  .banner-overlay { padding: 14px 16px; }
+  .banner-overlay p { font-size: 13px; }
+  .banner-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 17, 46, 0.92) 0%,
+      rgba(0, 17, 46, 0.8) 60%,
+      rgba(0, 17, 46, 0.55) 100%
+    );
+  }
+}
+
+/* Illustration used as a standalone figure rather than a text bed. */
+.figure {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin: 0 0 16px;
+  background: var(--surface);
+}
+.figure img { width: 100%; height: auto; display: block; }
+.figure figcaption {
+  padding: 9px 14px;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  border-top: 1px solid var(--border);
+}
+
+.empty-art {
+  width: min(220px, 55vw);
+  height: auto;
+  margin: 0 auto 6px;
+  display: block;
+  border-radius: 50%;
+}
+
+.grid-cats { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
 }
 
 /* ------------------------------------------------------------ filters */
@@ -509,6 +593,84 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
 }
 .btn-primary:hover { background: var(--blue-700); }
 .btn-sm { padding: 7px 12px; font-size: 13px; }
+
+/* ------------------------------------------------------------- banners */
+.banner {
+  position: relative;
+  width: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--blue-800);
+  box-shadow: var(--shadow);
+  margin-bottom: 18px;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 22px 26px;
+  color: #fff;
+  /* The artwork keeps its right side quiet, so text sits left over a scrim
+     that only darkens the side it needs to. */
+  background: linear-gradient(
+    90deg,
+    rgba(0, 17, 46, 0.88) 0%,
+    rgba(0, 17, 46, 0.72) 42%,
+    rgba(0, 17, 46, 0) 78%
+  );
+}
+.banner-overlay h1,
+.banner-overlay h2 { color: #fff; text-shadow: 0 1px 12px rgba(0,17,46,.5); }
+.banner-overlay p {
+  margin: 6px 0 0;
+  max-width: 34em;
+  color: rgba(255, 255, 255, 0.92);
+  font-size: 14.5px;
+}
+@media (max-width: 560px) {
+  .banner-overlay { padding: 14px 16px; }
+  .banner-overlay p { font-size: 13px; }
+  .banner-overlay {
+    background: linear-gradient(
+      90deg,
+      rgba(0, 17, 46, 0.92) 0%,
+      rgba(0, 17, 46, 0.8) 60%,
+      rgba(0, 17, 46, 0.55) 100%
+    );
+  }
+}
+
+/* Illustration used as a standalone figure rather than a text bed. */
+.figure {
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  margin: 0 0 16px;
+  background: var(--surface);
+}
+.figure img { width: 100%; height: auto; display: block; }
+.figure figcaption {
+  padding: 9px 14px;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  border-top: 1px solid var(--border);
+}
+
+.empty-art {
+  width: min(220px, 55vw);
+  height: auto;
+  margin: 0 auto 6px;
+  display: block;
+  border-radius: 50%;
+}
 
 .grid-cats {
   display: grid;

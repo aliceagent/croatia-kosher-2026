@@ -69,14 +69,53 @@ export const Icon = {
   ),
 };
 
-/** The Star of David mark from the printed list's cover. */
-export function Logo({ size = 26 }: { size?: number }) {
+/**
+ * The Kosher Croatia mark: a map pin carrying a Star of David over the red
+ * wave from the logo. Drawn as SVG rather than shipped as a raster so it stays
+ * crisp at 16px in a browser tab and at 512px on a home screen, and so the
+ * navy can follow the theme.
+ */
+const PIN_PATH =
+  "M16 1.6C9.1 1.6 3.5 7.2 3.5 14.1c0 8.9 12.5 16.3 12.5 16.3s12.5-7.4 12.5-16.3C28.5 7.2 22.9 1.6 16 1.6z";
+
+export function Logo({
+  size = 28, title, tone = "dark",
+}: {
+  size?: number;
+  title?: string;
+  /**
+   * "dark" draws a navy pin with a white star, for light backgrounds.
+   * "light" inverts it for dark backgrounds like the header — without this the
+   * star is white on a white pin and the mark reads as a featureless blob.
+   */
+  tone?: "dark" | "light";
+}) {
+  const pin = tone === "light" ? "#fff" : "var(--blue-700, #002869)";
+  const inner = tone === "light" ? "#002869" : "#fff";
+  const uid = tone === "light" ? "pinClipL" : "pinClipD";
   return (
-    <svg width={size} height={size} viewBox="0 0 32 32" aria-hidden="true">
-      <path
-        d="M16 3.2 21 12h-10zM16 28.8 11 20h10zM3.6 22.4 8.6 13.6l5 8.8zM28.4 22.4h-10l5-8.8zM3.6 9.6h10l-5 8.8zM28.4 9.6 23.4 18.4l-5-8.8z"
-        fill="currentColor"
-      />
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      role={title ? "img" : undefined}
+      aria-hidden={title ? undefined : "true"}
+      aria-label={title}
+    >
+      <defs>
+        <clipPath id={uid}>
+          <path d={PIN_PATH} />
+        </clipPath>
+      </defs>
+      <path d={PIN_PATH} fill={pin} />
+      {/* The red wave, clipped to the pin exactly as in the logo. */}
+      <g clipPath={`url(#${uid})`}>
+        <path d="M1 21.4c5-2.6 9.5-2.6 15 0s10 2.6 15 0V32H1z" fill="#EA142B" />
+        <path d="M1 24.3c5-2.4 9.5-2.4 15 0s10 2.4 15 0" stroke={inner}
+          strokeWidth="1.1" fill="none" />
+      </g>
+      {/* Star of David: two triangles, legible down to favicon size. */}
+      <path d="M16 6.4l4.5 7.8h-9zM16 18.9l-4.5-7.8h9z" fill={inner} />
     </svg>
   );
 }
@@ -222,6 +261,38 @@ export function Disclaimer({ compact }: { compact?: boolean }) {
         accuracy of this list before making any purchases.
       </div>
     </Notice>
+  );
+}
+
+/**
+ * Illustrated page banner. Images are decorative, so they carry an empty alt
+ * and any meaning stays in the heading beside them. They are lazy by default
+ * and never block first paint.
+ */
+export function Banner({
+  name, alt = "", widths, ratio, priority, children,
+}: {
+  name: string;
+  alt?: string;
+  widths: [number, number];
+  ratio: string;
+  priority?: boolean;
+  children?: ReactNode;
+}) {
+  const [big, small] = widths;
+  return (
+    <div className="banner" style={{ aspectRatio: ratio }}>
+      <img
+        src={`/img/${name}-${big}.webp`}
+        srcSet={`/img/${name}-${small}.webp ${small}w, /img/${name}-${big}.webp ${big}w`}
+        sizes="(max-width: 1120px) 100vw, 1120px"
+        alt={alt}
+        loading={priority ? "eager" : "lazy"}
+        decoding="async"
+        fetchPriority={priority ? "high" : "auto"}
+      />
+      {children && <div className="banner-overlay">{children}</div>}
+    </div>
   );
 }
 

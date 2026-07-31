@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Disclaimer, Notice } from "../components/ui";
+import { Banner, Disclaimer, Notice } from "../components/ui";
 import { products } from "../lib/data";
 
 const count = (fn: (p: (typeof products)[number]) => boolean) =>
@@ -8,10 +8,10 @@ const count = (fn: (p: (typeof products)[number]) => boolean) =>
 export default function Guide() {
   return (
     <div style={{ paddingTop: 18, maxWidth: 720 }}>
-      <h1 style={{ fontSize: 26, marginBottom: 10 }}>Kashrut guide</h1>
-      <p className="muted">
-        What each badge on this site means, and what it does not mean.
-      </p>
+      <Banner name="guide" widths={[1400, 760]} ratio="1400 / 525">
+        <h1 style={{ fontSize: "clamp(19px, 3.4vw, 27px)" }}>Kashrut guide</h1>
+        <p>What each badge on this site means, and what it does not mean.</p>
+      </Banner>
 
       <div style={{ margin: "18px 0" }}>
         <Disclaimer />

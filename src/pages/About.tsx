@@ -1,12 +1,15 @@
 import { Link } from "react-router-dom";
-import { Disclaimer, Notice, SOURCE_PDF } from "../components/ui";
+import { Banner, Disclaimer, Notice, SOURCE_PDF } from "../components/ui";
 import { brands, categories, products } from "../lib/data";
 import storesRaw from "../../data/stores.json";
 
 export default function About() {
   return (
     <div style={{ paddingTop: 18, maxWidth: 720 }}>
-      <h1 style={{ fontSize: 26, marginBottom: 10 }}>About this site</h1>
+      <Banner name="about" widths={[1400, 760]} ratio="1400 / 788">
+        <h1 style={{ fontSize: "clamp(19px, 3.4vw, 27px)" }}>About this site</h1>
+        <p>An unofficial, searchable version of the 2026 kosher list of Croatia.</p>
+      </Banner>
 
       <p>
         This is an unofficial, searchable version of{" "}
@@ -115,6 +118,22 @@ export default function About() {
       </p>
 
       <h2 className="section-title">Offline</h2>
+      <figure className="figure">
+        <img
+          src="/img/offline-1200.webp"
+          srcSet="/img/offline-640.webp 640w, /img/offline-1200.webp 1200w"
+          sizes="(max-width: 760px) 100vw, 720px"
+          alt=""
+          loading="lazy"
+          decoding="async"
+          width={1200}
+          height={800}
+        />
+        <figcaption>
+          The whole database is cached on your device, so search keeps working
+          in a shop with no signal.
+        </figcaption>
+      </figure>
       <p>
         The whole database is cached on first visit, so search keeps working in a
         supermarket with no signal. Add it to your home screen and it behaves like

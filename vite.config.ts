@@ -34,9 +34,19 @@ export default defineConfig({
         globPatterns: ["**/*.{js,css,html,svg,woff2}", "icon-*.png", "apple-touch-icon.png"],
         // Share cards are for crawlers, not for the person in the shop -- 110
         // OG images would bloat the offline bundle to 22MB for no user benefit.
-        globIgnores: ["og/**", "**/sitemap.xml"],
+        globIgnores: ["og/**", "img/**", "**/sitemap.xml"],
         navigateFallbackDenylist: [/^\/og\//],
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+        runtimeCaching: [
+          {
+            urlPattern: /\/img\/.*\.webp$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "brand-images",
+              expiration: { maxEntries: 30, maxAgeSeconds: 60 * 60 * 24 * 90 },
+            },
+          },
+        ],
       },
     }),
   ],

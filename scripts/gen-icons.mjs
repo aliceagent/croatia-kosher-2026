@@ -19,32 +19,46 @@ mkdirSync(ogDir, { recursive: true });
 const products = JSON.parse(readFileSync(join(root, "data/products.json"), "utf8"));
 const categories = JSON.parse(readFileSync(join(root, "data/categories.json"), "utf8"));
 
-const BLUE_DARK = "#14508f";
-const BLUE = "#1668c9";
-const BLUE_LIGHT = "#4a9ae8";
-const GOLD = "#e0a233";
+/* Sampled from the Kosher Croatia logo and its illustration set. */
+const NAVY_DEEP = "#00112E";
+const NAVY = "#002869";
+const NAVY_MID = "#003A8C";
+const RED = "#EA142B";
+const SAND = "#E4C391";
 
-/** Star of David built from two overlapping triangles. */
-const STAR_PATH =
-  "M16 3.2 21 12h-10zM16 28.8 11 20h10zM3.6 22.4 8.6 13.6l5 8.8zM28.4 22.4h-10l5-8.8zM3.6 9.6h10l-5 8.8zM28.4 9.6 23.4 18.4l-5-8.8z";
+/* The mark: a map pin carrying a Star of David over the logo's red wave. */
+const PIN_PATH =
+  "M16 1.6C9.1 1.6 3.5 7.2 3.5 14.1c0 8.9 12.5 16.3 12.5 16.3s12.5-7.4 12.5-16.3C28.5 7.2 22.9 1.6 16 1.6z";
+const STAR_PATH = "M16 6.4l4.5 7.8h-9zM16 18.9l-4.5-7.8h9z";
+const WAVE_PATH = "M1 21.4c5-2.6 9.5-2.6 15 0s10 2.6 15 0V32H1z";
+const WAVE_LINE = "M1 24.3c5-2.4 9.5-2.4 15 0s10 2.4 15 0";
+
+/** The pin mark, drawn into a 32x32 box. */
+function markGroup(fill = "#fff") {
+  return `<defs><clipPath id="pc"><path d="${PIN_PATH}"/></clipPath></defs>
+    <path d="${PIN_PATH}" fill="${fill}"/>
+    <g clip-path="url(#pc)">
+      <path d="${WAVE_PATH}" fill="${RED}"/>
+      <path d="${WAVE_LINE}" stroke="${fill === "#fff" ? NAVY : "#fff"}" stroke-width="1.1" fill="none"/>
+    </g>
+    <path d="${STAR_PATH}" fill="${fill === "#fff" ? NAVY : "#fff"}"/>`;
+}
 
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
 function iconSvg({ size = 512, maskable = false }) {
-  const pad = maskable ? 0.62 : 0.78; // maskable icons need a safe zone
+  const pad = maskable ? 0.60 : 0.76; // maskable icons need a safe zone
   const scale = (size * pad) / 32;
   const off = (size - 32 * scale) / 2;
   const radius = maskable ? 0 : size * 0.22;
   return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="${BLUE_DARK}"/><stop offset="1" stop-color="${BLUE_LIGHT}"/>
+    <stop offset="0" stop-color="${NAVY}"/><stop offset="1" stop-color="${NAVY_MID}"/>
   </linearGradient></defs>
   <rect width="${size}" height="${size}" rx="${radius}" fill="url(#g)"/>
-  <g transform="translate(${off} ${off}) scale(${scale})" fill="#fff">
-    <path d="${STAR_PATH}"/>
-  </g>
+  <g transform="translate(${off} ${off}) scale(${scale})">${markGroup("#fff")}</g>
 </svg>`;
 }
 
@@ -65,12 +79,12 @@ writeFileSync(
 /* ----------------------------------------------------------- share cards */
 
 const BADGE_STYLE = {
-  pareve: { fill: "#dcfce7", text: "#15803d", label: "PAREVE" },
-  dairy: { fill: "#dbeafe", text: "#14508f", label: "DAIRY · NOT CHALAV YISRAEL" },
-  symbol: { fill: "#fef3c7", text: "#b45309", label: "ONLY WITH A KOSHER SYMBOL" },
-  not: { fill: "#fee2e2", text: "#b91c1c", label: "NOT KOSHER" },
-  conditional: { fill: "#fdf3dd", text: "#b7791f", label: "CONDITIONAL" },
-  species: { fill: "#dbeafe", text: "#14508f", label: "KOSHER SPECIES" },
+  pareve: { fill: "#DCF3E5", text: "#146C3A", label: "PAREVE" },
+  dairy: { fill: "#D8E3F2", text: "#002869", label: "DAIRY · NOT CHALAV YISRAEL" },
+  symbol: { fill: "#FBEBCC", text: "#9A5B08", label: "ONLY WITH A KOSHER SYMBOL" },
+  not: { fill: "#FBE0E3", text: "#C00F24", label: "NOT KOSHER" },
+  conditional: { fill: "#FBEEDC", text: "#9C6B2F", label: "CONDITIONAL" },
+  species: { fill: "#D8E3F2", text: "#002869", label: "KOSHER SPECIES" },
 };
 
 function badgeKey(p) {
@@ -109,26 +123,24 @@ function card({ eyebrow, title, subtitle, badge }) {
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0b1b2e"/>
-      <stop offset="0.55" stop-color="${BLUE_DARK}"/>
-      <stop offset="1" stop-color="${BLUE}"/>
+      <stop offset="0" stop-color="${NAVY_DEEP}"/>
+      <stop offset="0.55" stop-color="${NAVY}"/>
+      <stop offset="1" stop-color="${NAVY_MID}"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <g opacity="0.09" transform="translate(830 120) scale(14)" fill="#fff">
-    <path d="${STAR_PATH}"/>
+  <g opacity="0.10" transform="translate(880 150) scale(11)">
+    <path d="${PIN_PATH}" fill="#fff"/>
   </g>
-  <rect x="0" y="0" width="1200" height="8" fill="${GOLD}"/>
+  <rect x="0" y="0" width="1200" height="9" fill="${RED}"/>
 
-  <g transform="translate(72 84)" fill="#fff">
-    <g transform="scale(1.5)"><path d="${STAR_PATH}" fill="#fff" opacity="0.95"/></g>
-  </g>
+  <g transform="translate(70 76) scale(1.7)">${markGroup("#fff")}</g>
   <text x="140" y="118" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
         font-size="27" font-weight="700" fill="#fff" opacity="0.92" letter-spacing="1">
     KOSHER CROATIA · 2026 LIST</text>
 
   ${eyebrow ? `<text x="72" y="228" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
-        font-size="26" font-weight="700" fill="${GOLD}" letter-spacing="3">${esc(eyebrow.toUpperCase())}</text>` : ""}
+        font-size="26" font-weight="700" fill="${SAND}" letter-spacing="3">${esc(eyebrow.toUpperCase())}</text>` : ""}
 
   ${lines.map((l, i) => `<text x="72" y="${(eyebrow ? 320 : 300) + i * (fontSize + 12)}"
         font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"

@@ -188,6 +188,15 @@ export default function ListPage() {
 
       {items.length === 0 ? (
         <Empty title="Your shopping list is empty">
+          <img
+            className="empty-art"
+            src="/img/empty-list-380.webp"
+            alt=""
+            loading="lazy"
+            decoding="async"
+            width={380}
+            height={380}
+          />
           <p>
             Add products with the <strong>+</strong> button anywhere on the site,
             or type anything into the box above. Fresh fruit and vegetables of all

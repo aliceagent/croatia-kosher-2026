@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { SearchBar } from "../components/SearchBar";
-import { CategoryCard, Disclaimer, Empty, Notice, ProductList } from "../components/ui";
+import { Banner, CategoryCard, Disclaimer, Empty, Notice, ProductList } from "../components/ui";
 import { categories, productById, products, search } from "../lib/data";
 import { useStore } from "../lib/store";
 
@@ -25,9 +25,17 @@ export default function Home() {
     <>
       {/* The page is search-first, so the heading is for screen readers and
           document structure rather than for sighted users. */}
-      <h1 className="sr-only">
-        Search the 2026 kosher products list of Croatia
-      </h1>
+      <div style={{ paddingTop: 16 }}>
+        <Banner name="hero" widths={[1600, 900]} ratio="1600 / 534" priority>
+          <h1 style={{ fontSize: "clamp(20px, 4vw, 32px)" }}>
+            Kosher food in Croatia
+          </h1>
+          <p>
+            Search the 2026 list — {products.length.toLocaleString()} products,
+            in Croatian, English, German and Hebrew. Works offline.
+          </p>
+        </Banner>
+      </div>
       <div style={{ paddingTop: 16 }}>
         <Disclaimer />
       </div>
@@ -57,6 +65,15 @@ export default function Home() {
           </>
         ) : (
           <Empty title="Nothing matching that in the 2026 list">
+            <img
+              className="empty-art"
+              src="/img/empty-search-380.webp"
+              alt=""
+              loading="lazy"
+              decoding="async"
+              width={380}
+              height={380}
+            />
             <Notice kind="warn">
               <div>
                 <strong>Not finding it does not mean it is not kosher.</strong> The

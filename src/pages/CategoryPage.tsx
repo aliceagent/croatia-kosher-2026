@@ -1,10 +1,17 @@
 import { Link, useParams } from "react-router-dom";
 import { useMemo, useState } from "react";
 import { SearchBar } from "../components/SearchBar";
-import { Empty, Icon, Notice, ProductList } from "../components/ui";
+import { Banner, Empty, Icon, Notice, ProductList } from "../components/ui";
 import {
   categoryById, CATEGORY_EMOJI, displayName, fold, products, statusOrder,
 } from "../lib/data";
+
+const CATEGORY_BANNER: Record<
+  string,
+  { name: string; widths: [number, number]; ratio: string }
+> = {
+  alcohol: { name: "alcohol", widths: [1400, 760], ratio: "1400 / 700" },
+};
 
 export default function CategoryPage() {
   const { id } = useParams();
@@ -54,12 +61,31 @@ export default function CategoryPage() {
     <div style={{ paddingTop: 16 }}>
       <Link className="btn btn-sm no-print" to="/browse">{Icon.back} All categories</Link>
 
-      <h1 style={{ fontSize: 26, margin: "14px 0 4px" }}>
-        <span aria-hidden="true">{CATEGORY_EMOJI[cat.id]}</span> {cat.label}
-      </h1>
-      <p className="muted tiny" style={{ marginTop: 0 }}>
-        {cat.count} entries · usually the <strong>{cat.aisle}</strong> aisle
-      </p>
+      {/* Only the two sections with their own illustration get a banner; the
+          rest keep the compact heading so browsing stays fast. */}
+      {CATEGORY_BANNER[cat.id] ? (
+        <div style={{ marginTop: 14 }}>
+          <Banner
+            name={CATEGORY_BANNER[cat.id].name}
+            widths={CATEGORY_BANNER[cat.id].widths}
+            ratio={CATEGORY_BANNER[cat.id].ratio}
+          >
+            <h1 style={{ fontSize: "clamp(19px, 3.4vw, 27px)" }}>{cat.label}</h1>
+            <p>
+              {cat.count} entries · usually the {cat.aisle} aisle
+            </p>
+          </Banner>
+        </div>
+      ) : (
+        <>
+          <h1 style={{ fontSize: 26, margin: "14px 0 4px" }}>
+            <span aria-hidden="true">{CATEGORY_EMOJI[cat.id]}</span> {cat.label}
+          </h1>
+          <p className="muted tiny" style={{ marginTop: 0 }}>
+            {cat.count} entries · usually the <strong>{cat.aisle}</strong> aisle
+          </p>
+        </>
+      )}
 
       {cat.id === "alcohol" && (
         <div style={{ margin: "14px 0" }}>
@@ -74,6 +100,25 @@ export default function CategoryPage() {
             </div>
           </Notice>
         </div>
+      )}
+
+      {cat.id === "fish" && (
+        <figure className="figure" style={{ marginTop: 14 }}>
+          <img
+            src="/img/fish-1400.webp"
+            srcSet="/img/fish-760.webp 760w, /img/fish-1400.webp 1400w"
+            sizes="(max-width: 1120px) 100vw, 1120px"
+            alt="Six kosher Adriatic fish shown side on and labelled: sea bass, gilthead bream, sardine, mackerel, tuna and trout."
+            loading="lazy"
+            decoding="async"
+            width={1400}
+            height={1025}
+          />
+          <figcaption>
+            Six of the kosher species on the 2026 list. Croatian names are on
+            each product below — useful when reading a fish-market board.
+          </figcaption>
+        </figure>
       )}
 
       {cat.id === "fish" && (

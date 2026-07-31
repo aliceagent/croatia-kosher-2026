@@ -1,6 +1,6 @@
 import { chromium, devices } from "playwright";
 
-const BASE = "http://127.0.0.1:4182";
+const BASE = "http://127.0.0.1:4202";
 const results = [];
 const errors = [];
 const ok = (name, pass, detail = "") =>
@@ -117,10 +117,21 @@ ok("every dairy row is dairy or check-the-package",
 /* ------------------------------------------------------------- 5. stores */
 await go("/stores");
 await page.waitForTimeout(400);
-const storeRows = await page.locator(".prow").count();
-ok("store finder renders branches", storeRows > 50, `${storeRows} shown`);
-ok("store page is honest about stock",
-  /not which shop stocks what/i.test(await page.locator("main").innerText()));
+// The page deliberately lists nothing until you choose a city or share your
+// location: a dump of 1,032 supermarkets was the thing being fixed.
+ok("stores page lists nothing before you choose",
+  (await page.locator(".prow").count()) === 0);
+const storeText = await page.locator("main").innerText();
+ok("stores page leads with the answer",
+  /Most of the 2026 list is ordinary supermarket food/i.test(storeText));
+ok("stores page labels the stock guess as a guess",
+  /our guess from the kind of shop/i.test(storeText));
+await page.locator(".chip", { hasText: "Zagreb" }).first().click();
+await page.waitForTimeout(900);
+ok("choosing a city lists its shops",
+  (await page.locator(".prow").count()) > 5);
+ok("Zagreb resolves the full metro, not just tagged branches",
+  /225 shops/.test(await page.locator("main").innerText()));
 
 /* ------------------------------------------------------------ 6. a11y-ish */
 await go("/");

@@ -1,9 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#14508f"/><stop offset="1" stop-color="#4a9ae8"/>
+    <stop offset="0" stop-color="#002869"/><stop offset="1" stop-color="#003A8C"/>
   </linearGradient></defs>
   <rect width="32" height="32" rx="7.04" fill="url(#g)"/>
-  <g transform="translate(3.5199999999999996 3.5199999999999996) scale(0.78)" fill="#fff">
-    <path d="M16 3.2 21 12h-10zM16 28.8 11 20h10zM3.6 22.4 8.6 13.6l5 8.8zM28.4 22.4h-10l5-8.8zM3.6 9.6h10l-5 8.8zM28.4 9.6 23.4 18.4l-5-8.8z"/>
-  </g>
+  <g transform="translate(3.84 3.84) scale(0.76)"><defs><clipPath id="pc"><path d="M16 1.6C9.1 1.6 3.5 7.2 3.5 14.1c0 8.9 12.5 16.3 12.5 16.3s12.5-7.4 12.5-16.3C28.5 7.2 22.9 1.6 16 1.6z"/></clipPath></defs>
+    <path d="M16 1.6C9.1 1.6 3.5 7.2 3.5 14.1c0 8.9 12.5 16.3 12.5 16.3s12.5-7.4 12.5-16.3C28.5 7.2 22.9 1.6 16 1.6z" fill="#fff"/>
+    <g clip-path="url(#pc)">
+      <path d="M1 21.4c5-2.6 9.5-2.6 15 0s10 2.6 15 0V32H1z" fill="#EA142B"/>
+      <path d="M1 24.3c5-2.4 9.5-2.4 15 0s10 2.4 15 0" stroke="#002869" stroke-width="1.1" fill="none"/>
+    </g>
+    <path d="M16 6.4l4.5 7.8h-9zM16 18.9l-4.5-7.8h9z" fill="#002869"/></g>
 </svg>

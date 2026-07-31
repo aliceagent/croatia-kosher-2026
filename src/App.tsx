@@ -43,7 +43,7 @@ export default function App() {
       <header className="header no-print">
         <div className="header-inner">
           <Link className="brand" to="/">
-            <Logo />
+            <Logo size={30} tone="light" />
             <span>
               Kosher Croatia
               <br />
