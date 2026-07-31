@@ -80,12 +80,13 @@ export default function About() {
           answer here can be checked against the original.
         </li>
         <li>
-          {(storesRaw as unknown[]).length.toLocaleString()} branches of the six
-          chains the list names under "where to buy", from{" "}
+          {storesRaw.stores.length.toLocaleString()} branches of the six chains
+          the list names under "where to buy" across{" "}
+          {storesRaw.cities.length} towns, from{" "}
           <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">
             OpenStreetMap
           </a>{" "}
-          (ODbL).
+          (ODbL), snapshot {storesRaw.snapshot}.
         </li>
       </ul>
 

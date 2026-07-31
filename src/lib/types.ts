@@ -59,7 +59,21 @@ export interface Store {
   name: string;
   lat: number;
   lon: number;
+  /** Assigned from coordinates, not from OpenStreetMap's sparse city tag. */
   city: string | null;
+  region: string;
   street: string | null;
   openingHours: string | null;
+}
+
+export interface StoreCity {
+  name: string;
+  slug: string;
+  region: string;
+  lat: number;
+  lon: number;
+  count: number;
+  chains: Record<string, number>;
+  /** bio&bio branches: the chain that carries the imported organic range. */
+  healthFood: number;
 }

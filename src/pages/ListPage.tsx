@@ -4,6 +4,7 @@ import { Badge, Empty, Icon, Notice } from "../components/ui";
 import {
   aisleFor, AISLES, displayName, productById,
 } from "../lib/data";
+import storesData from "../../data/stores.json";
 import { useStore } from "../lib/store";
 import type { ListItem } from "../lib/store";
 import { decodeList, encodeList, listAsText } from "../lib/share";
@@ -54,6 +55,19 @@ export default function ListPage() {
       map.set(aisle, arr);
     });
     return AISLES.filter((a) => map.has(a)).map((a) => [a, map.get(a)!] as const);
+  }, [items]);
+
+  /*
+   * The imported organic brands are the only part of the list a normal
+   * supermarket will not have, so if any are on the list it is worth saying so
+   * before someone walks to the wrong shop.
+   */
+  const healthFoodOnList = useMemo(() => {
+    const brands = storesData.healthFoodBrands as string[];
+    const hits = items
+      .map((i) => (i.productId ? productById.get(i.productId) : null))
+      .filter((p) => p && p.brand && brands.includes(p.brand));
+    return hits.length;
   }, [items]);
 
   const shareUrl = useMemo(() => {
@@ -186,6 +200,22 @@ export default function ListPage() {
         </Empty>
       ) : (
         <>
+          {healthFoodOnList > 0 && (
+            <div className="no-print" style={{ marginBottom: 16 }}>
+              <Notice kind="warn">
+                <div>
+                  <strong>
+                    {healthFoodOnList} item{healthFoodOnList === 1 ? "" : "s"} on
+                    this list {healthFoodOnList === 1 ? "is" : "are"} an imported
+                    organic brand.
+                  </strong>{" "}
+                  An ordinary supermarket is unlikely to carry those — plan a
+                  bio&amp;bio stop. <Link to="/stores">Find the nearest one →</Link>
+                </div>
+              </Notice>
+            </div>
+          )}
+
           {grouped.map(([aisle, entries]) => (
             <section key={aisle}>
               <h2 className="section-title">{aisle}</h2>
