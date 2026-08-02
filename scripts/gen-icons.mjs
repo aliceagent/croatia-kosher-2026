@@ -16,6 +16,12 @@ const pub = join(root, "public");
 const ogDir = join(pub, "og");
 mkdirSync(ogDir, { recursive: true });
 
+/* The supplied logo artwork, embedded so every raster asset uses the real
+   mark rather than a redrawing of it. */
+const PIN_DATA_URI =
+  "data:image/png;base64," +
+  readFileSync(join(root, "assets/brand/logo-pin.png")).toString("base64");
+
 const products = JSON.parse(readFileSync(join(root, "data/products.json"), "utf8"));
 const categories = JSON.parse(readFileSync(join(root, "data/categories.json"), "utf8"));
 
@@ -59,6 +65,19 @@ const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
 
+/** Redrawn mark, used only where the real artwork is too small to read. */
+function simpleIconSvg(size = 32) {
+  const scale = (size * 0.76) / 32;
+  const off = (size - 32 * scale) / 2;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 ${size} ${size}">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="${NAVY}"/><stop offset="1" stop-color="${NAVY_MID}"/>
+  </linearGradient></defs>
+  <rect width="${size}" height="${size}" rx="${size * 0.22}" fill="url(#g)"/>
+  <g transform="translate(${off} ${off}) scale(${scale})">${markGroup("#fff", "simple")}</g>
+</svg>`;
+}
+
 function iconSvg({ size = 512, maskable = false, detail = "full" }) {
   const pad = maskable ? 0.60 : 0.76; // maskable icons need a safe zone
   const scale = (size * pad) / 32;
@@ -69,13 +88,15 @@ function iconSvg({ size = 512, maskable = false, detail = "full" }) {
     <stop offset="0" stop-color="${NAVY}"/><stop offset="1" stop-color="${NAVY_MID}"/>
   </linearGradient></defs>
   <rect width="${size}" height="${size}" rx="${radius}" fill="url(#g)"/>
-  <g transform="translate(${off} ${off}) scale(${scale})">${markGroup("#fff", detail)}</g>
+  <image href="${PIN_DATA_URI}" x="${off}" y="${off}"
+         width="${32 * scale}" height="${32 * scale}"/>
 </svg>`;
 }
 
 /* Favicon: an SVG favicon stays crisp at every size and in both themes. */
-/* The favicon renders at 16-32px, where the menorah and fork turn to mush. */
-writeFileSync(join(pub, "favicon.svg"), iconSvg({ size: 32, detail: "simple" }));
+/* The favicon renders at 16-32px, where the artwork's menorah, fork and
+   coastline turn to mush, so the tab icon is the simplified redraw. */
+writeFileSync(join(pub, "favicon.svg"), simpleIconSvg(32));
 
 const png = (svg, width) =>
   new Resvg(svg, { fitTo: { mode: "width", value: width } }).render().asPng();
@@ -141,12 +162,12 @@ function card({ eyebrow, title, subtitle, badge }) {
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <g opacity="0.10" transform="translate(880 150) scale(11)">
-    <path d="${PIN_PATH}" fill="#fff"/>
+  <g opacity="0.13">
+    <image href="${PIN_DATA_URI}" x="835" y="120" width="330" height="330"/>
   </g>
   <rect x="0" y="0" width="1200" height="9" fill="${RED}"/>
 
-  <g transform="translate(70 76) scale(1.7)">${markGroup("#fff")}</g>
+  <image href="${PIN_DATA_URI}" x="66" y="62" width="62" height="62"/>
   <text x="140" y="118" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif"
         font-size="27" font-weight="700" fill="#fff" opacity="0.92" letter-spacing="1">
     KOSHER CROATIA · 2026 LIST</text>

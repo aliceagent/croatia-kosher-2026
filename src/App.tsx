@@ -1,6 +1,6 @@
 import { Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
 import { Suspense, lazy, useEffect } from "react";
-import { Disclaimer, Icon, Logo } from "./components/ui";
+import { Disclaimer, Icon } from "./components/ui";
 import { useStore } from "./lib/store";
 // The store finder carries 1,032 branch records that no other page needs, so
 // it is split out of the main bundle.
@@ -14,6 +14,7 @@ import BrandPage from "./pages/BrandPage";
 import Favorites from "./pages/Favorites";
 import ListPage from "./pages/ListPage";
 import Guide from "./pages/Guide";
+import Phrases from "./pages/Phrases";
 import About from "./pages/About";
 
 const TABS = [
@@ -21,6 +22,7 @@ const TABS = [
   { to: "/browse", label: "Browse" },
   { to: "/stores", label: "Where to buy" },
   { to: "/guide", label: "Kashrut guide" },
+  { to: "/phrases", label: "Phrasebook" },
   { to: "/about", label: "About" },
 ];
 
@@ -43,7 +45,18 @@ export default function App() {
       <header className="header no-print">
         <div className="header-inner">
           <Link className="brand" to="/">
-            <Logo size={32} tone="light" />
+            {/* The supplied artwork. Its outer ring is the same navy as the
+                header, so it sits on a white chip to keep its edge. */}
+            <img
+              className="brand-mark"
+              src="/img/logo-pin-64.webp"
+              srcSet="/img/logo-pin-64.webp 64w, /img/logo-pin-128.webp 128w"
+              sizes="38px"
+              alt=""
+              width={38}
+              height={38}
+              decoding="async"
+            />
             <span>
               Kosher Croatia
               <br />
@@ -112,6 +125,7 @@ export default function App() {
           { to: "/", label: "Search", icon: Icon.search, end: true },
           { to: "/browse", label: "Browse", icon: Icon.grid },
           { to: "/stores", label: "Shops", icon: Icon.pin },
+          { to: "/phrases", label: "Phrases", icon: Icon.speech },
           { to: "/favorites", label: "Saved", icon: Icon.star(favorites.length > 0), n: favorites.length },
           { to: "/list", label: "My list", icon: Icon.cart, n: listCount },
         ].map((t) => (
@@ -144,6 +158,7 @@ export default function App() {
           <Route path="/list" element={<ListPage />} />
           <Route path="/stores" element={<Stores />} />
           <Route path="/guide" element={<Guide />} />
+          <Route path="/phrases" element={<Phrases />} />
           <Route path="/about" element={<About />} />
           <Route
             path="*"

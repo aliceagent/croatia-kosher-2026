@@ -1,6 +1,6 @@
 import { chromium, devices } from "playwright";
 
-const B = "http://127.0.0.1:4220";
+const B = "http://127.0.0.1:4230";
 const br = await chromium.launch({ executablePath: "/opt/pw-browsers/chromium" });
 
 const ROUTES = [
@@ -14,6 +14,7 @@ const ROUTES = [
   ["/brand/ferrero", "brand"],
   ["/stores", "stores"],
   ["/guide", "guide"],
+  ["/phrases", "phrases"],
   ["/about", "about"],
   ["/favorites", "favorites"],
   ["/list", "list"],

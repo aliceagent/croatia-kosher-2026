@@ -23,6 +23,18 @@ export default function About() {
         <Disclaimer />
       </div>
 
+      <img
+        src="/img/logo-lockup-400.webp"
+        srcSet="/img/logo-lockup-400.webp 400w, /img/logo-lockup-800.webp 800w"
+        sizes="(max-width: 560px) 260px, 340px"
+        alt="Kosher Croatia"
+        width={400}
+        height={173}
+        style={{ width: "min(340px, 80%)", height: "auto", margin: "22px 0 4px" }}
+        loading="lazy"
+        decoding="async"
+      />
+
       <h2 className="section-title">Who made this</h2>
       <p>
         Built by <strong>Jonathan Caras</strong> (
