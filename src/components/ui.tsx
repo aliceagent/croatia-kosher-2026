@@ -295,12 +295,21 @@ export const SOURCE_PDF =
   "https://www.bet-israel.com/wp/wp-content/uploads/2026/01/THE-2026-KOSHER-LIST-OF-CROATIA.pdf";
 
 /**
- * The site-wide disclaimer. This is the most important text on the site, so it
- * is never dismissible and never abbreviated away: the data here was
- * transcribed by a machine and checked by nobody.
+ * The site-wide disclaimer.
+ *
+ * `variant="full"` is the one people read once and acknowledge; after OK it
+ * stays hidden on every page. It is never removed outright: the compact line
+ * in the footer and the fixed copy on the About page are not dismissible, so
+ * the statement remains on every page and at its permanent home.
  */
-export function Disclaimer({ compact }: { compact?: boolean }) {
-  if (compact) {
+export function Disclaimer({
+  variant = "full",
+}: {
+  variant?: "full" | "compact" | "fixed";
+}) {
+  const { disclaimerAck, ackDisclaimer } = useStore();
+
+  if (variant === "compact") {
     return (
       <p className="tiny" style={{ margin: 0 }}>
         <strong>Not independently verified.</strong> Built by Jonathan Caras
@@ -311,6 +320,9 @@ export function Disclaimer({ compact }: { compact?: boolean }) {
       </p>
     );
   }
+
+  if (variant === "full" && disclaimerAck) return null;
+
   return (
     <Notice kind="danger">
       <div>
@@ -326,6 +338,16 @@ export function Disclaimer({ compact }: { compact?: boolean }) {
         </a>
         ) and Claude Code. A G-d fearing Jew will contact Chabad and confirm the
         accuracy of this list before making any purchases.
+        {variant === "full" && (
+          <div style={{ marginTop: 12 }}>
+            <button className="btn btn-primary btn-sm" onClick={ackDisclaimer}>
+              OK, I understand
+            </button>
+            <span className="tiny muted" style={{ marginLeft: 10 }}>
+              It stays in the footer and on the About page.
+            </span>
+          </div>
+        )}
       </div>
     </Notice>
   );

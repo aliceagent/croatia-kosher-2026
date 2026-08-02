@@ -113,8 +113,8 @@ for (const b of brands) {
 const PAGES = {
   browse: ["Browse all kosher products in Croatia | 2026 list",
     "Filter 1,080 kosher products by category, kashrut status, brand and origin."],
-  phrases: ["Croatian phrasebook for kosher travellers | Kosher Croatia 2026",
-    "Croatian words and phrases for reading ingredient labels, shopping and travelling: mlijeko, surutka, zelatina, and the questions to ask at a counter."],
+  travel: ["Travelling in Croatia — practical FAQ and Croatian phrasebook | Kosher Croatia 2026",
+    "Currency, plug sockets, which side of the road, visas from the US and Israel, and a Croatian phrasebook for reading kosher ingredient labels."],
   guide: ["Kashrut guide — what the badges mean | Kosher Croatia 2026",
     "Pareve, dairy, 'only with a kosher symbol', not kosher: what each status on the 2026 Croatian kosher list actually means."],
   stores: ["Where to buy kosher food in Croatia | 2026 list",
@@ -134,7 +134,7 @@ for (const [route, [title, description]] of Object.entries(PAGES)) {
 
 /* A sitemap so the pages are discoverable. */
 const urls = [
-  "", "browse", "guide", "phrases", "stores", "about",
+  "", "browse", "guide", "travel", "stores", "about",
   ...categories.map((c) => `category/${c.id}`),
   ...products.map((p) => `product/${p.id}`),
   ...brands.map((b) => `brand/${b.id}`),

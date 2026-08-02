@@ -14,6 +14,7 @@ const KEY_LISTS = "ckl.lists.v1";
 const KEY_ACTIVE = "ckl.activeList.v1";
 const KEY_THEME = "ckl.theme.v1";
 const KEY_RECENT = "ckl.recent.v1";
+const KEY_ACK = "ckl.disclaimerAck.v1";
 
 export interface ListItem {
   productId: string | null;
@@ -80,6 +81,10 @@ interface StoreShape {
 
   theme: "light" | "dark" | "system";
   setTheme: (t: "light" | "dark" | "system") => void;
+
+  /** Whether the reader has acknowledged the site-wide disclaimer. */
+  disclaimerAck: boolean;
+  ackDisclaimer: () => void;
 }
 
 const Ctx = createContext<StoreShape | null>(null);
@@ -103,11 +108,13 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   const [theme, setThemeState] = useState<"light" | "dark" | "system">(() =>
     read(KEY_THEME, "system"),
   );
+  const [disclaimerAck, setAck] = useState<boolean>(() => read(KEY_ACK, false));
 
   useEffect(() => write(KEY_FAVS, favorites), [favorites]);
   useEffect(() => write(KEY_LISTS, lists), [lists]);
   useEffect(() => write(KEY_ACTIVE, activeListId), [activeListId]);
   useEffect(() => write(KEY_RECENT, recent), [recent]);
+  useEffect(() => write(KEY_ACK, disclaimerAck), [disclaimerAck]);
 
   useEffect(() => {
     write(KEY_THEME, theme);
@@ -254,6 +261,9 @@ export function StoreProvider({ children }: { children: ReactNode }) {
 
     theme,
     setTheme: setThemeState,
+
+    disclaimerAck,
+    ackDisclaimer: useCallback(() => setAck(true), []),
   };
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;

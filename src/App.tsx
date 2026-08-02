@@ -1,4 +1,4 @@
-import { Link, NavLink, Route, Routes, useLocation } from "react-router-dom";
+import { Link, NavLink, Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { Suspense, lazy, useEffect } from "react";
 import { Disclaimer, Icon } from "./components/ui";
 import { useStore } from "./lib/store";
@@ -14,7 +14,7 @@ import BrandPage from "./pages/BrandPage";
 import Favorites from "./pages/Favorites";
 import ListPage from "./pages/ListPage";
 import Guide from "./pages/Guide";
-import Phrases from "./pages/Phrases";
+import Travel from "./pages/Travel";
 import About from "./pages/About";
 
 const TABS = [
@@ -22,7 +22,7 @@ const TABS = [
   { to: "/browse", label: "Browse" },
   { to: "/stores", label: "Where to buy" },
   { to: "/guide", label: "Kashrut guide" },
-  { to: "/phrases", label: "Phrasebook" },
+  { to: "/travel", label: "Travel" },
   { to: "/about", label: "About" },
 ];
 
@@ -125,7 +125,7 @@ export default function App() {
           { to: "/", label: "Search", icon: Icon.search, end: true },
           { to: "/browse", label: "Browse", icon: Icon.grid },
           { to: "/stores", label: "Shops", icon: Icon.pin },
-          { to: "/phrases", label: "Phrases", icon: Icon.speech },
+          { to: "/travel", label: "Travel", icon: Icon.speech },
           { to: "/favorites", label: "Saved", icon: Icon.star(favorites.length > 0), n: favorites.length },
           { to: "/list", label: "My list", icon: Icon.cart, n: listCount },
         ].map((t) => (
@@ -158,7 +158,9 @@ export default function App() {
           <Route path="/list" element={<ListPage />} />
           <Route path="/stores" element={<Stores />} />
           <Route path="/guide" element={<Guide />} />
-          <Route path="/phrases" element={<Phrases />} />
+          <Route path="/travel" element={<Travel />} />
+          {/* The phrasebook used to be its own page; keep the URL working. */}
+          <Route path="/phrases" element={<Navigate to="/travel?tab=phrases" replace />} />
           <Route path="/about" element={<About />} />
           <Route
             path="*"
@@ -176,7 +178,7 @@ export default function App() {
       <footer className="site no-print">
         <div className="shell">
           <div style={{ marginBottom: 16 }}>
-            <Disclaimer compact />
+            <Disclaimer variant="compact" />
           </div>
           <p>
             Data from <strong>KOŠER PROIZVODI U HRVATSKOJ 2026</strong>, authorised by

@@ -20,7 +20,7 @@ export default function About() {
       </p>
 
       <div style={{ margin: "16px 0" }}>
-        <Disclaimer />
+        <Disclaimer variant="fixed" />
       </div>
 
       <img

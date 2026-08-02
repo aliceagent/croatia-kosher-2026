@@ -1,0 +1,163 @@
+{
+  "verifyNote": "Entry rules, tolls and prices change. Everything here is a starting point, not an authority — check an official source before you travel.",
+  "sections": [
+    {
+      "id": "basics",
+      "title": "The basics",
+      "emoji": "🇭🇷",
+      "items": [
+        {
+          "q": "What money do they use?",
+          "a": "The **euro (€)**. Croatia switched from the kuna on 1 January 2023, and the kuna is no longer legal tender — old guidebooks and older websites still say kuna, so ignore those. Cards are accepted almost everywhere, but carry some cash for markets, small bakeries and island ferries.",
+          "tag": "Euro (€)"
+        },
+        {
+          "q": "What language do they speak?",
+          "a": "**Croatian** (*hrvatski*), written in the Latin alphabet — so you can at least read signs and ingredient labels. English is widely spoken in cities and anywhere touristy; German and Italian are common along the coast. The phrasebook on this site covers the shopping words that matter.",
+          "tag": "Croatian",
+          "link": { "to": "/travel?tab=phrases", "label": "Open the phrasebook" }
+        },
+        {
+          "q": "What time zone is it?",
+          "a": "**Central European Time** (UTC+1), and CEST (UTC+2) from late March to late October. Same as Rome, Vienna and Berlin. That is one hour behind Israel for most of the year.",
+          "tag": "CET / CEST"
+        },
+        {
+          "q": "Is the tap water safe to drink?",
+          "a": "**Yes.** Tap water is safe across Croatia and generally good. Restaurants will bring bottled water if you ask, but you do not need it.",
+          "tag": "Yes"
+        },
+        {
+          "q": "Is Croatia in the EU?",
+          "a": "**Yes** — an EU member since 2013, in the Schengen area since 1 January 2023, and using the euro since the same date. In practice that means no border checks arriving from another Schengen country, and EU roaming rules apply to EU SIM cards.",
+          "tag": "EU · Schengen · Euro"
+        }
+      ]
+    },
+    {
+      "id": "power",
+      "title": "Electricity & phones",
+      "emoji": "🔌",
+      "items": [
+        {
+          "q": "What electrical outlet does Croatia use?",
+          "a": "**Type C and Type F**, the standard round two-pin European sockets, at **230 V / 50 Hz**.\n\n- **From the US:** you need a plug adapter, and your device must handle 230 V. Phone and laptop chargers almost always say *100–240 V* on the brick and are fine. Anything with a heating element — hair dryers, travel kettles, curling irons — usually is not, and a plain adapter will destroy it. Check the label.\n- **From Israel:** Israeli Type H plugs do not fit. You need an adapter, but the voltage is the same 230 V, so your devices themselves are fine.\n- **From the UK:** adapter needed, voltage is the same.",
+          "tag": "Type C/F · 230 V"
+        },
+        {
+          "q": "Will my phone work?",
+          "a": "Yes. Croatian networks are GSM/4G/5G and work with any unlocked modern phone. An **EU SIM roams at domestic rates**; a US or Israeli plan will usually charge international roaming, so check before you land or buy a local prepaid SIM — they are cheap and sold at kiosks and airports.\n\nThis site works fully offline once loaded, which is the point: you can search the whole list in a supermarket with no signal at all."
+        }
+      ]
+    },
+    {
+      "id": "driving",
+      "title": "Driving",
+      "emoji": "🚗",
+      "items": [
+        {
+          "q": "What side of the road do they drive on?",
+          "a": "**The right**, like the rest of continental Europe, and cars are left-hand drive. Overtake on the left.",
+          "tag": "Right"
+        },
+        {
+          "q": "What are the speed limits?",
+          "a": "Roughly **50 km/h** in towns, **90** on open roads, **110** on expressways and **130** on motorways. They are enforced, and fines are payable on the spot.",
+          "tag": "50 / 90 / 110 / 130"
+        },
+        {
+          "q": "Are there tolls?",
+          "a": "Yes, on the motorways — but **no vignette sticker** like Slovenia or Austria. You take a ticket entering and pay at a booth when you leave, by card or cash. Budget for it: Zagreb to Split is a long toll run.",
+          "tag": "Pay at the booth"
+        },
+        {
+          "q": "Anything else I should know before driving?",
+          "a": "- Blood alcohol limit is **0.05%**, and **zero** for drivers under 24.\n- Headlights must be on during the winter months.\n- A hands-free kit is required for phone use.\n- Coastal roads are beautiful and slow — do not plan by distance alone.\n- Parking in old towns is limited; look for signed lots outside the walls."
+        },
+        {
+          "q": "Do I need an international driving permit?",
+          "a": "US and Israeli licences are generally accepted for short visits, and rental companies often ask for an **International Driving Permit** alongside your licence. It is cheap to obtain at home and removes an argument at the rental desk. Confirm with your rental company."
+        }
+      ]
+    },
+    {
+      "id": "entry",
+      "title": "Visas & entry",
+      "emoji": "🛂",
+      "warn": true,
+      "items": [
+        {
+          "q": "Do I need a visa from the United States?",
+          "a": "**No, not for a short visit.** US citizens can enter the Schengen area — which now includes Croatia — visa-free for up to **90 days in any 180-day period** for tourism. Your passport should be valid for at least three months beyond your planned departure.",
+          "tag": "Visa-free, 90/180"
+        },
+        {
+          "q": "Do I need a visa from Israel?",
+          "a": "**No, not for a short visit.** Israeli passport holders also enter visa-free for up to **90 days in any 180-day period**. The same passport-validity rule applies.",
+          "tag": "Visa-free, 90/180"
+        },
+        {
+          "q": "What about ETIAS?",
+          "a": "**ETIAS** is a pre-travel authorisation the EU plans to require from visa-exempt visitors, including Americans and Israelis. Its start date has been postponed repeatedly, so do not trust any fixed date you read — including this page. Check the **official EU ETIAS site** shortly before you travel; if it is live, it is an online form and a small fee, not a visa.",
+          "link": { "href": "https://travel-europe.europa.eu/etias_en", "label": "Official EU ETIAS page" }
+        },
+        {
+          "q": "How long can I stay?",
+          "a": "The 90-in-180 allowance is counted across the **whole Schengen area**, not per country. Days spent in France or Italy on the same trip count against the same 90. Overstaying carries an entry ban, so count carefully on a long European trip."
+        }
+      ]
+    },
+    {
+      "id": "money",
+      "title": "Money & daily life",
+      "emoji": "💶",
+      "items": [
+        {
+          "q": "Should I tip?",
+          "a": "Tipping is **not obligatory** and service is not automatically added. Rounding up, or about **10%** for good restaurant service, is normal and appreciated. Cafés: rounding up is plenty."
+        },
+        {
+          "q": "Are shops open on the weekend?",
+          "a": "**Saturday** is a normal trading day, though smaller shops may close early afternoon. **Sunday** closing is common — many supermarkets shut or run short hours, especially outside the tourist season. Plan Shabbat shopping for Thursday or Friday morning.\n\nThis matters more than usual here: buy what you need before Friday afternoon.",
+          "link": { "to": "/stores", "label": "Find a shop" }
+        },
+        {
+          "q": "What is the emergency number?",
+          "a": "**112**, free from any phone, and it works across Croatia and the EU. Operators generally speak English. A pharmacy is a *ljekarna*; a hospital is a *bolnica*.",
+          "tag": "112"
+        },
+        {
+          "q": "Is Croatia expensive?",
+          "a": "Cheaper than western Europe, but the coast in July and August is not cheap — Dubrovnik and Hvar especially. Inland and shoulder season are much better value. Supermarket food is inexpensive, which suits how this list works: most of it is ordinary Konzum and Lidl stock."
+        }
+      ]
+    },
+    {
+      "id": "jewish",
+      "title": "Jewish Croatia",
+      "emoji": "✡️",
+      "items": [
+        {
+          "q": "Where is the Jewish community?",
+          "a": "**Zagreb** has the largest community, including *Bet Israel*, who publish the kosher list this site is built from, at Mažuranićev trg 6. There are also communities in **Split, Dubrovnik, Rijeka and Osijek**. Dubrovnik's synagogue, in the old town on Žudioska ulica, is among the oldest surviving in Europe and is worth the visit.",
+          "link": { "to": "/about", "label": "Bet Israel contact details" }
+        },
+        {
+          "q": "How do I contact Chabad?",
+          "a": "The disclaimer on this site asks you to confirm with Chabad before relying on any of it — so here is how. Chabad has a presence in **Zagreb**. Use the official Chabad directory to find current contact details rather than trusting an address copied from a website.",
+          "link": { "href": "https://www.chabad.org/centers", "label": "Chabad centre directory" }
+        },
+        {
+          "q": "Can I get kosher meat or a kosher restaurant?",
+          "a": "Assume **no** unless you have arranged it in advance. The 2026 list covers packaged supermarket goods, fish species and drinks — there is no kosher butcher or restaurant infrastructure to rely on as a visitor. Contact the community in Zagreb well before you travel if you need meat, and plan around fish, dairy and pareve products otherwise.",
+          "link": { "to": "/browse", "label": "Browse what is on the list" }
+        },
+        {
+          "q": "Where do I get kosher wine?",
+          "a": "From the **Bet Israel community in Zagreb**. No supermarket in Croatia sells supervised kosher wine, and the 2026 list is explicit that all wine, grape juice, cognac and brandy require rabbinic supervision.",
+          "link": { "to": "/category/alcohol", "label": "Wine & alcohol on the list" }
+        }
+      ]
+    }
+  ]
+}

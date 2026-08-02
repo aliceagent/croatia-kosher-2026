@@ -663,6 +663,47 @@ h1, h2, h3 { line-height: 1.2; margin: 0; letter-spacing: -0.02em; }
 .phrase-avoid { border-left: 4px solid var(--red-500); }
 .phrase-dairy { border-left: 4px solid var(--blue-400); }
 
+/* --------------------------------------------------------------- faq --- */
+.faq {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0;
+}
+.faq summary {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 15px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 640;
+  font-size: 15px;
+  min-height: 30px;
+}
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after {
+  content: "+";
+  margin-left: auto;
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--text-faint);
+  flex: none;
+}
+.faq[open] summary::after { content: "−"; }
+.faq[open] summary { border-bottom: 1px solid var(--border); }
+.faq summary:hover { color: var(--accent); }
+.faq-q { flex: 1; min-width: 0; }
+.faq-tag { flex: none; }
+.faq-a {
+  padding: 13px 15px 15px;
+  font-size: 14.5px;
+  color: var(--text-dim);
+}
+.faq-a ul, .faq-a li { margin-left: 4px; }
+.faq-a strong { color: var(--text); }
+.faq-a .btn { margin-top: 6px; }
+
 /* ------------------------------------------------------------ filters */
 .filters { display: flex; flex-direction: column; gap: 14px; }
 /*
