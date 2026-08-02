@@ -4,10 +4,11 @@ dist
 node_modules
 .git
 
-# Build inputs that the build does not read. extract.py and build-stores.py are
+# Build inputs the build does not read. extract.py and build-stores.py are
 # maintenance scripts run locally; the build only consumes data/*.json.
+# assets/brand IS read: gen-icons.mjs embeds the logo artwork into the app
+# icons and share cards, so it must ship.
 data/raw
-assets
 
 # Local tooling
 scripts/qa.mjs
