@@ -113,6 +113,10 @@ for (const b of brands) {
 const PAGES = {
   browse: ["Browse all kosher products in Croatia | 2026 list",
     "Filter 1,080 kosher products by category, kashrut status, brand and origin."],
+  // The phrasebook moved under /travel. This file must still exist or the
+  // host answers 404 and the client-side redirect never gets to run.
+  phrases: ["Croatian phrasebook | Kosher Croatia 2026",
+    "Croatian words and phrases for reading kosher ingredient labels and travelling in Croatia."],
   travel: ["Travelling in Croatia — practical FAQ and Croatian phrasebook | Kosher Croatia 2026",
     "Currency, plug sockets, which side of the road, visas from the US and Israel, and a Croatian phrasebook for reading kosher ingredient labels."],
   guide: ["Kashrut guide — what the badges mean | Kosher Croatia 2026",
