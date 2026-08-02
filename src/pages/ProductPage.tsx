@@ -114,7 +114,15 @@ export default function ProductPage() {
         {p.brand && <Row label="Brand"><BrandTag name={p.brand} /></Row>}
         {p.subheading && <Row label="Listed under">{p.subheading}</Row>}
         {p.names.hr && p.names.hr !== p.names.en && (
-          <Row label="Croatian / original">{p.names.hr}</Row>
+          <Row
+            label={
+              p.originalLang === "de" ? "German"
+                : p.originalLang === "hr" ? "Croatian"
+                : "Original name"
+            }
+          >
+            <span lang={p.originalLang ?? undefined}>{p.names.hr}</span>
+          </Row>
         )}
         {p.names.alt?.length ? (
           <Row label="Also listed as">{p.names.alt.join(" · ")}</Row>

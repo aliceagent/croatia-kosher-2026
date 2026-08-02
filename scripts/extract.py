@@ -118,6 +118,10 @@ def strip_hebrew(text: str) -> str:
     out = re.sub(r"[‎‏]", "", out)
     out = re.sub(r"\)\s*\(", " ", out)   # reversed empty pair
     out = re.sub(r"\(\s*\)", " ", out)   # ordinary empty pair
+    # A reversed bracket group left stranded at the end of the line, such as
+    # ") 10-12%(" trailing "Cocoa, Reduced Fat (10-12%)". End-anchored so a
+    # legitimate "(a) text (b)" is untouched.
+    out = re.sub(r"\)\s*[^()]{0,14}\(\s*$", ")", out)
     # A bracket left with no partner is debris from the Hebrew column.
     if out.count("(") != out.count(")"):
         out = re.sub(r"(?<![A-Za-z0-9])[()](?![A-Za-z0-9])", " ", out)
@@ -235,6 +239,31 @@ def kashrut_from_text(text: str) -> tuple[str | None, str | None]:
     return None, None
 
 
+# The PDF's German sections are headed "HRV/GER/ENG", but their rows carry only
+# "German / English" -- there is no Croatian at all for the imported German
+# brands. Labelling the first segment "Croatian" was wrong for 142 rows.
+_GERMAN = re.compile(
+    r"[äöüßÄÖÜ]|\b(mit|und|ohne|für|Vollkorn|Knusper|M[üu]sli|Schoko\w*|Fr[üu]chte|"
+    r"Zucker|Nuss|Haferflocken|Zartbitter|Di[äa]t|Streusel|Pastete|Bratling|"
+    r"Kr[äa]uter|R[äa]ucher|Sahne|Milch|Wei[ßs]|K[äa]se|Erdbeer|Apfel|Zimt|Honig|"
+    r"Getr[äa]nk|Kleie|Flocken|Bohnen|Sch[öo]ko)\b")
+_CROATIAN = re.compile(
+    r"[čćšžđČĆŠŽĐ]|\b(sve|vrste|bez|sa|od|mlijeko|kruh|riba|vo[cć]e|povr[cć]e|"
+    r"slani|keksi|juha|umak|smrznut\w*|konzerv\w*|prah\w*|tjestenina)\b", re.I)
+
+
+def detect_lang(text: str) -> str | None:
+    """Which language the non-English segment is in, when it can be told."""
+    if not text:
+        return None
+    german, croatian = _GERMAN.search(text), _CROATIAN.search(text)
+    if german and not croatian:
+        return "de"
+    if croatian and not german:
+        return "hr"
+    return None
+
+
 def clean_name(text: str) -> str:
     """
     Tidy the debris that Hebrew-stripping and line-wrapping leave behind.
@@ -254,6 +283,13 @@ def clean_name(text: str) -> str:
     # of the product name.
     if t.count("(") != t.count(")"):
         t = t.replace("(", " ").replace(")", " ")
+    # The Hebrew column repeats figures that appear in the Latin name, and
+    # stripping its letters strands them: "8 Fruit Muesli 8". Only a trailing
+    # number already present earlier in the name is removed, so a genuine
+    # trailing figure such as "Glenfiddich Whisky 12" survives.
+    m = re.search(r"\s(\d{1,2})$", t)
+    if m and re.search(rf"(?<![\d]){re.escape(m.group(1))}(?![\d])", t[: m.start()]):
+        t = t[: m.start()]
     return re.sub(r"\s+", " ", t).strip()
 
 
@@ -349,8 +385,10 @@ def main() -> None:
         seen_ids[base] = n + 1
         pid = base if n == 0 else f"{base}-{n + 1}"
 
+        first = clean.get("hr")
         products.append({
             "id": pid,
+            "originalLang": detect_lang(first) if first and first != english else None,
             "category": cat[0],
             "brand": brand or IMPLICIT_BRAND.get(cat[0]),
             "subheading": subheading,
@@ -395,8 +433,10 @@ def main() -> None:
             continue
         if low.startswith("koser proizvodi u hrvatskoj"):
             continue
-        # index page of the document
-        if page == 2:
+        # Page 2 is the index and page 48 is the back-cover colophon -- the
+        # community's address, phone and the "where to buy" chain list. Neither
+        # holds products, and the colophon was arriving as eight of them.
+        if page in (2, 48):
             continue
 
         # --- category header ---------------------------------------------
@@ -500,6 +540,7 @@ def main() -> None:
             tgt = products[-1]
             if tgt["names"].get("en"):
                 tgt["names"]["en"] = clean_name(f"{tgt['names']['en']} {latin}")
+            prev_latin = latin
             continue
 
         # --- ordinary product row -------------------------------------------
@@ -615,7 +656,12 @@ def split_companies(blob: str) -> list[str]:
     return [p.strip(" .;") for p in parts if len(p.strip(" .;")) > 1]
 
 
-DANGLING_TAIL = re.compile(r"(?:[-–&,]|\b(?:and|with|of|in|the|za|sa|od|s)\b)\s*$", re.I)
+# A line that stops mid-phrase. Only word connectives count: a product name
+# routinely ends in a dash or a comma ("Peppers – mild", "After Eight – sve
+# vrste"), and treating those as unfinished swallowed the next product.
+DANGLING_TAIL = re.compile(r"\b(?:and|with|of|in|the)\s*$", re.I)
+# Punctuation endings are a weaker hint, used only to relax the length test.
+SOFT_TAIL = re.compile(r"[-–&,]\s*$")
 
 
 def is_continuation(latin: str, low: str, prev_latin: str) -> bool:
@@ -632,10 +678,15 @@ def is_continuation(latin: str, low: str, prev_latin: str) -> bool:
     if len(latin) > 60 or SIZE_RE.search(latin):
         return False
     starts_bracket = latin.lstrip()[:1] == "("
-    wrapped = (len(prev_latin) >= (45 if starts_bracket else 58)
-               or bool(DANGLING_TAIL.search(prev_latin)))
+    dangling = bool(DANGLING_TAIL.search(prev_latin))
+    wrapped = (dangling or SOFT_TAIL.search(prev_latin) is not None
+               or len(prev_latin) >= (45 if starts_bracket else 58))
     if not wrapped:
         return False
+    # "...Snack with Cheese and" + "Pepper": when the previous line breaks on a
+    # connective the tail belongs to it whatever its capitalisation.
+    if dangling:
+        return True
     first = latin.lstrip()[:1]
     return bool(first) and (
         first.islower()

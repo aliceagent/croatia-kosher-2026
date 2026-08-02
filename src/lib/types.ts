@@ -27,6 +27,12 @@ export interface Product {
   subheading: string | null;
   names: { hr?: string; en?: string; alt?: string[] | null };
   aliases?: string[] | null;
+  /**
+   * Language of the non-English name, where it can be told. The PDF's German
+   * sections are headed HRV/GER/ENG but their rows carry only German and
+   * English, so labelling every first segment "Croatian" was wrong.
+   */
+  originalLang?: "de" | "hr" | null;
   hebrew: string | null;
   sizes: string[] | null;
   kashrut: Kashrut;

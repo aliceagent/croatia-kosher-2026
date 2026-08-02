@@ -1,6 +1,7 @@
 [
  {
   "id": "bread-bell-baked-white-bread",
+  "originalLang": null,
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -23,6 +24,7 @@
  },
  {
   "id": "bread-kalnik-bread",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -47,6 +49,7 @@
  },
  {
   "id": "bread-kalnik-bread-packed",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -71,6 +74,7 @@
  },
  {
   "id": "bread-small-kalnik-bread",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -95,6 +99,7 @@
  },
  {
   "id": "bread-small-kalnik-bread-packed",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -119,6 +124,7 @@
  },
  {
   "id": "bread-mixed-flour-corn-bread",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -143,6 +149,7 @@
  },
  {
   "id": "bread-mixed-flour-corn-bread-sliced",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -167,6 +174,7 @@
  },
  {
   "id": "bread-mixed-rye-bread",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -192,6 +200,7 @@
  },
  {
   "id": "bread-mixed-rye-bread-packed",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -216,6 +225,7 @@
  },
  {
   "id": "bread-white-bread",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -238,6 +248,7 @@
  },
  {
   "id": "bread-corn-bread",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -260,6 +271,7 @@
  },
  {
   "id": "bread-scandinavian-bread",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -282,6 +294,7 @@
  },
  {
   "id": "bread-somun-bosnian-pita-bread",
+  "originalLang": null,
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -306,6 +319,7 @@
  },
  {
   "id": "bread-rolled-pie-burek-with-apples",
+  "originalLang": null,
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -330,6 +344,7 @@
  },
  {
   "id": "bread-small-rolled-pie-burek-with",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -354,6 +369,7 @@
  },
  {
   "id": "bread-potato-pie",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -378,6 +394,7 @@
  },
  {
   "id": "bread-corn-stick-puff-pastry",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Fresh baked products - Svježi proizvodi",
@@ -402,6 +419,7 @@
  },
  {
   "id": "bread-sacher-cake",
+  "originalLang": null,
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Svježi Proizvodi - Fresh baked products",
@@ -426,6 +444,7 @@
  },
  {
   "id": "bread-small-rolled-pie-burek-with-cheese",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Svježi Proizvodi - Fresh baked products",
@@ -450,6 +469,7 @@
  },
  {
   "id": "bread-small-rolled-pie-burek-with-2",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Svježi Proizvodi - Fresh baked products",
@@ -474,6 +494,7 @@
  },
  {
   "id": "bread-small-rolled-pie-burek-with-3",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Svježi Proizvodi - Fresh baked products",
@@ -498,6 +519,7 @@
  },
  {
   "id": "bread-homemade-cheese-strudel",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Svježi Proizvodi - Fresh baked products",
@@ -522,6 +544,7 @@
  },
  {
   "id": "bread-pumpkin-seed-baguette",
+  "originalLang": "hr",
   "category": "bread",
   "brand": "MLINAR",
   "subheading": "Svježi Proizvodi - Fresh baked products",
@@ -942,6 +965,7 @@
  },
  {
   "id": "basics-salad-no-msg-added",
+  "originalLang": null,
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -966,6 +990,7 @@
  },
  {
   "id": "basics-red-pepper",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -988,6 +1013,7 @@
  },
  {
   "id": "basics-vegeta-gourmet",
+  "originalLang": null,
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1010,6 +1036,7 @@
  },
  {
   "id": "basics-vegetable",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1032,6 +1059,7 @@
  },
  {
   "id": "basics-vegeta-grill-classic",
+  "originalLang": null,
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1054,6 +1082,7 @@
  },
  {
   "id": "basics-grill-garlic",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1076,6 +1105,7 @@
  },
  {
   "id": "basics-grill-piquant-chicken",
+  "originalLang": null,
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1098,6 +1128,7 @@
  },
  {
   "id": "basics-grill-piquant-bbq",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1120,6 +1151,7 @@
  },
  {
   "id": "basics-grill-bbq-meat",
+  "originalLang": null,
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1142,6 +1174,7 @@
  },
  {
   "id": "basics-chicken-seasoning",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1164,6 +1197,7 @@
  },
  {
   "id": "basics-salad-seasoning",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1186,6 +1220,7 @@
  },
  {
   "id": "basics-hot-chips-seasoning",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1208,6 +1243,7 @@
  },
  {
   "id": "basics-mild-paprika-mix",
+  "originalLang": null,
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1230,6 +1266,7 @@
  },
  {
   "id": "basics-garlic-mix",
+  "originalLang": "hr",
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1252,6 +1289,7 @@
  },
  {
   "id": "basics-mlinarova-peka",
+  "originalLang": null,
   "category": "basics",
   "brand": null,
   "subheading": null,
@@ -1274,6 +1312,7 @@
  },
  {
   "id": "dairy-z-bregov-by-vindija",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Mlijeko /Milk:",
@@ -1300,6 +1339,7 @@
  },
  {
   "id": "dairy-vindija",
+  "originalLang": "hr",
   "category": "dairy",
   "brand": null,
   "subheading": "Maslac/Butter:",
@@ -1325,6 +1365,7 @@
  },
  {
   "id": "dairy-natur-yoghurt-z-bregov-by-vindija-vindija-z-bregov",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Jogurt / Yoghurt:",
@@ -1347,6 +1388,7 @@
  },
  {
   "id": "dairy-z-bregov-by-vindija-2",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Svježi sir/ Cottage cheese:",
@@ -1373,6 +1415,7 @@
  },
  {
   "id": "dairy-mlijecni-namaz-abc-cream-cheese-natur-mediteran-belje",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Sirni namazi/ Cheese spreads:",
@@ -1395,6 +1438,7 @@
  },
  {
   "id": "dairy-vivis-vindija",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Sirni namazi/ Cheese spreads:",
@@ -1417,6 +1461,7 @@
  },
  {
   "id": "dairy-mlijecni-namaz-philadelphia-kraft",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Sirni namazi/ Cheese spreads:",
@@ -1439,6 +1484,7 @@
  },
  {
   "id": "dairy-bovi-blue-vindija",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Meki sirevi/ Soft cheeses:",
@@ -1461,6 +1507,7 @@
  },
  {
   "id": "dairy-bovizola-vindija",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Meki sirevi/ Soft cheeses:",
@@ -1483,6 +1530,7 @@
  },
  {
   "id": "dairy-camembert-vindija",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Meki sirevi/ Soft cheeses:",
@@ -1505,6 +1553,7 @@
  },
  {
   "id": "dairy-oviseta-vindija",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Meki sirevi/ Soft cheeses:",
@@ -1527,6 +1576,7 @@
  },
  {
   "id": "dairy-ovi-skuta-vindija",
+  "originalLang": null,
   "category": "dairy",
   "brand": null,
   "subheading": "Meki sirevi/ Soft cheeses:",
@@ -1549,6 +1599,7 @@
  },
  {
   "id": "cereals-kellogs-choco-krispies",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1571,6 +1622,7 @@
  },
  {
   "id": "cereals-kellogs-choco-krispies-xxl-xxl",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1593,6 +1645,7 @@
  },
  {
   "id": "cereals-kellogs-chocos",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1615,6 +1668,7 @@
  },
  {
   "id": "cereals-kellogs-corn-flakes",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1637,6 +1691,7 @@
  },
  {
   "id": "cereals-kellogs-corn-flakes-multigrain-fruits",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1659,6 +1714,7 @@
  },
  {
   "id": "cereals-kellogs-crunchy-nut-corn-flakes-honey-nuts",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1681,6 +1737,7 @@
  },
  {
   "id": "cereals-kellogs-day-vita-flakes-fruits",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1703,6 +1760,7 @@
  },
  {
   "id": "cereals-kellogs-froot-loops",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1725,6 +1783,7 @@
  },
  {
   "id": "cereals-kellogs-frosties",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1747,6 +1806,7 @@
  },
  {
   "id": "cereals-kellogs-frosties-crunchy-choco",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1769,6 +1829,7 @@
  },
  {
   "id": "cereals-kellogs-frosties-with-less-sugar",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1793,6 +1854,7 @@
  },
  {
   "id": "cereals-kellogs-honey-loops",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1815,6 +1877,7 @@
  },
  {
   "id": "cereals-kellogs-pops",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1837,6 +1900,7 @@
  },
  {
   "id": "cereals-kellogs-rice-krispies",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1859,6 +1923,7 @@
  },
  {
   "id": "cereals-kellogs-smacks",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1881,6 +1946,7 @@
  },
  {
   "id": "cereals-kellogs-toppas-traube",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1903,6 +1969,7 @@
  },
  {
   "id": "cereals-kellogs-full-grain",
+  "originalLang": null,
   "category": "cereals",
   "brand": "KELLOGS",
   "subheading": null,
@@ -1924,13 +1991,14 @@
   "sourcePage": 7
  },
  {
-  "id": "cereals-granovita-8-fruit-muesli-8",
+  "id": "cereals-granovita-8-fruit-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
   "names": {
    "hr": "8Früchte-Müsli",
-   "en": "8 Fruit Muesli 8"
+   "en": "8 Fruit Muesli"
   },
   "hebrew": "מוזלי עם 8 סוגי פירו ת",
   "sizes": null,
@@ -1947,6 +2015,7 @@
  },
  {
   "id": "cereals-granovita-alfalfa-seeds",
+  "originalLang": null,
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -1969,6 +2038,7 @@
  },
  {
   "id": "cereals-granovita-organic-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -1993,6 +2063,7 @@
  },
  {
   "id": "cereals-granovita-granola",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2015,6 +2086,7 @@
  },
  {
   "id": "cereals-granovita-fenugreek-seeds",
+  "originalLang": null,
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2037,6 +2109,7 @@
  },
  {
   "id": "cereals-granovita-frema-linseed-flax-gold",
+  "originalLang": null,
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2059,6 +2132,7 @@
  },
  {
   "id": "cereals-granovita-cress",
+  "originalLang": null,
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2081,6 +2155,7 @@
  },
  {
   "id": "cereals-granovita-mung-bean",
+  "originalLang": null,
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2103,6 +2178,7 @@
  },
  {
   "id": "cereals-granovita-whole-grain-oatmeal",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2127,6 +2203,7 @@
  },
  {
   "id": "cereals-granovita-whole-grain-oatmeal-2",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2151,6 +2228,7 @@
  },
  {
   "id": "cereals-granovita-whole-grain-strawberry",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2175,6 +2253,7 @@
  },
  {
   "id": "cereals-granovita-wholegrain-corn-flakes",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "GranoVita",
   "subheading": null,
@@ -2199,6 +2278,7 @@
  },
  {
   "id": "cereals-schneekoppe-vitamin-flakes",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2221,6 +2301,7 @@
  },
  {
   "id": "cereals-schneekoppe-breakfast-muesli",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2243,6 +2324,7 @@
  },
  {
   "id": "cereals-schneekoppe-beta-glucan",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2265,6 +2347,7 @@
  },
  {
   "id": "cereals-schneekoppe-cereals-nestle",
+  "originalLang": "hr",
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2287,6 +2370,7 @@
  },
  {
   "id": "cereals-schneekoppe-apple-minis",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2309,6 +2393,7 @@
  },
  {
   "id": "cereals-schneekoppe-choca-pic",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2331,6 +2416,7 @@
  },
  {
   "id": "cereals-schneekoppe-cini-minis",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2353,6 +2439,7 @@
  },
  {
   "id": "cereals-schneekoppe-cookie-crisp",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2375,6 +2462,7 @@
  },
  {
   "id": "cereals-schneekoppe-fitness",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2397,6 +2485,7 @@
  },
  {
   "id": "cereals-schneekoppe-fitness-berries",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2419,6 +2508,7 @@
  },
  {
   "id": "cereals-schneekoppe-fitness-fruits",
+  "originalLang": null,
   "category": "cereals",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -2441,6 +2531,7 @@
  },
  {
   "id": "cereals-nestle-nestle-chokella",
+  "originalLang": null,
   "category": "cereals",
   "brand": "NESTLE",
   "subheading": null,
@@ -2463,6 +2554,7 @@
  },
  {
   "id": "cereals-nestle-clusters-chokolade",
+  "originalLang": null,
   "category": "cereals",
   "brand": "NESTLE",
   "subheading": null,
@@ -2485,6 +2577,7 @@
  },
  {
   "id": "cereals-nestle-clusters-mandel-nuss",
+  "originalLang": null,
   "category": "cereals",
   "brand": "NESTLE",
   "subheading": null,
@@ -2507,6 +2600,7 @@
  },
  {
   "id": "cereals-nestle-fitness-chocolat",
+  "originalLang": null,
   "category": "cereals",
   "brand": "NESTLE",
   "subheading": null,
@@ -2529,6 +2623,7 @@
  },
  {
   "id": "cereals-nestle-yogurt-lion-cereals-lion",
+  "originalLang": null,
   "category": "cereals",
   "brand": "NESTLE",
   "subheading": null,
@@ -2551,6 +2646,7 @@
  },
  {
   "id": "cereals-lion-yogurt-nesquik-cereals",
+  "originalLang": null,
   "category": "cereals",
   "brand": "Lion",
   "subheading": null,
@@ -2573,6 +2669,7 @@
  },
  {
   "id": "cereals-lion-nesquik-crispy-breakfast",
+  "originalLang": null,
   "category": "cereals",
   "brand": "Lion",
   "subheading": null,
@@ -2595,6 +2692,7 @@
  },
  {
   "id": "cereals-koelln-flower-delicate-kolln-flakes",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2617,6 +2715,7 @@
  },
  {
   "id": "cereals-koelln-caffe-macchiato-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2639,6 +2738,7 @@
  },
  {
   "id": "cereals-koelln-koelln-cakes",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2661,6 +2761,7 @@
  },
  {
   "id": "cereals-koelln-cereal-chocolate-hazelnut",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2683,6 +2784,7 @@
  },
  {
   "id": "cereals-koelln-cranberry-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2705,6 +2807,7 @@
  },
  {
   "id": "cereals-koelln-whole-grain-fruits-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2729,6 +2832,7 @@
  },
  {
   "id": "cereals-koelln-blueberry-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2751,6 +2855,7 @@
  },
  {
   "id": "cereals-koelln-yoghurt-musli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2773,6 +2878,7 @@
  },
  {
   "id": "cereals-koelln-caribbean-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2795,6 +2901,7 @@
  },
  {
   "id": "cereals-koelln-apple-and-cinnamon-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2817,6 +2924,7 @@
  },
  {
   "id": "cereals-koelln-choco-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2839,6 +2947,7 @@
  },
  {
   "id": "cereals-koelln-crispy-flakes-muesli-honey",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2861,6 +2970,7 @@
  },
  {
   "id": "cereals-koelln-choco-flakes-muesli",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2883,6 +2993,7 @@
  },
  {
   "id": "cereals-koelln-choco-muesli-2",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2905,6 +3016,7 @@
  },
  {
   "id": "cereals-koelln-zauberfleks-choco",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2927,6 +3039,7 @@
  },
  {
   "id": "cereals-koelln-real-oatmeal",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2949,6 +3062,7 @@
  },
  {
   "id": "cereals-koelln-instant-flakes",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2971,6 +3085,7 @@
  },
  {
   "id": "cereals-koelln-oatmeal-with-bran",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -2993,6 +3108,7 @@
  },
  {
   "id": "cereals-koelln-oatmeal-with-bran-and-flakes",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -3015,6 +3131,7 @@
  },
  {
   "id": "cereals-koelln-porridge-oatmeal",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -3037,6 +3154,7 @@
  },
  {
   "id": "cereals-koelln-flower-delicate-kolln-flakes-oats",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -3059,6 +3177,7 @@
  },
  {
   "id": "cereals-koelln-flowe-oats",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -3081,6 +3200,7 @@
  },
  {
   "id": "cereals-koelln-cereal-flour",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -3103,6 +3223,7 @@
  },
  {
   "id": "cereals-koelln-cereal-flour-2",
+  "originalLang": "de",
   "category": "cereals",
   "brand": "KOELLN",
   "subheading": null,
@@ -3125,6 +3246,7 @@
  },
  {
   "id": "cereals-bozjakovina-small-oatmeal",
+  "originalLang": null,
   "category": "cereals",
   "brand": "BOŽJAKOVINA",
   "subheading": null,
@@ -3147,6 +3269,7 @@
  },
  {
   "id": "cereals-bozjakovina-large-oatmeal",
+  "originalLang": null,
   "category": "cereals",
   "brand": "BOŽJAKOVINA",
   "subheading": null,
@@ -3169,6 +3292,7 @@
  },
  {
   "id": "cereals-bozjakovina-three-types-of-cereals",
+  "originalLang": "hr",
   "category": "cereals",
   "brand": "BOŽJAKOVINA",
   "subheading": null,
@@ -3191,6 +3315,7 @@
  },
  {
   "id": "cereals-bozjakovina-dry-fruits-muesli",
+  "originalLang": null,
   "category": "cereals",
   "brand": "BOŽJAKOVINA",
   "subheading": null,
@@ -3213,6 +3338,7 @@
  },
  {
   "id": "pasta-barilla-all-varieties",
+  "originalLang": "hr",
   "category": "pasta",
   "brand": "BARILLA",
   "subheading": null,
@@ -3235,6 +3361,7 @@
  },
  {
   "id": "pasta-buitoni-all-varieties",
+  "originalLang": "hr",
   "category": "pasta",
   "brand": "BUITONI",
   "subheading": null,
@@ -3257,6 +3384,7 @@
  },
  {
   "id": "pasta-granovita-organic-wholemeal-spaghetti",
+  "originalLang": "de",
   "category": "pasta",
   "brand": "GranoVita",
   "subheading": null,
@@ -3282,6 +3410,7 @@
  },
  {
   "id": "pasta-granovita-organic-whole-wheat-noodles",
+  "originalLang": "de",
   "category": "pasta",
   "brand": "GranoVita",
   "subheading": null,
@@ -3307,6 +3436,7 @@
  },
  {
   "id": "pasta-granovita-organic-whole-wheat-spirals",
+  "originalLang": "de",
   "category": "pasta",
   "brand": "GranoVita",
   "subheading": null,
@@ -3332,6 +3462,7 @@
  },
  {
   "id": "pasta-granovita-italian-noodles-colorful-spirals",
+  "originalLang": null,
   "category": "pasta",
   "brand": "GranoVita",
   "subheading": null,
@@ -3354,6 +3485,7 @@
  },
  {
   "id": "pasta-tomadini-all-kinds",
+  "originalLang": "hr",
   "category": "pasta",
   "brand": "TOMADINI",
   "subheading": null,
@@ -3375,13 +3507,14 @@
   "sourcePage": 10
  },
  {
-  "id": "pasta-nase-klasje-tortelloni-4-cheeses-4",
+  "id": "pasta-nase-klasje-tortelloni-4-cheeses",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
   "names": {
-   "hr": "TORTELLONI 4 CHEESES 4",
-   "en": "TORTELLONI 4 CHEESES 4"
+   "hr": "TORTELLONI 4 CHEESES",
+   "en": "TORTELLONI 4 CHEESES"
   },
   "hebrew": "טורטליני 4 סוגי גבינו ת",
   "sizes": null,
@@ -3398,6 +3531,7 @@
  },
  {
   "id": "pasta-nase-klasje-tortellini-cheese",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3420,6 +3554,7 @@
  },
  {
   "id": "pasta-nase-klasje-tortellini-swiss-chard",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3442,6 +3577,7 @@
  },
  {
   "id": "pasta-nase-klasje-tortellini-spinach",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3464,6 +3600,7 @@
  },
  {
   "id": "pasta-nase-klasje-ravioli-with-istrian-truffle",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3486,6 +3623,7 @@
  },
  {
   "id": "pasta-nase-klasje-ravioli-sheep-milk-cheese",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3508,6 +3646,7 @@
  },
  {
   "id": "pasta-nase-klasje-tagliatelle",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3530,6 +3669,7 @@
  },
  {
   "id": "pasta-nase-klasje-pappardelle",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3552,6 +3692,7 @@
  },
  {
   "id": "pasta-nase-klasje-spagehetti",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3574,6 +3715,7 @@
  },
  {
   "id": "pasta-nase-klasje-lasagne-sheets",
+  "originalLang": null,
   "category": "pasta",
   "brand": "NAŠE KLASJE",
   "subheading": null,
@@ -3596,6 +3738,7 @@
  },
  {
   "id": "rice-sve-vrste",
+  "originalLang": null,
   "category": "rice",
   "brand": null,
   "subheading": "Rice for cooking:",
@@ -3618,6 +3761,7 @@
  },
  {
   "id": "rice-ruf-rice-pudding-with-apples",
+  "originalLang": "hr",
   "category": "rice",
   "brand": "RUF",
   "subheading": null,
@@ -3640,6 +3784,7 @@
  },
  {
   "id": "rice-ruf-rice-pudding-with-cinnamon-sugar",
+  "originalLang": "hr",
   "category": "rice",
   "brand": "RUF",
   "subheading": null,
@@ -3662,6 +3807,7 @@
  },
  {
   "id": "rice-ruf-rice-pudding-with-cherries",
+  "originalLang": "hr",
   "category": "rice",
   "brand": "RUF",
   "subheading": null,
@@ -3684,6 +3830,7 @@
  },
  {
   "id": "rice-ruf-rice-pudding-chocolate",
+  "originalLang": "hr",
   "category": "rice",
   "brand": "RUF",
   "subheading": null,
@@ -3706,6 +3853,7 @@
  },
  {
   "id": "rice-ruf-rice-pudding-traditional",
+  "originalLang": "hr",
   "category": "rice",
   "brand": "RUF",
   "subheading": null,
@@ -3728,6 +3876,7 @@
  },
  {
   "id": "rice-risbelli-apple-cinnamon",
+  "originalLang": "de",
   "category": "rice",
   "brand": "RISBELLI",
   "subheading": null,
@@ -3750,6 +3899,7 @@
  },
  {
   "id": "rice-risbelli-reis-fit-risbellis-barbecue",
+  "originalLang": null,
   "category": "rice",
   "brand": "RISBELLI",
   "subheading": null,
@@ -3772,6 +3922,7 @@
  },
  {
   "id": "rice-risbelli-reis-fit-risbellis-caramel",
+  "originalLang": null,
   "category": "rice",
   "brand": "RISBELLI",
   "subheading": null,
@@ -3794,6 +3945,7 @@
  },
  {
   "id": "rice-risbelli-reis-fit-risbellis-hot-spicy",
+  "originalLang": null,
   "category": "rice",
   "brand": "RISBELLI",
   "subheading": null,
@@ -3816,6 +3968,7 @@
  },
  {
   "id": "rice-risbelli-reis-fit-risbellis-paprika",
+  "originalLang": null,
   "category": "rice",
   "brand": "RISBELLI",
   "subheading": null,
@@ -3838,6 +3991,7 @@
  },
  {
   "id": "rice-risbelli-reis-fit-risbellis-schokolade",
+  "originalLang": null,
   "category": "rice",
   "brand": "RISBELLI",
   "subheading": null,
@@ -3860,6 +4014,7 @@
  },
  {
   "id": "rice-risbelli-reis-fit-risbellis-vanille-kokos",
+  "originalLang": null,
   "category": "rice",
   "brand": "RISBELLI",
   "subheading": null,
@@ -3882,6 +4037,7 @@
  },
  {
   "id": "soups-knorr-activ-vegetable-soup-with",
+  "originalLang": "hr",
   "category": "soups",
   "brand": "KNORR",
   "subheading": null,
@@ -3904,6 +4060,7 @@
  },
  {
   "id": "soups-knorr-tomato-soup",
+  "originalLang": "hr",
   "category": "soups",
   "brand": "KNORR",
   "subheading": null,
@@ -3926,6 +4083,7 @@
  },
  {
   "id": "frozen-veg-bonduelle-organic-patty-mix-spelt",
+  "originalLang": null,
   "category": "frozen-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -3950,6 +4108,7 @@
  },
  {
   "id": "frozen-veg-bonduelle-vegetable-mixture",
+  "originalLang": null,
   "category": "frozen-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -3975,6 +4134,7 @@
  },
  {
   "id": "frozen-veg-bonduelle-vegetable-mixture-2",
+  "originalLang": "hr",
   "category": "frozen-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -3997,6 +4157,7 @@
  },
  {
   "id": "frozen-veg-bonduelle-kaiser-vegetables",
+  "originalLang": "hr",
   "category": "frozen-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4019,6 +4180,7 @@
  },
  {
   "id": "canned-veg-podravka-canned-peas",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4041,6 +4203,7 @@
  },
  {
   "id": "canned-veg-podravka-canned-green-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4063,6 +4226,7 @@
  },
  {
   "id": "canned-veg-podravka-canned-diced-carrot",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4085,6 +4249,7 @@
  },
  {
   "id": "canned-veg-podravka-red-beet",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4107,6 +4272,7 @@
  },
  {
   "id": "canned-veg-podravka-red-beet-stripes",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4129,6 +4295,7 @@
  },
  {
   "id": "canned-veg-podravka-peppers-mild",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4151,6 +4318,7 @@
  },
  {
   "id": "canned-veg-podravka-peppers-hot",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4173,6 +4341,7 @@
  },
  {
   "id": "canned-veg-podravka-cucumbers",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4195,6 +4364,7 @@
  },
  {
   "id": "canned-veg-podravka-cucumbers-diced-pickles",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4217,6 +4387,7 @@
  },
  {
   "id": "canned-veg-podravka-cucumbers-sliced-pickles",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4239,6 +4410,7 @@
  },
  {
   "id": "canned-veg-podravka-mixed-vegetable-salad",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4261,6 +4433,7 @@
  },
  {
   "id": "canned-veg-podravka-paprika-in-halves",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4283,6 +4456,7 @@
  },
  {
   "id": "canned-veg-podravka-tomato-and-peppers",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4305,6 +4479,7 @@
  },
  {
   "id": "canned-veg-podravka-chickpeas",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4327,6 +4502,7 @@
  },
  {
   "id": "canned-veg-podravka-supersweet-corn",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -4349,6 +4525,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-fruit-compote-1",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4371,6 +4548,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pitted-cherry-compote",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4393,6 +4571,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pitted-plum-compote",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4415,6 +4594,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-plum-compote",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4437,6 +4617,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pitted-apricot-compote",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4459,6 +4640,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-blackberry-compote",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4481,6 +4663,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-vegetables-2",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4503,6 +4686,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-cucumber-pickled",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4525,6 +4709,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-delicatesse-cucumber-pickled",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4547,6 +4732,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-cucumber-pickled-2",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4569,6 +4755,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-green-olives-with-paprika-paste",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4591,6 +4778,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-whole-green-olives",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4613,6 +4801,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pitted-green-olives",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4635,6 +4824,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-whole-pasteurized-paprika",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4657,6 +4847,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-cut-pasteurized-paprika",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4679,6 +4870,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-paprika-with-cabbage",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4701,6 +4893,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-cut-beetroot",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4723,6 +4916,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-chili-pepper-mild",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4745,6 +4939,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-chili-pepper-hot",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4767,6 +4962,7 @@
  },
  {
   "id": "canned-veg-marinada-doora-pasteurized-mix-salat",
+  "originalLang": "hr",
   "category": "canned-veg",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -4789,6 +4985,7 @@
  },
  {
   "id": "canned-veg-bonduelle-pasteurized-beetroot",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4811,6 +5008,7 @@
  },
  {
   "id": "canned-veg-bonduelle-pasteurized-chili-pepper-mild",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4833,6 +5031,7 @@
  },
  {
   "id": "canned-veg-bonduelle-broad-beans",
+  "originalLang": "de",
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4855,6 +5054,7 @@
  },
  {
   "id": "canned-veg-bonduelle-green-beans",
+  "originalLang": "de",
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4877,6 +5077,7 @@
  },
  {
   "id": "canned-veg-bonduelle-goldmais-corn",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4899,6 +5100,7 @@
  },
  {
   "id": "canned-veg-bonduelle-gold-celery-heart",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4921,6 +5123,7 @@
  },
  {
   "id": "canned-veg-bonduelle-grune-bohnen-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4943,6 +5146,7 @@
  },
  {
   "id": "canned-veg-bonduelle-grune-bohnen-extra-fein-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4965,6 +5169,7 @@
  },
  {
   "id": "canned-veg-bonduelle-grune-bohnen-fein-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -4987,6 +5192,7 @@
  },
  {
   "id": "canned-veg-bonduelle-grune-bohnen-mittelfein-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5009,6 +5215,7 @@
  },
  {
   "id": "canned-veg-bonduelle-grune-bohnen-sehr-fein-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5031,6 +5238,7 @@
  },
  {
   "id": "canned-veg-bonduelle-grune-brechbohnen-fein-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5053,6 +5261,7 @@
  },
  {
   "id": "canned-veg-bonduelle-grune-brechbohnen-mittelfein-beans",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5075,6 +5284,7 @@
  },
  {
   "id": "canned-veg-bonduelle-green-bean",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5097,6 +5307,7 @@
  },
  {
   "id": "canned-veg-bonduelle-baby-corn",
+  "originalLang": "de",
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5121,6 +5332,7 @@
  },
  {
   "id": "canned-veg-bonduelle-carrot",
+  "originalLang": "de",
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5143,6 +5355,7 @@
  },
  {
   "id": "canned-veg-bonduelle-mung-bean-sprouts",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5165,6 +5378,7 @@
  },
  {
   "id": "canned-veg-bonduelle-bell-pepper",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5187,6 +5401,7 @@
  },
  {
   "id": "canned-veg-bonduelle-wax-bean",
+  "originalLang": null,
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5209,6 +5424,7 @@
  },
  {
   "id": "canned-veg-bonduelle-supersweet-corn",
+  "originalLang": "de",
   "category": "canned-veg",
   "brand": "BONDUELLE",
   "subheading": null,
@@ -5234,6 +5450,7 @@
  },
  {
   "id": "fish-atlantic-cod",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5256,6 +5473,7 @@
  },
  {
   "id": "fish-hake",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5278,6 +5496,7 @@
  },
  {
   "id": "fish-barracuda",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5300,6 +5519,7 @@
  },
  {
   "id": "fish-european-bass",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5322,6 +5542,7 @@
  },
  {
   "id": "fish-mullet",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5344,6 +5565,7 @@
  },
  {
   "id": "fish-mahi-mahi",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5366,6 +5588,7 @@
  },
  {
   "id": "fish-common-bream",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5388,6 +5611,7 @@
  },
  {
   "id": "fish-percidae",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5410,6 +5634,7 @@
  },
  {
   "id": "fish-perch",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5432,6 +5657,7 @@
  },
  {
   "id": "fish-herring",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5454,6 +5680,7 @@
  },
  {
   "id": "fish-anchovi",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5476,6 +5703,7 @@
  },
  {
   "id": "fish-european-flounder",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5498,6 +5726,7 @@
  },
  {
   "id": "fish-grouper",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5520,12 +5749,13 @@
  },
  {
   "id": "fish-john-dory-zeus-faber",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Kovač",
-   "en": "John Dory (Zeus Faber) ) '("
+   "en": "John Dory (Zeus Faber)"
   },
   "hebrew": "מוריגן הכתם (ג'ון דורי",
   "sizes": null,
@@ -5542,6 +5772,7 @@
  },
  {
   "id": "fish-european-grayling",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5564,6 +5795,7 @@
  },
  {
   "id": "fish-sole",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5586,6 +5818,7 @@
  },
  {
   "id": "fish-salmon",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5608,6 +5841,7 @@
  },
  {
   "id": "fish-flying-fish",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5630,12 +5864,13 @@
  },
  {
   "id": "fish-gilthead-seabream-sparus-aurata",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
   "names": {
    "hr": "Orada",
-   "en": "Gilthead seabream (Sparus aurata) ) '("
+   "en": "Gilthead seabream (Sparus aurata)"
   },
   "hebrew": "דניס צ'יפורה",
   "sizes": null,
@@ -5652,6 +5887,7 @@
  },
  {
   "id": "fish-pink-dentex-red-snapper",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5674,6 +5910,7 @@
  },
  {
   "id": "fish-atlantic-herring",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5696,6 +5933,7 @@
  },
  {
   "id": "fish-whitefish-coregonus",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5718,6 +5956,7 @@
  },
  {
   "id": "fish-trout",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5740,6 +5979,7 @@
  },
  {
   "id": "fish-sardine",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5762,6 +6002,7 @@
  },
  {
   "id": "fish-atlantic-mackerel",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5784,6 +6025,7 @@
  },
  {
   "id": "fish-european-pilchard",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5806,6 +6048,7 @@
  },
  {
   "id": "fish-pumpkinseed-lepomis-gibbosus",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5828,6 +6071,7 @@
  },
  {
   "id": "fish-prussian-carp",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5850,6 +6094,7 @@
  },
  {
   "id": "fish-european-carp",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5872,6 +6117,7 @@
  },
  {
   "id": "fish-northern-pike",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5894,6 +6140,7 @@
  },
  {
   "id": "fish-striped-red-mullet",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5916,6 +6163,7 @@
  },
  {
   "id": "fish-red-mullet",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5938,6 +6186,7 @@
  },
  {
   "id": "fish-labridae-latin-language",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5960,6 +6209,7 @@
  },
  {
   "id": "fish-brook-trout",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -5982,6 +6232,7 @@
  },
  {
   "id": "fish-tilapia",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -6004,6 +6255,7 @@
  },
  {
   "id": "fish-rosefish",
+  "originalLang": "hr",
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -6029,6 +6281,7 @@
  },
  {
   "id": "fish-meagre-croaker-shade-fish-sowa-kir-korvina-salmon",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -6051,6 +6304,7 @@
  },
  {
   "id": "fish-tuna",
+  "originalLang": null,
   "category": "fish",
   "brand": null,
   "subheading": "Svježa Riba/ Fresh Fish:",
@@ -6073,6 +6327,7 @@
  },
  {
   "id": "fish-cromaris-european-seabass-fresh-frozen-smoked-marinated",
+  "originalLang": null,
   "category": "fish",
   "brand": "CROMARIS",
   "subheading": null,
@@ -6095,6 +6350,7 @@
  },
  {
   "id": "fish-cromaris-gilthead-seabream-fresh-frozen-smoked-marinated",
+  "originalLang": null,
   "category": "fish",
   "brand": "CROMARIS",
   "subheading": null,
@@ -6117,6 +6373,7 @@
  },
  {
   "id": "fish-cromaris-meagre-croaker-shade-fish-sowa-kir-korvina-salmon",
+  "originalLang": null,
   "category": "fish",
   "brand": "CROMARIS",
   "subheading": null,
@@ -6139,6 +6396,7 @@
  },
  {
   "id": "fish-cromaris-bass-or-stone-bass-argyrosomus-regius-fresh-frozen-smoke",
+  "originalLang": null,
   "category": "fish",
   "brand": "CROMARIS",
   "subheading": null,
@@ -6161,6 +6419,7 @@
  },
  {
   "id": "fish-pelagos-filets-in-sunflower-oil",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "PELAGOS",
   "subheading": null,
@@ -6183,6 +6442,7 @@
  },
  {
   "id": "fish-pelagos-marinated-anchovy-filets-in",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "PELAGOS",
   "subheading": null,
@@ -6205,6 +6465,7 @@
  },
  {
   "id": "fish-pelagos-salted-sardines-semi-fillet-in",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "PELAGOS",
   "subheading": null,
@@ -6227,6 +6488,7 @@
  },
  {
   "id": "fish-pelagos-frozen-anchovies-iqf",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "PELAGOS",
   "subheading": null,
@@ -6249,6 +6511,7 @@
  },
  {
   "id": "fish-pelagos-frozen-sardine-iqf",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "PELAGOS",
   "subheading": null,
@@ -6271,6 +6534,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-trout-smoked-whole",
+  "originalLang": null,
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6293,6 +6557,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-trout-smoked-filleted",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6315,6 +6580,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-trout-caviar-red",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6337,6 +6603,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-smoked-trout-pate",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6359,6 +6626,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-smoked-mackerel-filleted",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6381,6 +6649,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-salmon-smoked-filleted",
+  "originalLang": null,
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6403,6 +6672,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-smoked-gilthead-seabream-fillted",
+  "originalLang": null,
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6425,6 +6695,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-seabass-smoked-filleted",
+  "originalLang": null,
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6447,6 +6718,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-tuna-cold-smoked",
+  "originalLang": null,
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6469,6 +6741,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-pike-smoked",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6491,6 +6764,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-carp-hall-smoked",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6513,6 +6787,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-carp-half-smoked",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6535,6 +6810,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-carp-steak-smoked",
+  "originalLang": "hr",
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6557,6 +6833,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-cod-bianco-on-white",
+  "originalLang": null,
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6579,6 +6856,7 @@
  },
  {
   "id": "fish-marko-obrt-za-dimljenje-sardine-smoked",
+  "originalLang": null,
   "category": "fish",
   "brand": "MARKO OBRT ZA DIMLJENJE",
   "subheading": null,
@@ -6601,6 +6879,7 @@
  },
  {
   "id": "canned-fish-sardina-postira-sardines-vegetable-oil",
+  "originalLang": null,
   "category": "canned-fish",
   "brand": "SARDINA POSTIRA",
   "subheading": null,
@@ -6623,6 +6902,7 @@
  },
  {
   "id": "canned-fish-sardina-postira-sardines-in-olive-oil",
+  "originalLang": null,
   "category": "canned-fish",
   "brand": "SARDINA POSTIRA",
   "subheading": null,
@@ -6645,6 +6925,7 @@
  },
  {
   "id": "canned-fish-sardina-postira-tuna-in-oil",
+  "originalLang": null,
   "category": "canned-fish",
   "brand": "SARDINA POSTIRA",
   "subheading": null,
@@ -6667,6 +6948,7 @@
  },
  {
   "id": "canned-fish-rio-mare-tuna-in-olive-oil",
+  "originalLang": "hr",
   "category": "canned-fish",
   "brand": "RIO MARE",
   "subheading": null,
@@ -6689,6 +6971,7 @@
  },
  {
   "id": "spreads-sana-hummus-classic-250",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6713,6 +6996,7 @@
  },
  {
   "id": "spreads-sana-hummus-with-paprika-250",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6737,6 +7021,7 @@
  },
  {
   "id": "spreads-sana-hummus-with-chili-250",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6761,6 +7046,7 @@
  },
  {
   "id": "spreads-sana-hummus-with-chickpeas-250",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6785,6 +7071,7 @@
  },
  {
   "id": "spreads-sana-eggplant-and-tomato-salad-200",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6809,6 +7096,7 @@
  },
  {
   "id": "spreads-sana-grilled-eggplant-salad-200",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6833,6 +7121,7 @@
  },
  {
   "id": "spreads-sana-thai-salsa-salad-200",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6857,6 +7146,7 @@
  },
  {
   "id": "spreads-sana-tahini-classic-sesame-350",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6881,6 +7171,7 @@
  },
  {
   "id": "spreads-sana-tahini-mediterranean",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6905,6 +7196,7 @@
  },
  {
   "id": "spreads-sana-tahini-chile-350",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "SANA",
   "subheading": null,
@@ -6929,6 +7221,7 @@
  },
  {
   "id": "spreads-ferrero-nutella",
+  "originalLang": null,
   "category": "spreads",
   "brand": "FERRERO",
   "subheading": null,
@@ -6951,6 +7244,7 @@
  },
  {
   "id": "spreads-granovita-garlic-spread",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -6973,6 +7267,7 @@
  },
  {
   "id": "spreads-granovita-buckwheat-pate",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -6995,6 +7290,7 @@
  },
  {
   "id": "spreads-granovita-cashew-spread",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7017,6 +7313,7 @@
  },
  {
   "id": "spreads-granovita-curry",
+  "originalLang": null,
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7039,6 +7336,7 @@
  },
  {
   "id": "spreads-granovita-peanut-butter",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7061,6 +7359,7 @@
  },
  {
   "id": "spreads-granovita-peanut-butter-crunchy",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7083,6 +7382,7 @@
  },
  {
   "id": "spreads-granovita-molasses-spread",
+  "originalLang": null,
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7105,6 +7405,7 @@
  },
  {
   "id": "spreads-granovita-hazelnut-spread",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7127,6 +7428,7 @@
  },
  {
   "id": "spreads-granovita-lentil-pate",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7149,6 +7451,7 @@
  },
  {
   "id": "spreads-granovita-almond-spread",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7171,6 +7474,7 @@
  },
  {
   "id": "spreads-granovita-horseradish-spread",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7193,6 +7497,7 @@
  },
  {
   "id": "spreads-granovita-paprika-spread",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7215,6 +7520,7 @@
  },
  {
   "id": "spreads-granovita-pepper-pate",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7237,6 +7543,7 @@
  },
  {
   "id": "spreads-granovita-kidney-bean-spread",
+  "originalLang": null,
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7259,6 +7566,7 @@
  },
  {
   "id": "spreads-granovita-beef-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7281,6 +7589,7 @@
  },
  {
   "id": "spreads-granovita-creamy-mild-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7303,6 +7612,7 @@
  },
  {
   "id": "spreads-granovita-curry-sesame-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7325,6 +7635,7 @@
  },
  {
   "id": "spreads-granovita-green-pepper-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7347,6 +7658,7 @@
  },
  {
   "id": "spreads-granovita-spelt-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7369,6 +7681,7 @@
  },
  {
   "id": "spreads-granovita-cucumber-and-pepper-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7391,6 +7704,7 @@
  },
  {
   "id": "spreads-granovita-homemaker-art-variety-of",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7413,6 +7727,7 @@
  },
  {
   "id": "spreads-granovita-ginger-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7435,6 +7750,7 @@
  },
  {
   "id": "spreads-granovita-chickpea-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7457,6 +7773,7 @@
  },
  {
   "id": "spreads-granovita-herb-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7479,6 +7796,7 @@
  },
  {
   "id": "spreads-granovita-lupine-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7501,6 +7819,7 @@
  },
  {
   "id": "spreads-granovita-olive-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7523,6 +7842,7 @@
  },
  {
   "id": "spreads-granovita-black-olive-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7545,6 +7865,7 @@
  },
  {
   "id": "spreads-granovita-tomato-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7567,6 +7888,7 @@
  },
  {
   "id": "spreads-granovita-zucchini-and-leek-cream-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "GranoVita",
   "subheading": null,
@@ -7589,6 +7911,7 @@
  },
  {
   "id": "spreads-schneekoppe-mushroom-pate",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -7611,6 +7934,7 @@
  },
  {
   "id": "spreads-schneekoppe-herb-pate",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -7633,6 +7957,7 @@
  },
  {
   "id": "spreads-schneekoppe-olive-pate",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -7655,6 +7980,7 @@
  },
  {
   "id": "spreads-schneekoppe-tomato-pate",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -7677,6 +8003,7 @@
  },
  {
   "id": "spreads-schneekoppe-hungarian-pate",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -7699,6 +8026,7 @@
  },
  {
   "id": "spreads-schneekoppe-buckthorn-hippophae-spread",
+  "originalLang": null,
   "category": "spreads",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -7721,6 +8049,7 @@
  },
  {
   "id": "spreads-tartex-all-the-kinds-of-pates-and-spreads",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "TARTEX",
   "subheading": null,
@@ -7743,6 +8072,7 @@
  },
  {
   "id": "spreads-tartex-all-kinds-bruschetta",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "TARTEX",
   "subheading": null,
@@ -7767,6 +8097,7 @@
  },
  {
   "id": "spreads-tartex-all-kinds-cremisso",
+  "originalLang": "hr",
   "category": "spreads",
   "brand": "TARTEX",
   "subheading": null,
@@ -7791,6 +8122,7 @@
  },
  {
   "id": "spreads-tartex-all-kinds-schmalztopfl",
+  "originalLang": null,
   "category": "spreads",
   "brand": "TARTEX",
   "subheading": null,
@@ -7813,6 +8145,7 @@
  },
  {
   "id": "spreads-vitaquell-cream-spread-piccante-garlic",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -7835,6 +8168,7 @@
  },
  {
   "id": "spreads-vitaquell-cream-spread-spicy-curry",
+  "originalLang": null,
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -7859,6 +8193,7 @@
  },
  {
   "id": "spreads-vitaquell-cream-spread-spicy-cucumber",
+  "originalLang": null,
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -7881,6 +8216,7 @@
  },
  {
   "id": "spreads-vitaquell-cream-spread",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -7905,6 +8241,7 @@
  },
  {
   "id": "spreads-vitaquell-cream-spread-spicy-olives",
+  "originalLang": null,
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -7929,6 +8266,7 @@
  },
  {
   "id": "spreads-vitaquell-cream-spread-spicy-paprika",
+  "originalLang": null,
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -7953,6 +8291,7 @@
  },
  {
   "id": "spreads-vitaquell-mushroom-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -7977,6 +8316,7 @@
  },
  {
   "id": "spreads-vitaquell-cucumber-mustard-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -8001,6 +8341,7 @@
  },
  {
   "id": "spreads-vitaquell-herb-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -8025,6 +8366,7 @@
  },
  {
   "id": "spreads-vitaquell-spicy-onions-and-herbs-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -8049,6 +8391,7 @@
  },
  {
   "id": "spreads-vitaquell-almond-carrot-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -8073,6 +8416,7 @@
  },
  {
   "id": "spreads-vitaquell-shiitake-pate",
+  "originalLang": "de",
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -8097,6 +8441,7 @@
  },
  {
   "id": "spreads-vitaquell-chocolate-creme",
+  "originalLang": null,
   "category": "spreads",
   "brand": "VITAquell",
   "subheading": null,
@@ -8119,6 +8464,7 @@
  },
  {
   "id": "sauces-podravka-ajvar-red-pepper-salad-mild",
+  "originalLang": null,
   "category": "sauces",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -8141,6 +8487,7 @@
  },
  {
   "id": "sauces-podravka-ajvar-hot",
+  "originalLang": null,
   "category": "sauces",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -8163,6 +8510,7 @@
  },
  {
   "id": "sauces-pindur-mustard-home-made",
+  "originalLang": null,
   "category": "sauces",
   "brand": "Pinđur",
   "subheading": null,
@@ -8185,6 +8533,7 @@
  },
  {
   "id": "sauces-pindur-mustard-estragon",
+  "originalLang": null,
   "category": "sauces",
   "brand": "Pinđur",
   "subheading": null,
@@ -8207,6 +8556,7 @@
  },
  {
   "id": "sauces-pindur-mustard-grill",
+  "originalLang": null,
   "category": "sauces",
   "brand": "Pinđur",
   "subheading": null,
@@ -8229,6 +8579,7 @@
  },
  {
   "id": "sauces-pindur-all-kinds-of-tomato-sauce",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "Pinđur",
   "subheading": null,
@@ -8251,6 +8602,7 @@
  },
  {
   "id": "sauces-marinada-doora-ajvar-blagi",
+  "originalLang": null,
   "category": "sauces",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -8273,6 +8625,7 @@
  },
  {
   "id": "sauces-marinada-doora-hot",
+  "originalLang": null,
   "category": "sauces",
   "brand": "MARINADA DoOra",
   "subheading": null,
@@ -8295,6 +8648,7 @@
  },
  {
   "id": "sauces-heinz-tomato-ketchup",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "HEINZ",
   "subheading": null,
@@ -8317,6 +8671,7 @@
  },
  {
   "id": "sauces-hellmans-mayonnaise",
+  "originalLang": null,
   "category": "sauces",
   "brand": "HELLMANS",
   "subheading": null,
@@ -8339,6 +8694,7 @@
  },
  {
   "id": "sauces-hellmans-ketchup",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "HELLMANS",
   "subheading": null,
@@ -8361,6 +8717,7 @@
  },
  {
   "id": "sauces-mutti-all-kinds-of-tomato-sauce",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "Mutti",
   "subheading": null,
@@ -8383,6 +8740,7 @@
  },
  {
   "id": "sauces-louisiana-soy-sauce-green",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "LOUISIANA",
   "subheading": null,
@@ -8407,6 +8765,7 @@
  },
  {
   "id": "sauces-louisiana-soy-sauce-gold",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "LOUISIANA",
   "subheading": null,
@@ -8431,6 +8790,7 @@
  },
  {
   "id": "sauces-kikkoman-soy-sauce",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "KIKKOMAN",
   "subheading": null,
@@ -8455,6 +8815,7 @@
  },
  {
   "id": "sauces-thomy-remoulade-sauce-aioli",
+  "originalLang": null,
   "category": "sauces",
   "brand": "THOMY",
   "subheading": null,
@@ -8477,6 +8838,7 @@
  },
  {
   "id": "sauces-thomy-delikatess-mayonnaise",
+  "originalLang": null,
   "category": "sauces",
   "brand": "THOMY",
   "subheading": null,
@@ -8499,6 +8861,7 @@
  },
  {
   "id": "sauces-thomy-delikatess-mustard",
+  "originalLang": null,
   "category": "sauces",
   "brand": "THOMY",
   "subheading": null,
@@ -8521,6 +8884,7 @@
  },
  {
   "id": "sauces-thomy-grill-steak-mustard",
+  "originalLang": null,
   "category": "sauces",
   "brand": "THOMY",
   "subheading": null,
@@ -8543,6 +8907,7 @@
  },
  {
   "id": "sauces-thomy-mustard-hot",
+  "originalLang": null,
   "category": "sauces",
   "brand": "THOMY",
   "subheading": null,
@@ -8565,6 +8930,7 @@
  },
  {
   "id": "sauces-thomy-senf-sweet",
+  "originalLang": null,
   "category": "sauces",
   "brand": "THOMY",
   "subheading": null,
@@ -8587,6 +8953,7 @@
  },
  {
   "id": "sauces-dr-oetker-bourbon-vanille-sauces",
+  "originalLang": null,
   "category": "sauces",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -8609,6 +8976,7 @@
  },
  {
   "id": "sauces-dr-oetker-dessert-vanilla-flavor",
+  "originalLang": null,
   "category": "sauces",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -8631,6 +8999,7 @@
  },
  {
   "id": "sauces-zvijezda-delicacy-mayonnase",
+  "originalLang": null,
   "category": "sauces",
   "brand": "ZVIJEZDA",
   "subheading": null,
@@ -8653,6 +9022,7 @@
  },
  {
   "id": "sauces-zvijezda-mayonnaise-mini",
+  "originalLang": null,
   "category": "sauces",
   "brand": "ZVIJEZDA",
   "subheading": null,
@@ -8675,6 +9045,7 @@
  },
  {
   "id": "sauces-zvijezda-mayonnaise-light",
+  "originalLang": null,
   "category": "sauces",
   "brand": "ZVIJEZDA",
   "subheading": null,
@@ -8697,6 +9068,7 @@
  },
  {
   "id": "sauces-zvijezda-mayonnaise-with-olive-oil",
+  "originalLang": null,
   "category": "sauces",
   "brand": "ZVIJEZDA",
   "subheading": null,
@@ -8719,6 +9091,7 @@
  },
  {
   "id": "sauces-zvijezda-light-mayonnaise-with",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "ZVIJEZDA",
   "subheading": null,
@@ -8741,6 +9114,7 @@
  },
  {
   "id": "sauces-zvijezda-apple-and-alcohol-vinegar",
+  "originalLang": "hr",
   "category": "sauces",
   "brand": "ZVIJEZDA",
   "subheading": null,
@@ -8763,6 +9137,7 @@
  },
  {
   "id": "dried-fruit-seeberger-grozdice-blue-raisins",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "SEEBERGER",
   "subheading": null,
@@ -8785,6 +9160,7 @@
  },
  {
   "id": "dried-fruit-seeberger-datulje-dates",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "SEEBERGER",
   "subheading": null,
@@ -8807,6 +9183,7 @@
  },
  {
   "id": "dried-fruit-seeberger-smokve-figs",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "SEEBERGER",
   "subheading": null,
@@ -8829,6 +9206,7 @@
  },
  {
   "id": "dried-fruit-seeberger-sljive-plums",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "SEEBERGER",
   "subheading": null,
@@ -8851,6 +9229,7 @@
  },
  {
   "id": "dried-fruit-granovita-wild-fruit-fruit-bars",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "GranoVita",
   "subheading": null,
@@ -8873,6 +9252,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-raisins",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -8895,6 +9275,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-hazelnuts",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -8917,6 +9298,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-hazelnuts-roasted",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -8939,6 +9321,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-hazelnuts-roasted-choped",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -8961,6 +9344,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-pumpkin-seeds-kernel",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -8983,6 +9367,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-raw",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9005,6 +9390,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-pumpkin-seeds-kernel-2",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9027,6 +9413,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-roasted",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9049,6 +9436,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-pumpkin-seeds-in-shell",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9071,6 +9459,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-roasted-2",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9093,6 +9482,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-walnuts",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9115,6 +9505,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-sesame-seeds",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9137,6 +9528,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-cranberry-candied",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9159,6 +9551,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-figs-dry",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9181,6 +9574,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-kandirano-i-suho-egzoticno-voce-voce-candie",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9203,6 +9597,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-dried-tropical-fruits-pineapple-mango-papay",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9225,6 +9620,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-pineapple",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9247,6 +9643,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-ginger",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9269,6 +9666,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-mango",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9291,6 +9689,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-papaya",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9313,6 +9712,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-tropic-mix",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9335,6 +9735,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-desiccated-coconut",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9357,6 +9758,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-dates",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9379,6 +9781,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-almonds",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9401,6 +9804,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-banana-chips",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9423,6 +9827,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-microwave-pop-corns",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9445,6 +9850,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-peas",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9467,6 +9873,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-lentils",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9489,6 +9896,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-chikpeas",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9510,13 +9918,14 @@
   "sourcePage": 22
  },
  {
-  "id": "dried-fruit-eurocompany-99-beans-cranberry-3",
+  "id": "dried-fruit-eurocompany-99-beans-cranberry",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
   "names": {
-   "hr": "GRAH ŠARENI, BIJELI, ŽUTO-ZELENI",
-   "en": "BEANS CRANBERRY, 3"
+   "hr": "GRAH (ŠARENI, BIJELI, ŽUTO-ZELENI)",
+   "en": "BEANS (CRANBERRY, )"
   },
   "hebrew": "שעועית (3 סוגי שועית בשקית אחת",
   "sizes": null,
@@ -9533,6 +9942,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-alubia-canary",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9555,6 +9965,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-chia-seeds",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9577,6 +9988,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-quinoa-seeds",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9599,6 +10011,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-neslani",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9623,6 +10036,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-unsalted",
+  "originalLang": null,
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9647,6 +10061,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-peanut-roasted-salted",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9669,6 +10084,7 @@
  },
  {
   "id": "dried-fruit-eurocompany-99-peanut-roasted-unsalted",
+  "originalLang": "hr",
   "category": "dried-fruit",
   "brand": "EUROCOMPANY 99",
   "subheading": null,
@@ -9693,6 +10109,7 @@
  },
  {
   "id": "soy-schneekoppe-soja-drink-cappuccino",
+  "originalLang": null,
   "category": "soy",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -9717,6 +10134,7 @@
  },
  {
   "id": "soy-schneekoppe-soy-drink-classic",
+  "originalLang": null,
   "category": "soy",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -9741,6 +10159,7 @@
  },
  {
   "id": "soy-schneekoppe-soy-drink-schokolade",
+  "originalLang": null,
   "category": "soy",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -9765,6 +10184,7 @@
  },
  {
   "id": "soy-granovita-calcium-drink-not-unsweetened",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9790,6 +10210,7 @@
  },
  {
   "id": "soy-granovita-rice-drink",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9814,6 +10235,7 @@
  },
  {
   "id": "soy-granovita-cocoa-soy-drink",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9839,6 +10261,7 @@
  },
  {
   "id": "soy-granovita-soy-drink-calcium-unsweetened",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9865,6 +10288,7 @@
  },
  {
   "id": "soy-granovita-golden-linseed",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9887,6 +10311,7 @@
  },
  {
   "id": "soy-granovita-soy-drink-calcium",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9911,6 +10336,7 @@
  },
  {
   "id": "soy-granovita-soy-drink-strawberry",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9935,6 +10361,7 @@
  },
  {
   "id": "soy-granovita-soy-drink-chocolate-banana",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9959,6 +10386,7 @@
  },
  {
   "id": "soy-granovita-soy-drink-unsweetened",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -9984,6 +10412,7 @@
  },
  {
   "id": "soy-granovita-spelt-mixture",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10008,6 +10437,7 @@
  },
  {
   "id": "soy-granovita-vegetable-mixture",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10032,6 +10462,7 @@
  },
  {
   "id": "soy-granovita-spelt-mixture-2",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10056,6 +10487,7 @@
  },
  {
   "id": "soy-granovita-herb-tofu",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10081,6 +10513,7 @@
  },
  {
   "id": "soy-granovita-smoked-tofu",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10106,6 +10539,7 @@
  },
  {
   "id": "soy-granovita-organic-tofu",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10131,6 +10565,7 @@
  },
  {
   "id": "soy-granovita-tofu-sliced",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10156,6 +10591,7 @@
  },
  {
   "id": "soy-granovita-goulash-tofu",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10181,6 +10617,7 @@
  },
  {
   "id": "soy-granovita-pate-tofu",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10205,6 +10642,7 @@
  },
  {
   "id": "soy-granovita-herb-tofu-pate",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10229,6 +10667,7 @@
  },
  {
   "id": "soy-granovita-vegetarian-bratwurst",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10253,6 +10692,7 @@
  },
  {
   "id": "soy-granovita-vegetarian-hunting",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10277,6 +10717,7 @@
  },
  {
   "id": "soy-granovita-sausage-with-paprika",
+  "originalLang": null,
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10299,6 +10740,7 @@
  },
  {
   "id": "soy-granovita-vegetarian-mortadella",
+  "originalLang": "de",
   "category": "soy",
   "brand": "GranoVita",
   "subheading": null,
@@ -10323,6 +10765,7 @@
  },
  {
   "id": "soy-alpro-drink-vanille-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10347,6 +10790,7 @@
  },
  {
   "id": "soy-alpro-drink-banane-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10371,6 +10815,7 @@
  },
  {
   "id": "soy-alpro-drink-bio-natur-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10396,6 +10841,7 @@
  },
  {
   "id": "soy-alpro-cold-drink-with-calcium-soy",
+  "originalLang": "de",
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10420,6 +10866,7 @@
  },
  {
   "id": "soy-alpro-chocolate-drink-soy",
+  "originalLang": "de",
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10443,13 +10890,14 @@
   "sourcePage": 24
  },
  {
-  "id": "soy-alpro-soy-drink-3-fruits-3",
+  "id": "soy-alpro-soy-drink-3-fruits",
+  "originalLang": "de",
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
   "names": {
    "hr": "Drink gekühlt Soja & 3 Fruits",
-   "en": "Soy Drink & 3 Fruits 3"
+   "en": "Soy Drink & 3 Fruits"
   },
   "hebrew": "משקה סויה עם 3סוגי פירו ת",
   "sizes": null,
@@ -10468,6 +10916,7 @@
  },
  {
   "id": "soy-alpro-soy-drink-tropical-fruit",
+  "originalLang": "de",
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10492,6 +10941,7 @@
  },
  {
   "id": "soy-alpro-vanilla-drink-soy",
+  "originalLang": "de",
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10516,6 +10966,7 @@
  },
  {
   "id": "soy-alpro-calcium-drink-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10540,6 +10991,7 @@
  },
  {
   "id": "soy-alpro-soy-drink-without-sugar-salt",
+  "originalLang": "de",
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10565,6 +11017,7 @@
  },
  {
   "id": "soy-alpro-peach-drink-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10589,6 +11042,7 @@
  },
  {
   "id": "soy-alpro-chocolate-drink-soy-2",
+  "originalLang": "de",
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10613,6 +11067,7 @@
  },
  {
   "id": "soy-alpro-dessert-caramel-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10637,6 +11092,7 @@
  },
  {
   "id": "soy-alpro-dessert-dunkle-schokolade-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10661,6 +11117,7 @@
  },
  {
   "id": "soy-alpro-dessert-schoko-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10685,6 +11142,7 @@
  },
  {
   "id": "soy-alpro-dessert-vanille-soy",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10709,6 +11167,7 @@
  },
  {
   "id": "soy-alpro-drink-banane-soy-2",
+  "originalLang": null,
   "category": "soy",
   "brand": "ALPRO",
   "subheading": null,
@@ -10733,6 +11192,7 @@
  },
  {
   "id": "soy-provamel-dessert-caramel-bio",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10755,6 +11215,7 @@
  },
  {
   "id": "soy-provamel-dessert-mokka-bio",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10777,6 +11238,7 @@
  },
  {
   "id": "soy-provamel-dessert-schoko-bio",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10799,6 +11261,7 @@
  },
  {
   "id": "soy-provamel-dessert-vanille-bio",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10821,6 +11284,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-banane",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10846,6 +11310,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-strawberry",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10871,6 +11336,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-natural",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10896,6 +11362,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-plus-kalzium",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10921,6 +11388,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-schokolade",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10946,6 +11414,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-special",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10971,6 +11440,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-tropical",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -10996,6 +11466,7 @@
  },
  {
   "id": "soy-provamel-drink-bio-soya-vanille",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -11021,6 +11492,7 @@
  },
  {
   "id": "soy-provamel-oat-milk",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -11043,6 +11515,7 @@
  },
  {
   "id": "soy-provamel-drink-rice-milk",
+  "originalLang": null,
   "category": "soy",
   "brand": "PROVAMEL",
   "subheading": null,
@@ -11065,6 +11538,7 @@
  },
  {
   "id": "soy-vitaquell-lupin-bean",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11087,6 +11561,7 @@
  },
  {
   "id": "soy-vitaquell-smoked-tofu",
+  "originalLang": "de",
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11111,6 +11586,7 @@
  },
  {
   "id": "soy-vitaquell-herb-tofu",
+  "originalLang": "de",
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11135,6 +11611,7 @@
  },
  {
   "id": "soy-vitaquell-nature-tofu",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11159,6 +11636,7 @@
  },
  {
   "id": "soy-vitaquell-oat",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11183,6 +11661,7 @@
  },
  {
   "id": "soy-vitaquell-oat-calcium",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11207,6 +11686,7 @@
  },
  {
   "id": "soy-vitaquell-drink-rice-milk",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11231,6 +11711,7 @@
  },
  {
   "id": "soy-vitaquell-soy-drink-cocoa",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11256,6 +11737,7 @@
  },
  {
   "id": "soy-vitaquell-soy-drink-unsweetened",
+  "originalLang": "de",
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11282,6 +11764,7 @@
  },
  {
   "id": "soy-vitaquell-soy-drink-banana",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11306,6 +11789,7 @@
  },
  {
   "id": "soy-vitaquell-vanilla-soy-with-calcium",
+  "originalLang": "de",
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11330,6 +11814,7 @@
  },
  {
   "id": "soy-vitaquell-soy-drink-sugar-free",
+  "originalLang": "de",
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11355,6 +11840,7 @@
  },
  {
   "id": "soy-vitaquell-soy-drink-vanilla",
+  "originalLang": null,
   "category": "soy",
   "brand": "VITAquell",
   "subheading": null,
@@ -11379,6 +11865,7 @@
  },
  {
   "id": "soy-demeter-vegan-grilled-sausages",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11403,6 +11890,7 @@
  },
  {
   "id": "soy-demeter-veggie-burgers-with-nuts-and-spelt",
+  "originalLang": "de",
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11427,6 +11915,7 @@
  },
  {
   "id": "soy-demeter-tofu-sausages-and-herbs",
+  "originalLang": "de",
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11451,6 +11940,7 @@
  },
  {
   "id": "soy-demeter-mini-vegan-sausages",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11475,6 +11965,7 @@
  },
  {
   "id": "soy-demeter-smoked-tofu",
+  "originalLang": "de",
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11499,6 +11990,7 @@
  },
  {
   "id": "soy-demeter-japanese-traditional-silk-tofu-for-soups",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11523,6 +12015,7 @@
  },
  {
   "id": "soy-demeter-soy-sausages",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11547,6 +12040,7 @@
  },
  {
   "id": "soy-demeter-tofu-sliced-roll-with-japanese",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11571,6 +12065,7 @@
  },
  {
   "id": "soy-demeter-tofu-sliced-roll-in-smoked-flavor",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11595,6 +12090,7 @@
  },
  {
   "id": "soy-demeter-tofu-basil-with-fresh-herbs",
+  "originalLang": "de",
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11619,6 +12115,7 @@
  },
  {
   "id": "soy-demeter-roast-grill-tofu",
+  "originalLang": "de",
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11643,6 +12140,7 @@
  },
  {
   "id": "soy-demeter-tofu-natur",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11667,6 +12165,7 @@
  },
  {
   "id": "soy-demeter-spelt-tofu-meatballs",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11691,6 +12190,7 @@
  },
  {
   "id": "soy-demeter-tofu-with-red-and-green-peppers",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11715,6 +12215,7 @@
  },
  {
   "id": "soy-demeter-thuringian-sausage",
+  "originalLang": "de",
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11739,6 +12240,7 @@
  },
  {
   "id": "soy-demeter-tofu-sausages",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11763,6 +12265,7 @@
  },
  {
   "id": "soy-demeter-tofu-slices-almond-sesame",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11787,6 +12290,7 @@
  },
  {
   "id": "soy-demeter-vegan-cold-cuts-sausage-rondo",
+  "originalLang": null,
   "category": "soy",
   "brand": "DEMETER",
   "subheading": null,
@@ -11811,6 +12315,7 @@
  },
  {
   "id": "salted-snacks-lorenz-cashews-nuts",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11833,6 +12338,7 @@
  },
  {
   "id": "salted-snacks-lorenz-peanuts-roasted-and-salted",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11855,6 +12361,7 @@
  },
  {
   "id": "salted-snacks-lorenz-world-selection-roasted-peanuts",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11877,6 +12384,7 @@
  },
  {
   "id": "salted-snacks-lorenz-nusscocktail-cocktail-nuts",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11899,6 +12407,7 @@
  },
  {
   "id": "salted-snacks-lorenz-pistachios",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11921,6 +12430,7 @@
  },
  {
   "id": "salted-snacks-lorenz-smoked-almonds",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11943,6 +12453,7 @@
  },
  {
   "id": "salted-snacks-lorenz-saltless-pretzel",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11967,6 +12478,7 @@
  },
  {
   "id": "salted-snacks-lorenz-saltless-mini-sticks",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -11991,6 +12503,7 @@
  },
  {
   "id": "salted-snacks-lorenz-saltless-sticks-classic",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -12015,6 +12528,7 @@
  },
  {
   "id": "salted-snacks-lorenz-saltless-sticks-sesam",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -12039,6 +12553,7 @@
  },
  {
   "id": "salted-snacks-lorenz-original-trail-mix-granola-dried-fruit-nuts",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -12061,6 +12576,7 @@
  },
  {
   "id": "salted-snacks-lorenz-crunchips-salted",
+  "originalLang": null,
   "category": "salted-snacks",
   "brand": "LORENZ",
   "subheading": null,
@@ -12083,6 +12599,7 @@
  },
  {
   "id": "salted-snacks-granovita-organic-whole-wheat-pretzels",
+  "originalLang": "de",
   "category": "salted-snacks",
   "brand": "GranoVita",
   "subheading": null,
@@ -12108,6 +12625,7 @@
  },
  {
   "id": "cookies-loacker-wafers",
+  "originalLang": null,
   "category": "cookies",
   "brand": "LOACKER",
   "subheading": null,
@@ -12130,6 +12648,7 @@
  },
  {
   "id": "cookies-new-bakery-aladdin-baklava",
+  "originalLang": null,
   "category": "cookies",
   "brand": "NEW BAKERY",
   "subheading": null,
@@ -12152,6 +12671,7 @@
  },
  {
   "id": "cookies-new-bakery-nubake-baklava",
+  "originalLang": null,
   "category": "cookies",
   "brand": "NEW BAKERY",
   "subheading": null,
@@ -12174,6 +12694,7 @@
  },
  {
   "id": "cookies-new-bakery-layla-handcrafted-baklava",
+  "originalLang": null,
   "category": "cookies",
   "brand": "NEW BAKERY",
   "subheading": null,
@@ -12196,6 +12717,7 @@
  },
  {
   "id": "marmalade-podravka-home-made-marmalade",
+  "originalLang": "hr",
   "category": "marmalade",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -12218,6 +12740,7 @@
  },
  {
   "id": "marmalade-podravka-jam",
+  "originalLang": null,
   "category": "marmalade",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -12240,6 +12763,7 @@
  },
  {
   "id": "marmalade-podravka-jam-extra",
+  "originalLang": "hr",
   "category": "marmalade",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -12262,6 +12786,7 @@
  },
  {
   "id": "marmalade-podravka-jam-2",
+  "originalLang": "hr",
   "category": "marmalade",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -12284,6 +12809,7 @@
  },
  {
   "id": "marmalade-podravka-filling-jam",
+  "originalLang": null,
   "category": "marmalade",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -12306,6 +12832,7 @@
  },
  {
   "id": "marmalade-podravka-termostabilna-marmelada",
+  "originalLang": null,
   "category": "marmalade",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -12328,6 +12855,7 @@
  },
  {
   "id": "marmalade-podravka-fruit-spread",
+  "originalLang": "hr",
   "category": "marmalade",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -12350,6 +12878,7 @@
  },
  {
   "id": "marmalade-naturala-marmalades-various-types",
+  "originalLang": "hr",
   "category": "marmalade",
   "brand": "NATURALA",
   "subheading": null,
@@ -12372,6 +12901,7 @@
  },
  {
   "id": "marmalade-naturala-jams-various-types",
+  "originalLang": "hr",
   "category": "marmalade",
   "brand": "NATURALA",
   "subheading": null,
@@ -12394,6 +12924,7 @@
  },
  {
   "id": "marmalade-naturala-jams-various-types-2",
+  "originalLang": "hr",
   "category": "marmalade",
   "brand": "NATURALA",
   "subheading": null,
@@ -12416,6 +12947,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-rose-hip",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12440,6 +12972,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-apricot",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12464,6 +12997,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-strawberry",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12488,6 +13022,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-exotic",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12512,6 +13047,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12536,6 +13072,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-2",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12560,6 +13097,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-quince",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12584,6 +13122,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-sour-cherry",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12608,6 +13147,7 @@
  },
  {
   "id": "marmalade-schneekoppe-diet-fruit-spread-3",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12632,6 +13172,7 @@
  },
  {
   "id": "marmalade-schneekoppe-black-currants",
+  "originalLang": null,
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12654,6 +13195,7 @@
  },
  {
   "id": "marmalade-schneekoppe-plum-jam",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -12676,6 +13218,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-diet-jam-extra",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12700,6 +13243,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-raspberry-currant-jelly",
+  "originalLang": null,
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12722,6 +13266,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-extra-jam-strawberries",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12744,6 +13289,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-extra-jam-bilberry",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12766,6 +13312,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-extra-jam-raspberry",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12788,6 +13335,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-extra-jam-cherries",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12810,6 +13358,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-extra-jam-black-cherry",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12832,6 +13381,7 @@
  },
  {
   "id": "marmalade-bad-schwartauer-extra-jam-forest-fruit",
+  "originalLang": "de",
   "category": "marmalade",
   "brand": "BAD SCHWARTAUER",
   "subheading": null,
@@ -12854,6 +13404,7 @@
  },
  {
   "id": "chocolate-masterfoods-bounty",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "MASTERFOODS",
   "subheading": null,
@@ -12876,6 +13427,7 @@
  },
  {
   "id": "chocolate-masterfoods-m-m-s",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "MASTERFOODS",
   "subheading": null,
@@ -12898,6 +13450,7 @@
  },
  {
   "id": "chocolate-masterfoods-mars",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "MASTERFOODS",
   "subheading": null,
@@ -12920,6 +13473,7 @@
  },
  {
   "id": "chocolate-masterfoods-snickers",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "MASTERFOODS",
   "subheading": null,
@@ -12942,6 +13496,7 @@
  },
  {
   "id": "chocolate-masterfoods-twix",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "MASTERFOODS",
   "subheading": null,
@@ -12964,6 +13519,7 @@
  },
  {
   "id": "chocolate-ferrero-ferrero-duplo-chocolate-and-hazelnut",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -12986,6 +13542,7 @@
  },
  {
   "id": "chocolate-ferrero-ferrero-kisses",
+  "originalLang": "de",
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13008,6 +13565,7 @@
  },
  {
   "id": "chocolate-ferrero-ferrero-giotto-hazelnut-filled-balls",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13030,6 +13588,7 @@
  },
  {
   "id": "chocolate-ferrero-ferrero-hanuta",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13052,6 +13611,7 @@
  },
  {
   "id": "chocolate-ferrero-ferrero-hanuta-2",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13074,6 +13634,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-country",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13098,6 +13659,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-friends",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13122,6 +13684,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-happy-hippo-cacao",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13146,6 +13709,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-riegel-maxi",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13170,6 +13734,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-schoko-bons",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13194,6 +13759,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-schokolade",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13218,6 +13784,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-schokolade-mini",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13242,6 +13809,7 @@
  },
  {
   "id": "chocolate-ferrero-ferrero-raffaello-almond",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13264,6 +13832,7 @@
  },
  {
   "id": "chocolate-ferrero-ferrero-rocher",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13286,6 +13855,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-choco-fresh",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13310,6 +13880,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-maxi-king",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13334,6 +13905,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-pingui",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13358,6 +13930,7 @@
  },
  {
   "id": "chocolate-ferrero-kinder-surprise",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13382,6 +13955,7 @@
  },
  {
   "id": "chocolate-ferrero-milk-slice",
+  "originalLang": "de",
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13406,6 +13980,7 @@
  },
  {
   "id": "chocolate-ferrero-pocket-coffee",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "FERRERO",
   "subheading": null,
@@ -13428,6 +14003,7 @@
  },
  {
   "id": "chocolate-nestle-after-eight-sve-vrste",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13450,6 +14026,7 @@
  },
  {
   "id": "chocolate-nestle-caramac-caramel-snack",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13472,6 +14049,7 @@
  },
  {
   "id": "chocolate-nestle-choco-crosser",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13494,6 +14072,7 @@
  },
  {
   "id": "chocolate-nestle-choco-crossies",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13516,6 +14095,7 @@
  },
  {
   "id": "chocolate-nestle-chocolait-chips",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13538,6 +14118,7 @@
  },
  {
   "id": "chocolate-nestle-chocolait-white-chips",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13560,6 +14141,7 @@
  },
  {
   "id": "chocolate-nestle-crispos-crispy-chocolate-cookies",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13582,6 +14164,7 @@
  },
  {
   "id": "chocolate-nestle-crispy-waffle",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13604,6 +14187,7 @@
  },
  {
   "id": "chocolate-nestle-white",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13626,6 +14210,7 @@
  },
  {
   "id": "chocolate-nestle-white-crisp",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13648,6 +14233,7 @@
  },
  {
   "id": "chocolate-nestle-kitkat-sve-vrste",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13670,6 +14256,7 @@
  },
  {
   "id": "chocolate-nestle-lion-pop-choc",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13692,6 +14279,7 @@
  },
  {
   "id": "chocolate-nestle-lion-riegel",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13714,6 +14302,7 @@
  },
  {
   "id": "chocolate-nestle-nesquik-petit",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13736,6 +14325,7 @@
  },
  {
   "id": "chocolate-nestle-nesquik-snack",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13758,6 +14348,7 @@
  },
  {
   "id": "chocolate-nestle-nuts",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13780,6 +14371,7 @@
  },
  {
   "id": "chocolate-nestle-rolo",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13802,6 +14394,7 @@
  },
  {
   "id": "chocolate-nestle-swiss-chocolate-dreams",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "NESTLE",
   "subheading": null,
@@ -13824,6 +14417,7 @@
  },
  {
   "id": "chocolate-corny-cereal-snack-in-a-variety-of-flavors",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "CORNY",
   "subheading": null,
@@ -13846,6 +14440,7 @@
  },
  {
   "id": "chocolate-kraft-toblerone",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "Kraft",
   "subheading": null,
@@ -13868,6 +14463,7 @@
  },
  {
   "id": "chocolate-kraft-alpine-milk-chocolate",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "Kraft",
   "subheading": null,
@@ -13890,6 +14486,7 @@
  },
  {
   "id": "chocolate-ritter-ritter-sport-dark-chocolate-tamna-cokolada",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "RITTER",
   "subheading": null,
@@ -13912,6 +14509,7 @@
  },
  {
   "id": "chocolate-ritter-ritter-sport-mini",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "RITTER",
   "subheading": null,
@@ -13934,6 +14532,7 @@
  },
  {
   "id": "chocolate-ritter-whole-hazelnuts",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "RITTER",
   "subheading": null,
@@ -13956,6 +14555,7 @@
  },
  {
   "id": "chocolate-ritter-whole-almonds",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "RITTER",
   "subheading": null,
@@ -13978,6 +14578,7 @@
  },
  {
   "id": "chocolate-ritter-marzipan",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "RITTER",
   "subheading": null,
@@ -14000,6 +14601,7 @@
  },
  {
   "id": "chocolate-ritter-white-chocolate",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "RITTER",
   "subheading": null,
@@ -14022,6 +14624,7 @@
  },
  {
   "id": "chocolate-ritter-whole-almonds-and-ricecrispies",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "RITTER",
   "subheading": null,
@@ -14044,6 +14647,7 @@
  },
  {
   "id": "chocolate-lindt-chocolate-excellence-70-cocoa-70",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "LINDT",
   "subheading": null,
@@ -14066,6 +14670,7 @@
  },
  {
   "id": "chocolate-lindt-chocolate-excellence-85-cocoa-85",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "LINDT",
   "subheading": null,
@@ -14088,6 +14693,7 @@
  },
  {
   "id": "chocolate-lindt-chocolate-thin-dark-only-those-manufactured-in-switzer",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "LINDT",
   "subheading": null,
@@ -14110,6 +14716,7 @@
  },
  {
   "id": "chocolate-schneekoppe-bitter-dark-diet-74",
+  "originalLang": "de",
   "category": "chocolate",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -14134,6 +14741,7 @@
  },
  {
   "id": "chocolate-schneekoppe-bitter-diet-chocolate",
+  "originalLang": "de",
   "category": "chocolate",
   "brand": "SCHNEEKOPPE",
   "subheading": null,
@@ -14158,6 +14766,7 @@
  },
  {
   "id": "chocolate-kandit-chocolate-for-eating-and-cooking",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14180,6 +14789,7 @@
  },
  {
   "id": "chocolate-kandit-chocolate-for-cooking",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14202,6 +14812,7 @@
  },
  {
   "id": "chocolate-kandit-chocolate-powder",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14223,13 +14834,14 @@
   "sourcePage": 31
  },
  {
-  "id": "chocolate-kandit-kakao-smanjene-masti-10-12-cocoa-reduced-fat-10-12-10",
+  "id": "chocolate-kandit-kakao-smanjene-masti-10-12-cocoa-reduced-fat-10-12",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
   "names": {
-   "hr": "Kakao, smanjene masti (10-12%) Cocoa, Reduced Fat (10-12%) ) 10-12%(",
-   "en": "Kakao, smanjene masti (10-12%) Cocoa, Reduced Fat (10-12%) ) 10-12%("
+   "hr": "Kakao, smanjene masti 10-12% Cocoa, Reduced Fat 10-12%",
+   "en": "Kakao, smanjene masti 10-12% Cocoa, Reduced Fat 10-12%"
   },
   "hebrew": "קקאו מופחת שומן",
   "sizes": null,
@@ -14246,6 +14858,7 @@
  },
  {
   "id": "chocolate-kandit-kakao-smanjene-masti-16-18-cocoa-reduced-fat-16-18-16",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14268,6 +14881,7 @@
  },
  {
   "id": "chocolate-kandit-chocolate-powder-2",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14290,6 +14904,7 @@
  },
  {
   "id": "chocolate-kandit-cocoa-16-18",
+  "originalLang": null,
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14312,6 +14927,7 @@
  },
  {
   "id": "chocolate-kandit-chocolate-for-cooking-2",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14334,6 +14950,7 @@
  },
  {
   "id": "chocolate-kandit-milk-chocolate",
+  "originalLang": "hr",
   "category": "chocolate",
   "brand": "KANDIT",
   "subheading": null,
@@ -14356,6 +14973,7 @@
  },
  {
   "id": "coffee-nestle-caro-landkaffee-choco",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14378,6 +14996,7 @@
  },
  {
   "id": "coffee-nestle-honey",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14400,6 +15019,7 @@
  },
  {
   "id": "coffee-nestle-caro-landkaffee-type-latte",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14422,6 +15042,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-family-cappuccino-caramel",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14444,6 +15065,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-family-cappuccino-choco",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14466,6 +15088,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-family-cappuccino-choco-nuss",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14488,6 +15111,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-family-cappuccino-cream",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14510,6 +15134,7 @@
  },
  {
   "id": "coffee-nestle-white",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14532,6 +15157,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-family-cappuccino-vanilla",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14554,6 +15180,7 @@
  },
  {
   "id": "coffee-nestle-creamy-delicate",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14576,6 +15203,7 @@
  },
  {
   "id": "coffee-nestle-decaffeinated",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14598,6 +15226,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-typ-cappuccino-ungesu-t",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14620,6 +15249,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-typ-latte-macciato-caramel",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14642,6 +15272,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-typ-latte-macciato-choco",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14664,6 +15295,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-typ-latte-macciato-leicht-gesu-t",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14686,6 +15318,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-xpress-black",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14708,6 +15341,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-xpress-choco",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14730,6 +15364,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-xpress-vanilla",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14752,6 +15387,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-xpress-white",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14774,6 +15410,7 @@
  },
  {
   "id": "coffee-nestle-nescafe-classic",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14796,6 +15433,7 @@
  },
  {
   "id": "coffee-nestle-gold-mild",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14818,6 +15456,7 @@
  },
  {
   "id": "coffee-nestle-instant-coffee",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14840,6 +15479,7 @@
  },
  {
   "id": "coffee-nestle-instant-coffee-2",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14862,6 +15502,7 @@
  },
  {
   "id": "coffee-nestle-grain-coffee",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14884,6 +15525,7 @@
  },
  {
   "id": "coffee-nestle-ice-coffee",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14906,6 +15548,7 @@
  },
  {
   "id": "coffee-nestle-our-best",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14928,6 +15571,7 @@
  },
  {
   "id": "coffee-nestle-sticks",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14950,6 +15594,7 @@
  },
  {
   "id": "coffee-nestle-caro-landkaffee-original-extra",
+  "originalLang": null,
   "category": "coffee",
   "brand": "NESTLE",
   "subheading": null,
@@ -14972,6 +15617,7 @@
  },
  {
   "id": "coffee-anamarija-coffee",
+  "originalLang": null,
   "category": "coffee",
   "brand": "ANAMARIJA",
   "subheading": null,
@@ -14994,12 +15640,13 @@
  },
  {
   "id": "coffee-anamarija-decaffeinated",
+  "originalLang": "hr",
   "category": "coffee",
   "brand": "ANAMARIJA",
   "subheading": null,
   "names": {
    "hr": "Classic, Gold, Gold bez kofeina",
-   "en": "decaffeinated ,"
+   "en": "decaffeinated"
   },
   "hebrew": "קלסיק גולד גולד נטול קפאין",
   "sizes": null,
@@ -15016,6 +15663,7 @@
  },
  {
   "id": "coffee-anamarija-black-coffee",
+  "originalLang": null,
   "category": "coffee",
   "brand": "ANAMARIJA",
   "subheading": null,
@@ -15038,6 +15686,7 @@
  },
  {
   "id": "coffee-anamarija-anamaria-minas-espresso-d-oro-espresso-verde-filter-k",
+  "originalLang": null,
   "category": "coffee",
   "brand": "ANAMARIJA",
   "subheading": null,
@@ -15060,6 +15709,7 @@
  },
  {
   "id": "coffee-anamarija-bez-kofeina-santa-maria-joker-cafe-seherezada-kava-es",
+  "originalLang": null,
   "category": "coffee",
   "brand": "ANAMARIJA",
   "subheading": null,
@@ -15082,6 +15732,7 @@
  },
  {
   "id": "coffee-anamarija-kava-arabica-kava-minas-kava-columbia-kava-santos",
+  "originalLang": null,
   "category": "coffee",
   "brand": "ANAMARIJA",
   "subheading": null,
@@ -15104,6 +15755,7 @@
  },
  {
   "id": "coffee-illy-all-varieties",
+  "originalLang": "hr",
   "category": "coffee",
   "brand": "ILLY",
   "subheading": null,
@@ -15126,6 +15778,7 @@
  },
  {
   "id": "coffee-lavazza-all-varieties",
+  "originalLang": "hr",
   "category": "coffee",
   "brand": "LAVAZZA",
   "subheading": null,
@@ -15148,6 +15801,7 @@
  },
  {
   "id": "coffee-franck-all-varieties",
+  "originalLang": "hr",
   "category": "coffee",
   "brand": "Franck",
   "subheading": null,
@@ -15170,12 +15824,13 @@
  },
  {
   "id": "coffee-franck-franck-jubilarna-black-coffee",
+  "originalLang": null,
   "category": "coffee",
   "brand": "Franck",
   "subheading": null,
   "names": {
-   "hr": "Franck Jubilarna (black coffee) ) ' (",
-   "en": "Franck Jubilarna (black coffee) ) ' ("
+   "hr": "Franck Jubilarna (black coffee)",
+   "en": "Franck Jubilarna (black coffee)"
   },
   "hebrew": "קפה שחור (פרנק י'ובלארנה",
   "sizes": null,
@@ -15192,6 +15847,7 @@
  },
  {
   "id": "coffee-franck-franck-espresso",
+  "originalLang": null,
   "category": "coffee",
   "brand": "Franck",
   "subheading": null,
@@ -15214,6 +15870,7 @@
  },
  {
   "id": "coffee-franck-franck-crema-mljevena",
+  "originalLang": null,
   "category": "coffee",
   "brand": "Franck",
   "subheading": null,
@@ -15236,6 +15893,7 @@
  },
  {
   "id": "coffee-franck-franck-filter",
+  "originalLang": null,
   "category": "coffee",
   "brand": "Franck",
   "subheading": null,
@@ -15258,6 +15916,7 @@
  },
  {
   "id": "coffee-franck-franck-gold-instant",
+  "originalLang": null,
   "category": "coffee",
   "brand": "Franck",
   "subheading": null,
@@ -15280,6 +15939,7 @@
  },
  {
   "id": "tea-me-mer-earl-grey",
+  "originalLang": null,
   "category": "tea",
   "brand": "MEßMER",
   "subheading": null,
@@ -15302,6 +15962,7 @@
  },
  {
   "id": "tea-me-mer-fruit-blend",
+  "originalLang": "de",
   "category": "tea",
   "brand": "MEßMER",
   "subheading": null,
@@ -15324,6 +15985,7 @@
  },
  {
   "id": "tea-me-mer-chamomile-delicate-and-aromatic",
+  "originalLang": null,
   "category": "tea",
   "brand": "MEßMER",
   "subheading": null,
@@ -15346,6 +16008,7 @@
  },
  {
   "id": "tea-me-mer-peppermint",
+  "originalLang": null,
   "category": "tea",
   "brand": "MEßMER",
   "subheading": null,
@@ -15368,6 +16031,7 @@
  },
  {
   "id": "tea-me-mer-berries",
+  "originalLang": null,
   "category": "tea",
   "brand": "MEßMER",
   "subheading": null,
@@ -15390,6 +16054,7 @@
  },
  {
   "id": "tea-lipton-yellow-label",
+  "originalLang": null,
   "category": "tea",
   "brand": "LIPTON",
   "subheading": null,
@@ -15412,6 +16077,7 @@
  },
  {
   "id": "tea-lipton-green-label",
+  "originalLang": null,
   "category": "tea",
   "brand": "LIPTON",
   "subheading": null,
@@ -15434,6 +16100,7 @@
  },
  {
   "id": "tea-milford-all-varieties",
+  "originalLang": "hr",
   "category": "tea",
   "brand": "MILFORD",
   "subheading": null,
@@ -15456,6 +16123,7 @@
  },
  {
   "id": "tea-milupa-fennel-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15478,6 +16146,7 @@
  },
  {
   "id": "tea-milupa-instant-fennel-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15500,6 +16169,7 @@
  },
  {
   "id": "tea-milupa-milupa-baby-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15524,6 +16194,7 @@
  },
  {
   "id": "tea-milupa-instant-milupa-baby-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15548,6 +16219,7 @@
  },
  {
   "id": "tea-milupa-chamomile-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15570,6 +16242,7 @@
  },
  {
   "id": "tea-milupa-chamomile-instant-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15592,6 +16265,7 @@
  },
  {
   "id": "tea-milupa-children-herbal-tea",
+  "originalLang": "de",
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15616,6 +16290,7 @@
  },
  {
   "id": "tea-milupa-mallow-instant-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15638,6 +16313,7 @@
  },
  {
   "id": "tea-milupa-peppermint-instant-tea",
+  "originalLang": null,
   "category": "tea",
   "brand": "MILUPA",
   "subheading": null,
@@ -15660,6 +16336,7 @@
  },
  {
   "id": "tea-teehaus-all-varieties",
+  "originalLang": "hr",
   "category": "tea",
   "brand": "TEEHAUS",
   "subheading": null,
@@ -15682,6 +16359,7 @@
  },
  {
   "id": "tea-teekane-all-varieties",
+  "originalLang": "hr",
   "category": "tea",
   "brand": "TEEKANE",
   "subheading": null,
@@ -15704,6 +16382,7 @@
  },
  {
   "id": "tea-sir-winston-tea-all-varieties",
+  "originalLang": "hr",
   "category": "tea",
   "brand": "SIR WINSTON TEA",
   "subheading": null,
@@ -15726,6 +16405,7 @@
  },
  {
   "id": "tea-franck-all-varieties",
+  "originalLang": "hr",
   "category": "tea",
   "brand": "Franck",
   "subheading": null,
@@ -15748,6 +16428,7 @@
  },
  {
   "id": "drinks-granini-sve-vocni-sokovi-osim-soka-od-grozda-i-multi-vitamin-so",
+  "originalLang": null,
   "category": "drinks",
   "brand": "GRANINI",
   "subheading": null,
@@ -15770,6 +16451,7 @@
  },
  {
   "id": "drinks-granini-all-fruit-juices-except-grape-juice-and-multi-vitamin-j",
+  "originalLang": null,
   "category": "drinks",
   "brand": "GRANINI",
   "subheading": null,
@@ -15792,6 +16474,7 @@
  },
  {
   "id": "drinks-coca-cola-all-kinds-coca-cola-zero-i-fanta",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "COCA COLA",
   "subheading": null,
@@ -15814,6 +16497,7 @@
  },
  {
   "id": "drinks-pepsi-cola-all-kinds-pepsi-cola-7up-i-twist",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "PEPSI COLA",
   "subheading": null,
@@ -15836,6 +16520,7 @@
  },
  {
   "id": "drinks-juicy-all-100-juices-100",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Juicy",
   "subheading": null,
@@ -15858,6 +16543,7 @@
  },
  {
   "id": "drinks-juicy-except-for-grape",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Juicy",
   "subheading": null,
@@ -15880,6 +16566,7 @@
  },
  {
   "id": "drinks-rauch-happy-day-100-natural-juice-orange-and-apple-100-happy-da",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Rauch",
   "subheading": null,
@@ -15902,6 +16589,7 @@
  },
  {
   "id": "drinks-rauch-except-for-grape-juice",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Rauch",
   "subheading": null,
@@ -15924,6 +16612,7 @@
  },
  {
   "id": "drinks-schweppes-all-kinds-schweppes",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "SCHWEPPES",
   "subheading": null,
@@ -15946,6 +16635,7 @@
  },
  {
   "id": "drinks-sprite-all-kinds-sprite",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "SPRITE",
   "subheading": null,
@@ -15968,6 +16658,7 @@
  },
  {
   "id": "drinks-vindija-vital-tomatoes",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -15990,6 +16681,7 @@
  },
  {
   "id": "drinks-vindija-vindi-orange-juice",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16012,6 +16704,7 @@
  },
  {
   "id": "drinks-vindija-apricot-nectar",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16034,6 +16727,7 @@
  },
  {
   "id": "drinks-vindija-nectar-peach",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16056,6 +16750,7 @@
  },
  {
   "id": "drinks-vindija-nectar-pear",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16078,6 +16773,7 @@
  },
  {
   "id": "drinks-vindija-nectar-strawberry",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16100,6 +16796,7 @@
  },
  {
   "id": "drinks-vindija-nectar-apple",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16122,6 +16819,7 @@
  },
  {
   "id": "drinks-vindija-nectar-naranca",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16144,6 +16842,7 @@
  },
  {
   "id": "drinks-vindija-grapefruit",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16166,6 +16865,7 @@
  },
  {
   "id": "drinks-vindija-lemon-grapefruit",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16188,6 +16888,7 @@
  },
  {
   "id": "drinks-vindija-wild-strawberries",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16210,6 +16911,7 @@
  },
  {
   "id": "drinks-vindija-lemon-cherry",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16232,6 +16934,7 @@
  },
  {
   "id": "drinks-vindija-tangerine-oranges",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16254,6 +16957,7 @@
  },
  {
   "id": "drinks-vindija-orange-apple",
+  "originalLang": "hr",
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16276,6 +16980,7 @@
  },
  {
   "id": "drinks-vindija-water",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16298,6 +17003,7 @@
  },
  {
   "id": "drinks-vindija-jana-natural-spring-water",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16320,6 +17026,7 @@
  },
  {
   "id": "drinks-vindija-jana-apple-lychee",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16342,6 +17049,7 @@
  },
  {
   "id": "drinks-vindija-jana-blueberry-cranberry",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16364,6 +17072,7 @@
  },
  {
   "id": "drinks-vindija-jana-lemon-lime",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16386,6 +17095,7 @@
  },
  {
   "id": "drinks-vindija-jana-strawberry-guava",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Vindija",
   "subheading": null,
@@ -16408,6 +17118,7 @@
  },
  {
   "id": "drinks-jamnica-sparkling-water",
+  "originalLang": null,
   "category": "drinks",
   "brand": "Jamnica",
   "subheading": null,
@@ -16430,6 +17141,7 @@
  },
  {
   "id": "drinks-kalnicke-vode-unique-natural-spring-water",
+  "originalLang": null,
   "category": "drinks",
   "brand": "KALNIČKE VODE",
   "subheading": null,
@@ -16452,6 +17164,7 @@
  },
  {
   "id": "drinks-kalnicke-vode-kapljice-natural-mineral-water",
+  "originalLang": null,
   "category": "drinks",
   "brand": "KALNIČKE VODE",
   "subheading": null,
@@ -16474,6 +17187,7 @@
  },
  {
   "id": "cake-additives-ruf-bitter-almond-extract",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16496,6 +17210,7 @@
  },
  {
   "id": "cake-additives-ruf-vanilla-butter-extract",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16518,6 +17233,7 @@
  },
  {
   "id": "cake-additives-ruf-rum-extract",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16540,6 +17256,7 @@
  },
  {
   "id": "cake-additives-ruf-lemon-extract",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16562,6 +17279,7 @@
  },
  {
   "id": "cake-additives-ruf-baking-powder",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16584,6 +17302,7 @@
  },
  {
   "id": "cake-additives-ruf-red-cherries-maraschino-cherry",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16606,6 +17325,7 @@
  },
  {
   "id": "cake-additives-ruf-bourbon-vanilla-with-sugar",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16628,6 +17348,7 @@
  },
  {
   "id": "cake-additives-ruf-food-starch-corn-starch",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16650,6 +17371,7 @@
  },
  {
   "id": "cake-additives-ruf-fruit-icing",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16672,6 +17394,7 @@
  },
  {
   "id": "cake-additives-ruf-fruit-icing-2",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16694,6 +17417,7 @@
  },
  {
   "id": "cake-additives-ruf-yeast",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16716,6 +17440,7 @@
  },
  {
   "id": "cake-additives-ruf-raw-marzipan",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16738,6 +17463,7 @@
  },
  {
   "id": "cake-additives-ruf-mocca-beans-dark-choco",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16760,6 +17486,7 @@
  },
  {
   "id": "cake-additives-ruf-chocolate-crumbs-for-cake",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16782,6 +17509,7 @@
  },
  {
   "id": "cake-additives-ruf-sugar-orange-for-baking",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16804,6 +17532,7 @@
  },
  {
   "id": "cake-additives-ruf-grater-bittersweet-chocolate-bittersweet",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16826,6 +17555,7 @@
  },
  {
   "id": "cake-additives-ruf-cream-holder-or-cream-stabilizer-powder",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16848,6 +17578,7 @@
  },
  {
   "id": "cake-additives-ruf-whipped-cream-mixture",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16870,6 +17601,7 @@
  },
  {
   "id": "cake-additives-ruf-chocolate-alphabet-letters",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16892,6 +17624,7 @@
  },
  {
   "id": "cake-additives-ruf-vanilla-sugar-powder",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16914,6 +17647,7 @@
  },
  {
   "id": "cake-additives-ruf-cinnamon-sugar-powder",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16936,6 +17670,7 @@
  },
  {
   "id": "cake-additives-ruf-lemon-sugar-powder",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16958,6 +17693,7 @@
  },
  {
   "id": "cake-additives-ruf-colorful-sugar-sprinkles",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -16980,6 +17716,7 @@
  },
  {
   "id": "cake-additives-ruf-diet-gelling",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17004,6 +17741,7 @@
  },
  {
   "id": "cake-additives-ruf-gelling",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17026,6 +17764,7 @@
  },
  {
   "id": "cake-additives-ruf-hazelnuts-fragile",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17048,6 +17787,7 @@
  },
  {
   "id": "cake-additives-ruf-cheesecake-aid",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17070,6 +17810,7 @@
  },
  {
   "id": "cake-additives-ruf-nut-nougat",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17092,6 +17833,7 @@
  },
  {
   "id": "cake-additives-ruf-schokoladen-blattchen",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17114,6 +17856,7 @@
  },
  {
   "id": "cake-additives-ruf-chocolate-decor",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17136,6 +17879,7 @@
  },
  {
   "id": "cake-additives-ruf-chocolate-sprinkles",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17158,6 +17902,7 @@
  },
  {
   "id": "cake-additives-ruf-glucose",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17180,6 +17925,7 @@
  },
  {
   "id": "cake-additives-ruf-hazelnut-cake-mix",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17202,6 +17948,7 @@
  },
  {
   "id": "cake-additives-ruf-chocolate-cake-mix",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17224,6 +17971,7 @@
  },
  {
   "id": "cake-additives-ruf-cake-cream-mixture",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17246,6 +17994,7 @@
  },
  {
   "id": "cake-additives-ruf-grated-chocolate-chips",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17268,6 +18017,7 @@
  },
  {
   "id": "cake-additives-ruf-grated-chocolate-bittersweet",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17290,6 +18040,7 @@
  },
  {
   "id": "cake-additives-ruf-milk-chocolate-sprinkles",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17312,6 +18063,7 @@
  },
  {
   "id": "cake-additives-ruf-white-icing-cake",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17334,6 +18086,7 @@
  },
  {
   "id": "cake-additives-ruf-lemon-icing-cake",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "RUF",
   "subheading": null,
@@ -17356,6 +18109,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-pudding-cream-vanilla",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17378,6 +18132,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-bourbon-vanilla-with-sugar",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17400,6 +18155,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-vanilla-butter-extract",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17422,6 +18178,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-decorating-sugar",
+  "originalLang": "hr",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17444,6 +18201,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-fresh-yeast-42g",
+  "originalLang": "hr",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17468,6 +18226,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-sweetened-icing",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17490,6 +18249,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-corn-starch",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17512,6 +18272,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-baking-soda",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17534,6 +18295,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-yeast-dough",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17556,6 +18318,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-baking-powder",
+  "originalLang": "hr",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17578,6 +18341,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-whipping-cream",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17600,6 +18364,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-strawberry-icing",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17622,6 +18387,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-clear-cake-icing",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17644,6 +18410,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-vanilla-icing",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17666,6 +18433,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-cake-icing",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17688,6 +18456,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-unsweetened-cake-icing",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17712,6 +18481,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-red-cake-icing",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17734,6 +18504,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-dry-baker-s-yeast",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17756,6 +18527,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-vanilla-sugar",
+  "originalLang": "hr",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17778,6 +18550,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-epifin-wheat-starch",
+  "originalLang": "de",
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17800,6 +18573,7 @@
  },
  {
   "id": "cake-additives-dr-oetker-lemon-extract",
+  "originalLang": null,
   "category": "cake-additives",
   "brand": "DR. OETKER",
   "subheading": null,
@@ -17822,6 +18596,7 @@
  },
  {
   "id": "cake-additives-podravka-baking-powder",
+  "originalLang": "hr",
   "category": "cake-additives",
   "brand": "PODRAVKA",
   "subheading": null,
@@ -17844,6 +18619,7 @@
  },
  {
   "id": "vitamins-kruger-calcium-effervescent-tablets",
+  "originalLang": "hr",
   "category": "vitamins",
   "brand": "KRUGER",
   "subheading": null,
@@ -17866,6 +18642,7 @@
  },
  {
   "id": "vitamins-kruger-iron-effervescent-tablets",
+  "originalLang": "hr",
   "category": "vitamins",
   "brand": "KRUGER",
   "subheading": null,
@@ -17888,6 +18665,7 @@
  },
  {
   "id": "vitamins-kruger-multivitamin-effervescent-tablets",
+  "originalLang": "hr",
   "category": "vitamins",
   "brand": "KRUGER",
   "subheading": null,
@@ -17910,6 +18688,7 @@
  },
  {
   "id": "vitamins-kruger-vitamin-c-effervescent-tablets",
+  "originalLang": "hr",
   "category": "vitamins",
   "brand": "KRUGER",
   "subheading": null,
@@ -17932,6 +18711,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -17954,6 +18734,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-homeopathic",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -17976,6 +18757,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-kinder",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -18000,6 +18782,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-menthol-free",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -18022,6 +18805,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-sensitive",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -18044,6 +18828,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-gel",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -18066,6 +18851,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-sensitive-mouth-rince-vodica-za-usta",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -18088,6 +18874,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-liqid-mouth-rince-vodica-za-usta",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -18110,6 +18897,7 @@
  },
  {
   "id": "toothpaste-elmex-elmex-fluid",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ELMEX",
   "subheading": null,
@@ -18132,6 +18920,7 @@
  },
  {
   "id": "toothpaste-aronal-all-varieties",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "ARONAL",
   "subheading": null,
@@ -18154,6 +18943,7 @@
  },
  {
   "id": "toothpaste-colgate-all-varieties",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "COLGATE",
   "subheading": null,
@@ -18176,6 +18966,7 @@
  },
  {
   "id": "toothpaste-theramed-all-varieties",
+  "originalLang": null,
   "category": "toothpaste",
   "brand": "THERAMED",
   "subheading": null,
@@ -18198,6 +18989,7 @@
  },
  {
   "id": "koestlin-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18222,6 +19014,7 @@
  },
  {
   "id": "koestlin-saltas-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18249,6 +19042,7 @@
  },
  {
   "id": "koestlin-aro-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18276,6 +19070,7 @@
  },
  {
   "id": "koestlin-k-plus-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18300,6 +19095,7 @@
  },
  {
   "id": "koestlin-party-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18325,6 +19121,7 @@
  },
  {
   "id": "koestlin-rial-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18351,6 +19148,7 @@
  },
  {
   "id": "koestlin-ultra-plus-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18375,6 +19173,7 @@
  },
  {
   "id": "koestlin-clever-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18399,6 +19198,7 @@
  },
  {
   "id": "koestlin-hrusk-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18426,6 +19226,7 @@
  },
  {
   "id": "koestlin-plodine-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18450,6 +19251,7 @@
  },
  {
   "id": "koestlin-bondi-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18478,6 +19280,7 @@
  },
  {
   "id": "koestlin-kodi-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18502,6 +19305,7 @@
  },
  {
   "id": "koestlin-spongebob-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18528,6 +19332,7 @@
  },
  {
   "id": "koestlin-gric-salty-sticks",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18552,6 +19357,7 @@
  },
  {
   "id": "koestlin-salty-pretzels",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18577,6 +19383,7 @@
  },
  {
   "id": "koestlin-salados-sticks",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18601,6 +19408,7 @@
  },
  {
   "id": "koestlin-saltas-salty-pretzels",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18627,6 +19435,7 @@
  },
  {
   "id": "koestlin-salted-pretzels",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18651,6 +19460,7 @@
  },
  {
   "id": "koestlin-sos-real-pretzel",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18675,6 +19485,7 @@
  },
  {
   "id": "koestlin-k-plus-salty-pretzels",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18700,6 +19511,7 @@
  },
  {
   "id": "koestlin-party-salty-snacks",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18724,6 +19536,7 @@
  },
  {
   "id": "koestlin-rial-salty-pretzels",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18749,6 +19562,7 @@
  },
  {
   "id": "koestlin-clever-salty-sticks-2",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18773,6 +19587,7 @@
  },
  {
   "id": "koestlin-lumpi-snacks",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18797,6 +19612,7 @@
  },
  {
   "id": "koestlin-hrusk-salty-pretzels",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18822,6 +19638,7 @@
  },
  {
   "id": "koestlin-gric-salty-pretzels",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18846,6 +19663,7 @@
  },
  {
   "id": "koestlin-salados-pretzels",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18870,6 +19688,7 @@
  },
  {
   "id": "koestlin-saltas-pereci-s-kimom-100g-120g-saltas-pretzels-with-caraway",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18895,6 +19714,7 @@
  },
  {
   "id": "koestlin-saltas-peanuts-sticks",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18921,6 +19741,7 @@
  },
  {
   "id": "koestlin-4-pack-saltas-peanuts-sticks",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18945,6 +19766,7 @@
  },
  {
   "id": "koestlin-billa-sticks-with-peanust",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18969,6 +19791,7 @@
  },
  {
   "id": "koestlin-spar-sticks-with-peanuts",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -18993,6 +19816,7 @@
  },
  {
   "id": "koestlin-salati-ripieni-arachidi-sticks",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19017,6 +19841,7 @@
  },
  {
   "id": "koestlin-sticks-with-peanut",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19041,6 +19866,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-nuts-honey-160g-320g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19066,6 +19892,7 @@
  },
  {
   "id": "koestlin-tesco-breakfast-biscuits-nuts-and-honey-50g-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19091,6 +19918,7 @@
  },
  {
   "id": "koestlin-auchan-biscuit-with-chocolate-nuts-and-honey-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19115,6 +19943,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-with-hazelnuts-and",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19139,6 +19968,7 @@
  },
  {
   "id": "koestlin-k-plus-biscuits-cereals-hazelnuts-and-honey",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19163,6 +19993,7 @@
  },
  {
   "id": "koestlin-active-cereals-hazelnuts-and-honey",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19187,6 +20018,7 @@
  },
  {
   "id": "koestlin-cookies-with-hazelnuts-and-honey",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19211,6 +20043,7 @@
  },
  {
   "id": "koestlin-biscuits-with",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19233,6 +20066,7 @@
  },
  {
   "id": "koestlin-biscuits-with-hazelnuts-and",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19257,6 +20091,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa-cream",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19281,6 +20116,7 @@
  },
  {
   "id": "koestlin-mignon-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19305,6 +20141,7 @@
  },
  {
   "id": "koestlin-wafers-cocoa-cream",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19329,6 +20166,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19353,6 +20191,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa-2",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19377,6 +20216,7 @@
  },
  {
   "id": "koestlin-k-plus-wafers-cocoa",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19401,6 +20241,7 @@
  },
  {
   "id": "koestlin-smijesak",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19426,6 +20267,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa-3",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19448,6 +20290,7 @@
  },
  {
   "id": "koestlin-ultra-plus",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19472,6 +20315,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa-4",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19494,6 +20338,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa-5",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19518,6 +20363,7 @@
  },
  {
   "id": "koestlin-oblite-wafers-with-cocoa",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19542,6 +20388,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa-6",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19566,6 +20413,7 @@
  },
  {
   "id": "koestlin-wafers-with-cocoa-7",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19590,6 +20438,7 @@
  },
  {
   "id": "koestlin-aro-wafers-with-cocoa",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19614,6 +20463,7 @@
  },
  {
   "id": "koestlin-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19638,6 +20488,7 @@
  },
  {
   "id": "koestlin-wafer-cubes",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19662,6 +20513,7 @@
  },
  {
   "id": "koestlin-wafers-2",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19686,6 +20538,7 @@
  },
  {
   "id": "koestlin-nougat-desert-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19710,6 +20563,7 @@
  },
  {
   "id": "koestlin-nougat-wafer",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19734,6 +20588,7 @@
  },
  {
   "id": "koestlin-nougat-wafer-2",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19759,6 +20614,7 @@
  },
  {
   "id": "koestlin-mocca-wafer",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19784,6 +20640,7 @@
  },
  {
   "id": "koestlin-hazel-wafer",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19809,6 +20666,7 @@
  },
  {
   "id": "koestlin-hazel-wafer-2",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19833,6 +20691,7 @@
  },
  {
   "id": "koestlin-k-plus-hazel-wafer",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19857,6 +20716,7 @@
  },
  {
   "id": "koestlin-salty-snaks-bamba-peanuts",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19882,6 +20742,7 @@
  },
  {
   "id": "koestlin-flips-bamba-with-peanuts",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19906,6 +20767,7 @@
  },
  {
   "id": "koestlin-gastro-coffee-tea-biscuit-250komx5-6g-1400g-5500g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19932,6 +20794,7 @@
  },
  {
   "id": "koestlin-fresh-corner-cofee-tea-biscuit-250x5-6g-1400g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19957,6 +20820,7 @@
  },
  {
   "id": "koestlin-pbz-tea-buiscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -19982,6 +20846,7 @@
  },
  {
   "id": "koestlin-crodux-tea-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20007,6 +20872,7 @@
  },
  {
   "id": "koestlin-whole-grain-snacks",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20033,6 +20899,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-wild-berries-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20057,6 +20924,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-wild-berries-muller-200g",
+  "originalLang": "de",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20081,6 +20949,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-cereali-e-frutti-di-bosco-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20105,6 +20974,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-coconut-choco-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20129,6 +20999,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-coconut-muller-200g",
+  "originalLang": "de",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20153,6 +21024,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-plum-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20177,6 +21049,7 @@
  },
  {
   "id": "koestlin-biscuits-with-5-grains-and-wild-berries-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20201,6 +21074,7 @@
  },
  {
   "id": "koestlin-biscuits-with-5-grains-plums-and-raisins-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20225,6 +21099,7 @@
  },
  {
   "id": "koestlin-orange-flavoured-biscuits-4-grains-and-raisins-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20248,13 +21123,14 @@
   "sourcePage": 44
  },
  {
-  "id": "koestlin-biscuits-with-5-grains-and-bittersweet-chocolate-160g-5",
+  "id": "koestlin-biscuits-with-5-grains-and-bittersweet-chocolate-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
   "names": {
-   "hr": "BISCUITS WITH 5 GRAINS AND BITTERSWEET CHOCOLATE 5",
-   "en": "BISCUITS WITH 5 GRAINS AND BITTERSWEET CHOCOLATE 5"
+   "hr": "BISCUITS WITH 5 GRAINS AND BITTERSWEET CHOCOLATE",
+   "en": "BISCUITS WITH 5 GRAINS AND BITTERSWEET CHOCOLATE"
   },
   "hebrew": "ביסקוויט 5 סוגי דגנים ושקול ד",
   "sizes": [
@@ -20273,6 +21149,7 @@
  },
  {
   "id": "koestlin-paris-nero-vanilla-flavoured-200g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20297,6 +21174,7 @@
  },
  {
   "id": "koestlin-biscuit-filled",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20321,6 +21199,7 @@
  },
  {
   "id": "koestlin-sondey-wafers-hazel-cream",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – ,",
@@ -20345,6 +21224,7 @@
  },
  {
   "id": "koestlin-petit-beurre-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20370,6 +21250,7 @@
  },
  {
   "id": "koestlin-party-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20394,6 +21275,7 @@
  },
  {
   "id": "koestlin-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20418,6 +21300,7 @@
  },
  {
   "id": "koestlin-ultra-plus-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20442,6 +21325,7 @@
  },
  {
   "id": "koestlin-petit-beurre-biscuits-2",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20466,6 +21350,7 @@
  },
  {
   "id": "koestlin-natural-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20490,6 +21375,7 @@
  },
  {
   "id": "koestlin-piknik-family-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20515,6 +21401,7 @@
  },
  {
   "id": "koestlin-petit-beurre-biscuits-3",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20539,6 +21426,7 @@
  },
  {
   "id": "koestlin-integral-piknik-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20565,6 +21453,7 @@
  },
  {
   "id": "koestlin-piknik-petit-beurre-without-sugar",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20591,6 +21480,7 @@
  },
  {
   "id": "koestlin-piknik-family-petit-beurre-without-sugar",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20617,6 +21507,7 @@
  },
  {
   "id": "koestlin-240g-petit-beurre-without-sugar",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20643,6 +21534,7 @@
  },
  {
   "id": "koestlin-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20668,6 +21560,7 @@
  },
  {
   "id": "koestlin-k-plus-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20692,6 +21585,7 @@
  },
  {
   "id": "koestlin-clever-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20716,6 +21610,7 @@
  },
  {
   "id": "koestlin-billa-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20740,6 +21635,7 @@
  },
  {
   "id": "koestlin-ultra-plus-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20764,6 +21660,7 @@
  },
  {
   "id": "koestlin-petit-beurre-2",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20789,6 +21686,7 @@
  },
  {
   "id": "koestlin-rial-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20813,6 +21711,7 @@
  },
  {
   "id": "koestlin-ntl-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20837,6 +21736,7 @@
  },
  {
   "id": "koestlin-petit-beurre-3",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20861,6 +21761,7 @@
  },
  {
   "id": "koestlin-petit-beurre-4",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20885,6 +21786,7 @@
  },
  {
   "id": "koestlin-tesco-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20909,6 +21811,7 @@
  },
  {
   "id": "koestlin-premium-petit-beurre-270g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20933,6 +21836,7 @@
  },
  {
   "id": "koestlin-petit-beurre-5",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20957,6 +21861,7 @@
  },
  {
   "id": "koestlin-integral-petit-beurre",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -20983,6 +21888,7 @@
  },
  {
   "id": "koestlin-petit-beurre-integral",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21009,6 +21915,7 @@
  },
  {
   "id": "koestlin-herbatniki-maslane-pelnoziarniste-tesco-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21035,6 +21942,7 @@
  },
  {
   "id": "koestlin-tesco-petit-beurre-integral",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21059,6 +21967,7 @@
  },
  {
   "id": "koestlin-premium-petit-beurre-wholemeal-270g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21085,6 +21994,7 @@
  },
  {
   "id": "koestlin-integral-petit-beurre-2",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21111,6 +22021,7 @@
  },
  {
   "id": "koestlin-petit-without-butter",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21137,6 +22048,7 @@
  },
  {
   "id": "koestlin-petit-beurre-6",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21161,6 +22073,7 @@
  },
  {
   "id": "koestlin-k-plus-petit-with-chocolate",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21185,6 +22098,7 @@
  },
  {
   "id": "koestlin-biscuit-cocoa",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21209,6 +22123,7 @@
  },
  {
   "id": "koestlin-biscuit-cocoa-2",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21233,6 +22148,7 @@
  },
  {
   "id": "koestlin-petit-biscuit-with-chocolate-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21257,6 +22173,7 @@
  },
  {
   "id": "koestlin-petit-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21281,6 +22198,7 @@
  },
  {
   "id": "koestlin-petit-biscuits-with-butter",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21305,6 +22223,7 @@
  },
  {
   "id": "koestlin-petit-biscuits-with-cocoa",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21329,6 +22248,7 @@
  },
  {
   "id": "koestlin-koexi-choco-cookies-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21353,6 +22273,7 @@
  },
  {
   "id": "koestlin-choco-cookies-original-200g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21377,6 +22298,7 @@
  },
  {
   "id": "koestlin-choco-cookies-rial-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21401,6 +22323,7 @@
  },
  {
   "id": "koestlin-choco-cookies-ultra-plus-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21425,6 +22348,7 @@
  },
  {
   "id": "koestlin-choco-cookies-k-plus-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21449,6 +22373,7 @@
  },
  {
   "id": "koestlin-choco-cookies-smijesak-200g-250g",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21474,6 +22399,7 @@
  },
  {
   "id": "koestlin-cajno-pecivo-s-komadicima-cokolade-bondi-250g",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21498,6 +22424,7 @@
  },
  {
   "id": "koestlin-bondi-tea-biscuits-with-pieces-of-chocolate",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21520,6 +22447,7 @@
  },
  {
   "id": "koestlin-choco-cookies-maxx-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21544,6 +22472,7 @@
  },
  {
   "id": "koestlin-koestlina-tea-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21568,6 +22497,7 @@
  },
  {
   "id": "koestlin-ultra-plus-tea-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21592,6 +22522,7 @@
  },
  {
   "id": "koestlin-k-plus-tea-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21616,6 +22547,7 @@
  },
  {
   "id": "koestlin-rial-tea-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21640,6 +22572,7 @@
  },
  {
   "id": "koestlin-mercator-tea-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21664,6 +22597,7 @@
  },
  {
   "id": "koestlin-paris-original-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21688,6 +22622,7 @@
  },
  {
   "id": "koestlin-paris-retro-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21712,6 +22647,7 @@
  },
  {
   "id": "koestlin-mini-paris-original-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21737,6 +22673,7 @@
  },
  {
   "id": "koestlin-paris-cocoa-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21761,6 +22698,7 @@
  },
  {
   "id": "koestlin-mini-paris-cocoa-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21786,6 +22724,7 @@
  },
  {
   "id": "koestlin-cocoa-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21810,6 +22749,7 @@
  },
  {
   "id": "koestlin-paris-chocolate-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21834,6 +22774,7 @@
  },
  {
   "id": "koestlin-paris-lemon-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21858,6 +22799,7 @@
  },
  {
   "id": "koestlin-biscuits-dunaj-with-cocoa-cream",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21882,6 +22824,7 @@
  },
  {
   "id": "koestlin-biscuits-with-milk-cream",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21906,6 +22849,7 @@
  },
  {
   "id": "koestlin-biscuits-2",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21930,6 +22874,7 @@
  },
  {
   "id": "koestlin-princeza-biscuits",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21954,6 +22899,7 @@
  },
  {
   "id": "koestlin-spar-domestic-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -21978,6 +22924,7 @@
  },
  {
   "id": "koestlin-ultra-plus-domestic-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22002,6 +22949,7 @@
  },
  {
   "id": "koestlin-smijesak-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22027,6 +22975,7 @@
  },
  {
   "id": "koestlin-opsesija-domestic-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22051,6 +23000,7 @@
  },
  {
   "id": "koestlin-domaci-keks-s-kakao-preljevom-bondi-250g",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22075,6 +23025,7 @@
  },
  {
   "id": "koestlin-bondi-biscuits-with-cocoa-cream",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22097,6 +23048,7 @@
  },
  {
   "id": "koestlin-tea-biscuits-with-cocoa",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22121,6 +23073,7 @@
  },
  {
   "id": "koestlin-wafers-3",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22145,6 +23098,7 @@
  },
  {
   "id": "koestlin-classic-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22170,6 +23124,7 @@
  },
  {
   "id": "koestlin-ultra-plus-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22194,6 +23149,7 @@
  },
  {
   "id": "koestlin-smijesak-wafers",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22219,6 +23175,7 @@
  },
  {
   "id": "koestlin-clever-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22243,6 +23200,7 @@
  },
  {
   "id": "koestlin-cocoa-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22267,6 +23225,7 @@
  },
  {
   "id": "koestlin-choco-wafer-100g-200g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22292,6 +23251,7 @@
  },
  {
   "id": "koestlin-choco-wafer-bello-artizano-100g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22316,6 +23276,7 @@
  },
  {
   "id": "koestlin-choco-wafers",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22341,6 +23302,7 @@
  },
  {
   "id": "koestlin-chocolate-wafers",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22367,6 +23329,7 @@
  },
  {
   "id": "koestlin-spar-chocolate-wafers",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22391,6 +23354,7 @@
  },
  {
   "id": "koestlin-baby-biscuit-with-banana-180g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22417,6 +23381,7 @@
  },
  {
   "id": "koestlin-baby-biscuit-with-apple-180g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22443,6 +23408,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-muesli-fruit-50g-160g-320g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22469,6 +23435,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-muesli-fruit-muller-200g",
+  "originalLang": "de",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22493,6 +23460,7 @@
  },
  {
   "id": "koestlin-tesco-breakfast-biscuits-muesli-and-fruit-50g-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22518,6 +23486,7 @@
  },
  {
   "id": "koestlin-auchan-biscuit-with-raisins-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22542,6 +23511,7 @@
  },
  {
   "id": "koestlin-piskoti-za-zajtrk-muesli-in-sadje-160g",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22566,6 +23536,7 @@
  },
  {
   "id": "koestlin-biscuits-for-breakfast-cereal-and-fruit",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22588,6 +23559,7 @@
  },
  {
   "id": "koestlin-active-biscuits-cereal-fruit",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22612,6 +23584,7 @@
  },
  {
   "id": "koestlin-active-cereal-and-fruit",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22636,6 +23609,7 @@
  },
  {
   "id": "koestlin-k-plus-tea",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22660,6 +23634,7 @@
  },
  {
   "id": "koestlin-biscuits-with-cereal-and-fruit",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22682,6 +23657,7 @@
  },
  {
   "id": "koestlin-spar-sunrise-cookies-sa-zitaricama-i-grozdicama-160g",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22706,6 +23682,7 @@
  },
  {
   "id": "koestlin-spar-sunrise-cookies-with-cereal-and-raisins",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22728,6 +23705,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-con-muesli-frutta-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22752,6 +23730,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-muesli-e-frutta-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22776,6 +23755,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-cranberry-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22800,6 +23780,7 @@
  },
  {
   "id": "koestlin-tesco-breakfast-biscuits-cereals-and-cranberry-50g-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22825,6 +23806,7 @@
  },
  {
   "id": "koestlin-auchan-biscuit-with-cranberries-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22849,6 +23831,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-con-cereali-mirtillo-rosso-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22873,6 +23856,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereali-e-mirtillo-rosso-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22897,6 +23881,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22921,6 +23906,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-choco-50g-160g-320g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22947,6 +23933,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-cereals-choco-muller-200g",
+  "originalLang": "de",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22971,6 +23958,7 @@
  },
  {
   "id": "koestlin-tesco-breakfast-biscuits-cereals-and-cocoa-50g-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -22996,6 +23984,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-cereali-e-cocco-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23020,6 +24009,7 @@
  },
  {
   "id": "koestlin-auchan-biscuit-with-chocolate-chip-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23044,6 +24034,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-con-cereali-cioccolato-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23068,6 +24059,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-cereali-e-cioccolato-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23092,6 +24084,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-cereali-cioccolato-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23116,6 +24109,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-7-cereali-e-cioccolato-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23140,6 +24134,7 @@
  },
  {
   "id": "koestlin-breakfast",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23164,6 +24159,7 @@
  },
  {
   "id": "koestlin-biscuits-with-cereals-and-chocolate",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23186,6 +24182,7 @@
  },
  {
   "id": "koestlin-spar-sunrise-cookies-sa-zitaricama-i-cokoladom-160g",
+  "originalLang": "hr",
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23210,6 +24207,7 @@
  },
  {
   "id": "koestlin-spar-sunrise-cookies-with-cereals-and-chocolate",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23232,6 +24230,7 @@
  },
  {
   "id": "koestlin-tesco-breakfast-biscuits-cereals-and-milk-50g-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23257,6 +24256,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuit-double-chocolate-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23281,6 +24281,7 @@
  },
  {
   "id": "koestlin-choco-cookies-crispy-200g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23305,6 +24306,7 @@
  },
  {
   "id": "koestlin-choco-cookies-coconut-200g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23329,6 +24331,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-cereals-milk-160g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23353,6 +24356,7 @@
  },
  {
   "id": "koestlin-breakfast-biscuits-with-cereals-and-milk",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23375,6 +24379,7 @@
  },
  {
   "id": "koestlin-paris-nero-yogurt-raspberry-200g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23399,6 +24404,7 @@
  },
  {
   "id": "koestlin-biscotto-ripieno-di-crema-di-yogurt-e-lamponi-200g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23423,6 +24429,7 @@
  },
  {
   "id": "koestlin-butter-biscuits-with-orange-flavor-with-brown-sugar-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23447,6 +24454,7 @@
  },
  {
   "id": "koestlin-butter-biscuits-with-caramel-and-cinnamon-250g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23471,6 +24479,7 @@
  },
  {
   "id": "koestlin-petit-beurre-sondey-460g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23495,12 +24504,13 @@
  },
  {
   "id": "koestlin-saltas-snack-with-cheese-and",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "SALTAS SIR & PAPRIKA",
-   "en": "Saltas Snack with Cheese and"
+   "en": "Saltas Snack with Cheese and Pepper"
   },
   "hebrew": "מקלות בייגלה עם גבינה ופפריקה",
   "sizes": [
@@ -23519,35 +24529,14 @@
   "sourcePage": 47
  },
  {
-  "id": "koestlin-pepper",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "Pepper",
-   "en": "Pepper"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 47
- },
- {
   "id": "koestlin-sticks-with",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
   "names": {
    "hr": "STICKS SALATI RIPIENI FORMAGGIO & PAPRIKA",
-   "en": "Sticks with"
+   "en": "Sticks with Cheese and Pepper"
   },
   "hebrew": "מקלות בייגלה עם גבינה ופפריקה",
   "sizes": [
@@ -23565,29 +24554,8 @@
   "sourcePage": 47
  },
  {
-  "id": "koestlin-cheese-and-pepper",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "Cheese and Pepper",
-   "en": "Cheese and Pepper"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 47
- },
- {
   "id": "koestlin-mini-biscotti-60g-300g",
+  "originalLang": null,
   "category": "koestlin",
   "brand": "KOESTLIN",
   "subheading": "Snacks, sweet and salty – , ,",
@@ -23610,182 +24578,6 @@
   "scope": "item",
   "tags": null,
   "sourcePage": 47
- },
- {
-  "id": "koestlin-zidovska-vjerska-zajednica-bet-israel-u-hrvatskoj",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "Židovska vjerska zajednica “Bet Israel” u Hrvatskoj",
-   "en": "Židovska vjerska zajednica “Bet Israel” u Hrvatskoj"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
- },
- {
-  "id": "koestlin-mazuranicev-trg-6",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "Mažuranićev trg 6",
-   "en": "Mažuranićev trg 6"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
- },
- {
-  "id": "koestlin-10000-zagreb",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "10000 Zagreb",
-   "en": "10000 Zagreb"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
- },
- {
-  "id": "koestlin-telefon-385-1-48-51-008",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "telefon: + 385 (1) 48 51 008",
-   "en": "telefon: + 385 (1) 48 51 008"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
- },
- {
-  "id": "koestlin-telefaks-385-1-48-51-376",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "telefaks: +385 (1) 48 51 376",
-   "en": "telefaks: +385 (1) 48 51 376"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
- },
- {
-  "id": "koestlin-e-mail-ured-bet-israel-com",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "e-mail: ured@bet-israel.com",
-   "en": "e-mail: ured@bet-israel.com"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
- },
- {
-  "id": "koestlin-skype-bet-israel-zagreb-office",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "skype: bet.israel.zagreb_office",
-   "en": "skype: bet.israel.zagreb_office"
-  },
-  "hebrew": null,
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
- },
- {
-  "id": "koestlin-where-to-buy",
-  "category": "koestlin",
-  "brand": "KOESTLIN",
-  "subheading": "Snacks, sweet and salty – , ,",
-  "names": {
-   "hr": "Where to buy",
-   "en": "Where to buy bio&bio LIDL SPAR KONZUM PLODINE KAUFLAND"
-  },
-  "hebrew": "איפה לקנות",
-  "sizes": null,
-  "kashrut": {
-   "status": "dairy",
-   "explicit": true,
-   "requiresHechsher": false,
-   "certifier": null,
-   "note": "Not Chalav Israel"
-  },
-  "scope": "item",
-  "tags": null,
-  "sourcePage": 48
  },
  {
   "id": "alcohol-blackberry-wine",
