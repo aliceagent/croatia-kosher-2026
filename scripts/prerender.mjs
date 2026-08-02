@@ -13,11 +13,23 @@ import { dirname, join } from "node:path";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dist = join(root, "dist");
-const shell = readFileSync(join(dist, "index.html"), "utf8");
-
+/*
+ * index.html hardcodes the product count in its meta and og:description, which
+ * silently goes stale every time the extractor changes. The real count is
+ * substituted here, into the shell every route is built from, and the root
+ * index.html is rewritten with it too.
+ */
 const products = JSON.parse(readFileSync(join(root, "data/products.json"), "utf8"));
 const categories = JSON.parse(readFileSync(join(root, "data/categories.json"), "utf8"));
 const brands = JSON.parse(readFileSync(join(root, "data/brands.json"), "utf8"));
+
+let shell = readFileSync(join(dist, "index.html"), "utf8");
+
+shell = shell.replace(
+  /\b[\d,]+ products\b/g,
+  `${products.length.toLocaleString("en-US")} products`,
+);
+writeFileSync(join(dist, "index.html"), shell);
 
 const esc = (s) =>
   String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
@@ -112,7 +124,7 @@ for (const b of brands) {
 
 const PAGES = {
   browse: ["Browse all kosher products in Croatia | 2026 list",
-    "Filter 1,080 kosher products by category, kashrut status, brand and origin."],
+    `Filter ${products.length.toLocaleString("en-US")} kosher products by category, kashrut status, brand and origin.`],
   // The phrasebook moved under /travel. This file must still exist or the
   // host answers 404 and the client-side redirect never gets to run.
   phrases: ["Croatian phrasebook | Kosher Croatia 2026",

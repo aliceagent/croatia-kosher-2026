@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { Icon } from "./ui";
+import { products } from "../lib/data";
 
 export function SearchBar({
   value, onChange, placeholder, autoFocus, hero,
@@ -48,7 +49,7 @@ export function SearchBar({
           autoFocus={autoFocus}
           value={value}
           onChange={(e) => onChange(e.target.value)}
-          placeholder={placeholder ?? "Search 1,080 products…"}
+          placeholder={placeholder ?? `Search ${products.length.toLocaleString("en-US")} products…`}
           aria-label="Search products"
         />
         {value && (
